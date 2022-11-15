@@ -81,7 +81,7 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for platformer_engine::GraphicsFacade:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1GraphicsFacade__coll__graph.svg" width="202" height="250"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1GraphicsFacade__coll__graph.svg" width="262" height="558"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -103,6 +103,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8af278ca03db697fec3e7d8f0dd440b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1GraphicsFacade.html#a8af278ca03db697fec3e7d8f0dd440b8">Clear</a> ()</td></tr>
 <tr class="memdesc:a8af278ca03db697fec3e7d8f0dd440b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the screen @platformerengine.  <a href="classplatformer__engine_1_1GraphicsFacade.html#a8af278ca03db697fec3e7d8f0dd440b8">More...</a><br /></td></tr>
 <tr class="separator:a8af278ca03db697fec3e7d8f0dd440b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a213e22b5f20ba1f547ff12715f839a65"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1GraphicsFacade.html#a213e22b5f20ba1f547ff12715f839a65">LoadTexture</a> (const std::string &amp;id, const std::string &amp;fileName) -&gt; bool</td></tr>
+<tr class="memdesc:a213e22b5f20ba1f547ff12715f839a65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a texture.  <a href="classplatformer__engine_1_1GraphicsFacade.html#a213e22b5f20ba1f547ff12715f839a65">More...</a><br /></td></tr>
+<tr class="separator:a213e22b5f20ba1f547ff12715f839a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f11858b4765259a26d1196403368758"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1GraphicsFacade.html#a3f11858b4765259a26d1196403368758">DrawTexture</a> (const std::string &amp;id, int x, int y, int width, int height, const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;flip=<a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a>)</td></tr>
+<tr class="memdesc:a3f11858b4765259a26d1196403368758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a texture (complete png for example)  <a href="classplatformer__engine_1_1GraphicsFacade.html#a3f11858b4765259a26d1196403368758">More...</a><br /></td></tr>
+<tr class="separator:a3f11858b4765259a26d1196403368758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cdde0f816f25670451d21e0485fc5de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1GraphicsFacade.html#a0cdde0f816f25670451d21e0485fc5de">DrawTile</a> (const std::string &amp;tileSetID, int tileSize, int x, int y, int row, int frame, const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;flip=<a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a>)</td></tr>
+<tr class="memdesc:a0cdde0f816f25670451d21e0485fc5de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a tile on the screen.  <a href="classplatformer__engine_1_1GraphicsFacade.html#a0cdde0f816f25670451d21e0485fc5de">More...</a><br /></td></tr>
+<tr class="separator:a0cdde0f816f25670451d21e0485fc5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a117a5189572a77eca7ac361e5f20790f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1GraphicsFacade.html#a117a5189572a77eca7ac361e5f20790f">DrawFrame</a> (const std::string &amp;id, int x, int y, int width, int height, int row, int frame, const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;flip=<a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a>)</td></tr>
+<tr class="separator:a117a5189572a77eca7ac361e5f20790f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87343aebfd25414524442f29d533c9fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1GraphicsFacade.html#a87343aebfd25414524442f29d533c9fc">ClearTextures</a> ()</td></tr>
+<tr class="separator:a87343aebfd25414524442f29d533c9fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -172,6 +185,224 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Clear the screen @platformerengine. </p>
+
+</div>
+</div>
+<a id="a87343aebfd25414524442f29d533c9fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87343aebfd25414524442f29d533c9fc">&#9670;&nbsp;</a></span>ClearTextures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::GraphicsFacade::ClearTextures </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a117a5189572a77eca7ac361e5f20790f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a117a5189572a77eca7ac361e5f20790f">&#9670;&nbsp;</a></span>DrawFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::GraphicsFacade::DrawFrame </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;&#160;</td>
+          <td class="paramname"><em>flip</em> = <code><a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f11858b4765259a26d1196403368758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f11858b4765259a26d1196403368758">&#9670;&nbsp;</a></span>DrawTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::GraphicsFacade::DrawTexture </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;&#160;</td>
+          <td class="paramname"><em>flip</em> = <code><a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw a texture (complete png for example) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td></td></tr>
+    <tr><td class="paramname">x</td><td></td></tr>
+    <tr><td class="paramname">y</td><td></td></tr>
+    <tr><td class="paramname">width</td><td></td></tr>
+    <tr><td class="paramname">height</td><td></td></tr>
+    <tr><td class="paramname">flip</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0cdde0f816f25670451d21e0485fc5de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cdde0f816f25670451d21e0485fc5de">&#9670;&nbsp;</a></span>DrawTile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::GraphicsFacade::DrawTile </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>tileSetID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tileSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;&#160;</td>
+          <td class="paramname"><em>flip</em> = <code><a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw a tile on the screen. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tileSetID</td><td></td></tr>
+    <tr><td class="paramname">tileSize</td><td></td></tr>
+    <tr><td class="paramname">x</td><td></td></tr>
+    <tr><td class="paramname">y</td><td></td></tr>
+    <tr><td class="paramname">row</td><td></td></tr>
+    <tr><td class="paramname">frame</td><td></td></tr>
+    <tr><td class="paramname">flip</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -252,6 +483,44 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the window and renderer were created successfully, false otherwise @platformerengine </dd></dl>
+
+</div>
+</div>
+<a id="a213e22b5f20ba1f547ff12715f839a65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a213e22b5f20ba1f547ff12715f839a65">&#9670;&nbsp;</a></span>LoadTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto platformer_engine::GraphicsFacade::LoadTexture </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>fileName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load a texture. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td></td></tr>
+    <tr><td class="paramname">fileName</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
