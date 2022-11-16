@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['x_489',['x',['../structspic_1_1Point.html#abfa15f71a5ca95c07e83bfa54286934a',1,'spic::Point']]],
-  ['x_490',['X',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a02129bb861061d1a052c592e2dc6b383',1,'spic::Input']]]
+  ['w_503',['W',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a61e9c06ea9a85a5088a499df6458d276',1,'spic::Input']]],
+  ['white_504',['White',['../classspic_1_1Color.html#abc67d5aefbab087e897afa18c52ba7ff',1,'spic::Color']]],
+  ['width_505',['Width',['../classspic_1_1BoxCollider.html#afd0f980c3c0a29ecf16b2ba1a4f0472f',1,'spic::BoxCollider::Width() const'],['../classspic_1_1BoxCollider.html#affecc78d60a4d85f0fcd07740a0ad82a',1,'spic::BoxCollider::Width(double newWidth)']]],
+  ['window_506',['Window',['../classplatformer__engine_1_1Window.html',1,'platformer_engine::Window'],['../classplatformer__engine_1_1Window.html#a54ff36f02676d827958fd434e342f007',1,'platformer_engine::Window::Window()']]],
+  ['window_2ecpp_507',['Window.cpp',['../Window_8cpp.html',1,'']]],
+  ['window_2ehpp_508',['Window.hpp',['../Window_8hpp.html',1,'']]]
 ];

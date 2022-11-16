@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['spic_5frendererflip_769',['SPIC_RendererFlip',['../namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3',1,'platformer_engine']]]
+  ['mousebutton_806',['MouseButton',['../namespacespic_1_1Input.html#aedea49171a9999a91014688dd9c29b04',1,'spic::Input']]]
 ];

@@ -87,19 +87,25 @@ $(function() {
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classspic_1_1RigidBody.html#ab97cfa653ee725ea97574dca9469acc1">   29</a></span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classspic_1_1RigidBody.html#ab97cfa653ee725ea97574dca9469acc1">AddForce</a>(<span class="keyword">const</span> <a class="code" href="structspic_1_1Point.html">Point</a>&amp; forceDirection);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keywordtype">double</span> mass;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <span class="keywordtype">double</span> gravityScale;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <a class="code" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a> bodyType;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    };</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// RIGIDBODY_H_</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classspic_1_1RigidBody.html#a535d6b26499414a1df68600c3c8aa7a9">   31</a></span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classspic_1_1RigidBody.html#a535d6b26499414a1df68600c3c8aa7a9">BodyType</a> (<a class="code" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a> bodyType) { this-&gt;_bodyType = bodyType; }</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classspic_1_1RigidBody.html#a0e831362de332496079daeb3421aff13">   32</a></span>&#160;            <span class="keyword">auto</span> <a class="code" href="classspic_1_1RigidBody.html#a0e831362de332496079daeb3421aff13">BodyType</a>() -&gt; <span class="keyword">enum</span> <a class="code" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a> { <span class="keywordflow">return</span> _bodyType; }</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keywordtype">double</span> _mass;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordtype">double</span> _gravityScale;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keyword">enum</span> <a class="code" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a> _bodyType;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    };</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;} <span class="comment">// namespace spic</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// RIGIDBODY_H_</span></div>
 <div class="ttc" id="aComponent_8hpp_html"><div class="ttname"><a href="Component_8hpp.html">Component.hpp</a></div></div>
 <div class="ttc" id="aPoint_8hpp_html"><div class="ttname"><a href="Point_8hpp.html">Point.hpp</a></div></div>
 <div class="ttc" id="aclassspic_1_1Component_html"><div class="ttname"><a href="classspic_1_1Component.html">spic::Component</a></div><div class="ttdoc">Base class for all components.</div><div class="ttdef"><b>Definition:</b> Component.hpp:9</div></div>
 <div class="ttc" id="aclassspic_1_1RigidBody_html"><div class="ttname"><a href="classspic_1_1RigidBody.html">spic::RigidBody</a></div><div class="ttdoc">A component representing a rigid body.</div><div class="ttdef"><b>Definition:</b> RigidBody.hpp:21</div></div>
+<div class="ttc" id="aclassspic_1_1RigidBody_html_a0e831362de332496079daeb3421aff13"><div class="ttname"><a href="classspic_1_1RigidBody.html#a0e831362de332496079daeb3421aff13">spic::RigidBody::BodyType</a></div><div class="ttdeci">auto BodyType() -&gt; enum BodyType</div><div class="ttdef"><b>Definition:</b> RigidBody.hpp:32</div></div>
+<div class="ttc" id="aclassspic_1_1RigidBody_html_a535d6b26499414a1df68600c3c8aa7a9"><div class="ttname"><a href="classspic_1_1RigidBody.html#a535d6b26499414a1df68600c3c8aa7a9">spic::RigidBody::BodyType</a></div><div class="ttdeci">void BodyType(BodyType bodyType)</div><div class="ttdef"><b>Definition:</b> RigidBody.hpp:31</div></div>
 <div class="ttc" id="aclassspic_1_1RigidBody_html_ab97cfa653ee725ea97574dca9469acc1"><div class="ttname"><a href="classspic_1_1RigidBody.html#ab97cfa653ee725ea97574dca9469acc1">spic::RigidBody::AddForce</a></div><div class="ttdeci">void AddForce(const Point &amp;forceDirection)</div><div class="ttdoc">Apply force to this rigid body.</div></div>
 <div class="ttc" id="anamespacespic_html"><div class="ttname"><a href="namespacespic.html">spic</a></div><div class="ttdef"><b>Definition:</b> Animator.hpp:7</div></div>
 <div class="ttc" id="anamespacespic_html_af055e2c7608520e61ba977078dad9387"><div class="ttname"><a href="namespacespic.html#af055e2c7608520e61ba977078dad9387">spic::BodyType</a></div><div class="ttdeci">BodyType</div><div class="ttdoc">Enumeration for different rigid body types.</div><div class="ttdef"><b>Definition:</b> RigidBody.hpp:12</div></div>

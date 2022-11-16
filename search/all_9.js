@@ -1,4 +1,30 @@
 var searchData=
 [
-  ['j_217',['J',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2aff44570aca8241914870afbc310cdb85',1,'spic::Input']]]
+  ['i_206',['I',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2add7536794b63bf90eccfd37f9b147d7f',1,'spic::Input']]],
+  ['ikeylistener_207',['IKeyListener',['../classspic_1_1IKeyListener.html',1,'spic']]],
+  ['ikeylistener_2ehpp_208',['IKeyListener.hpp',['../IKeyListener_8hpp.html',1,'']]],
+  ['imouselistener_209',['IMouseListener',['../classspic_1_1IMouseListener.html',1,'spic']]],
+  ['imouselistener_2ehpp_210',['IMouseListener.hpp',['../IMouseListener_8hpp.html',1,'']]],
+  ['init_211',['Init',['../classplatformer__engine_1_1Engine.html#ab901faa0f167a650785cb898100ddedf',1,'platformer_engine::Engine::Init()'],['../classplatformer__engine_1_1GraphicsFacade.html#abdf40e78175eefdd64d4534dab599a30',1,'platformer_engine::GraphicsFacade::Init()'],['../classplatformer__engine_1_1TextureManager.html#a392a067fa0484db47054152cee392a20',1,'platformer_engine::TextureManager::Init()']]],
+  ['input_2ecpp_212',['Input.cpp',['../Input_8cpp.html',1,'']]],
+  ['input_2ehpp_213',['Input.hpp',['../Input_8hpp.html',1,'']]],
+  ['inputfacade_214',['InputFacade',['../classplatformer__engine_1_1InputFacade.html#ac334440a9760e52f8d0ddeb058daf3f1',1,'platformer_engine::InputFacade::InputFacade(InputFacade &amp;&amp;)=delete'],['../classplatformer__engine_1_1InputFacade.html#a3082d204c66a23823dd10b4894b1a2d2',1,'platformer_engine::InputFacade::InputFacade(const InputFacade &amp;)=delete'],['../classplatformer__engine_1_1InputFacade.html',1,'platformer_engine::InputFacade']]],
+  ['inputfacade_2ecpp_215',['InputFacade.cpp',['../InputFacade_8cpp.html',1,'']]],
+  ['inputfacade_2ehpp_216',['InputFacade.hpp',['../InputFacade_8hpp.html',1,'']]],
+  ['insert_217',['INSERT',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a61ee777e7f71dc466c3b2c685d8d313b',1,'spic::Input']]],
+  ['instance_218',['Instance',['../classplatformer__engine_1_1Timer.html#a9e2be69c342894d573650b11cdec725d',1,'platformer_engine::Timer']]],
+  ['international1_219',['INTERNATIONAL1',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2af04b16e01e2458b2442f49b30b5d1938',1,'spic::Input']]],
+  ['international2_220',['INTERNATIONAL2',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a2824cb0a2f08965f3bc86790c6afece8',1,'spic::Input']]],
+  ['international3_221',['INTERNATIONAL3',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a70055bce1789c7b29d51821ee8d38a72',1,'spic::Input']]],
+  ['international4_222',['INTERNATIONAL4',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a445c8332e3893da6ae48d720687023e5',1,'spic::Input']]],
+  ['international5_223',['INTERNATIONAL5',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a3f8c290f3d2a2c8e4372483b3f11d2df',1,'spic::Input']]],
+  ['international6_224',['INTERNATIONAL6',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a2f559030ee47a9a784306e6f433bdf57',1,'spic::Input']]],
+  ['international7_225',['INTERNATIONAL7',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a4350986433eebee5442729a1a4ac7add',1,'spic::Input']]],
+  ['international8_226',['INTERNATIONAL8',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a66aee54815ad6389e57d1e1de278f94b',1,'spic::Input']]],
+  ['international9_227',['INTERNATIONAL9',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a446c5cfcbe8a7c950928ea90aa4adedc',1,'spic::Input']]],
+  ['isactiveinworld_228',['IsActiveInWorld',['../classspic_1_1GameObject.html#a2bca4e6d55c91a999bbf0f3e1cd3db48',1,'spic::GameObject']]],
+  ['isanyheld_229',['IsAnyHeld',['../classplatformer__engine_1_1InputFacade.html#af426920be0dde5295249dc012e98e909',1,'platformer_engine::InputFacade']]],
+  ['isanypressed_230',['IsAnyPressed',['../classplatformer__engine_1_1InputFacade.html#a9103c0d49ef9541f8ab5bf61579a463b',1,'platformer_engine::InputFacade']]],
+  ['iskeyheld_231',['IsKeyHeld',['../classplatformer__engine_1_1InputFacade.html#a90751526f1b4b63920ddd45a814a8370',1,'platformer_engine::InputFacade']]],
+  ['ismousebuttonheld_232',['IsMouseButtonHeld',['../classplatformer__engine_1_1InputFacade.html#aea916eaf00d13a941953d0f1477707cb',1,'platformer_engine::InputFacade']]]
 ];

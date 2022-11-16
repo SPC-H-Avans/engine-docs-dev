@@ -1,16 +1,20 @@
 var searchData=
 [
-  ['e_91',['E',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a3a3ea00cfc35332cedf6e5e9a32e94da',1,'spic::Input']]],
-  ['end_92',['END',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2ab1a326c06d88bf042f73d70f50197905',1,'spic::Input']]],
-  ['engine_93',['Engine',['../classplatformer__engine_1_1Engine.html#a41af4a1e0f2842e540752d6f72813492',1,'platformer_engine::Engine::Engine(Engine const &amp;)=delete'],['../classplatformer__engine_1_1Engine.html#a5f309709c17b57955c8712fd09d313fc',1,'platformer_engine::Engine::Engine(Engine &amp;&amp;)=delete'],['../classplatformer__engine_1_1Engine.html',1,'platformer_engine::Engine']]],
-  ['engine_2ecpp_94',['Engine.cpp',['../Engine_8cpp.html',1,'']]],
-  ['engine_2ehpp_95',['Engine.hpp',['../Engine_8hpp.html',1,'']]],
-  ['enter_96',['ENTER',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a331b3100a485d8cacff1d3df8e9b0c13',1,'spic::Input']]],
-  ['equal_5fand_5fplus_97',['EQUAL_AND_PLUS',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2ad048c5b150fb9063f99fb0bb704b8618',1,'spic::Input']]],
-  ['error_5frollover_98',['ERROR_ROLLOVER',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2ad7344f106c77e09feb390ad801ff422f',1,'spic::Input']]],
-  ['error_5fundefined_99',['ERROR_UNDEFINED',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a5ca2e9be3b62483e0e45c5b628fd827d',1,'spic::Input']]],
-  ['escape_100',['ESCAPE',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2adaaedac409335b869929ea43fa44be5d',1,'spic::Input']]],
-  ['events_101',['Events',['../classplatformer__engine_1_1Engine.html#a84fd6c69c45980ebffd6a338abe9983e',1,'platformer_engine::Engine']]],
-  ['execute_102',['EXECUTE',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a5d76688e2261e6805ee36ad961b3fa7a',1,'spic::Input']]],
-  ['exsel_103',['EXSEL',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2adeef77e3f3bc57e49c7cf50c3099d09e',1,'spic::Input']]]
+  ['d_88',['D',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2af623e75af30e62bbd73d6df5b50bb7b5',1,'spic::Input']]],
+  ['debug_2ecpp_89',['Debug.cpp',['../Debug_8cpp.html',1,'']]],
+  ['debug_2ehpp_90',['Debug.hpp',['../Debug_8hpp.html',1,'']]],
+  ['decimal_5fseparator_91',['DECIMAL_SEPARATOR',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2aabcc2f47593ac235249af0579f318142',1,'spic::Input']]],
+  ['default_5fbase_5ftile_5fsize_92',['DEFAULT_BASE_TILE_SIZE',['../GameLevel_8hpp.html#ae2ecf1c101265cb9d5bf2701f2af7a9c',1,'GameLevel.hpp']]],
+  ['default_5fcol_5fcount_93',['DEFAULT_COL_COUNT',['../GameLevel_8hpp.html#a87759a2a38a444c38d147b022b7a1d24',1,'GameLevel.hpp']]],
+  ['default_5frow_5fcount_94',['DEFAULT_ROW_COUNT',['../GameLevel_8hpp.html#a0ccbd58b4f36d822dea8cc158c620269',1,'GameLevel.hpp']]],
+  ['delete_95',['DELETE',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a32f68a60cef40faedbc6af20298c1a1e',1,'spic::Input']]],
+  ['deltatime_96',['DeltaTime',['../classplatformer__engine_1_1Timer.html#a269f8e30c591a82f55d46dc80cf09e98',1,'platformer_engine::Timer::DeltaTime()'],['../classspic_1_1Time.html#ad5f05cef4162ccf8674b62610c06e3db',1,'spic::Time::DeltaTime()']]],
+  ['destroy_97',['Destroy',['../classspic_1_1GameObject.html#a1f345399eb559fa0b05b461a5d4ef1e7',1,'spic::GameObject::Destroy(std::shared_ptr&lt; GameObject &gt; obj)'],['../classspic_1_1GameObject.html#a066470876cb237fa3a5cdfc0d4c334b5',1,'spic::GameObject::Destroy(Component *obj)']]],
+  ['dot_5fand_5fgreater_5fthan_5fsign_98',['DOT_AND_GREATER_THAN_SIGN',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2ab3eb2ab60efd14939fd171a929cee2a7',1,'spic::Input']]],
+  ['down_5farrow_99',['DOWN_ARROW',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2af55c7c02f0034df09cd80f6ba8623035',1,'spic::Input']]],
+  ['drawframe_100',['DrawFrame',['../classplatformer__engine_1_1TextureManager.html#a3969d3ea0d1da48019bc2136186d3aa1',1,'platformer_engine::TextureManager::DrawFrame()'],['../classplatformer__engine_1_1GraphicsFacade.html#a117a5189572a77eca7ac361e5f20790f',1,'platformer_engine::GraphicsFacade::DrawFrame()']]],
+  ['drawline_101',['DrawLine',['../namespacespic_1_1Debug.html#a6340eb020ca32fe6440b327cd3b61c87',1,'spic::Debug']]],
+  ['drawtexture_102',['DrawTexture',['../classplatformer__engine_1_1TextureManager.html#acd7411fb2f03817a2b57168b83a3673a',1,'platformer_engine::TextureManager::DrawTexture()'],['../classplatformer__engine_1_1GraphicsFacade.html#a3f11858b4765259a26d1196403368758',1,'platformer_engine::GraphicsFacade::DrawTexture()']]],
+  ['drawtile_103',['DrawTile',['../classplatformer__engine_1_1TextureManager.html#a01b0c214c2fe9abcb25e418edd3e245f',1,'platformer_engine::TextureManager::DrawTile()'],['../classplatformer__engine_1_1GraphicsFacade.html#a0cdde0f816f25670451d21e0485fc5de',1,'platformer_engine::GraphicsFacade::DrawTile()']]],
+  ['dynamicbody_104',['dynamicBody',['../namespacespic.html#af055e2c7608520e61ba977078dad9387a42ef5e12f7e942dbd110c6ef71bc6247',1,'spic']]]
 ];
