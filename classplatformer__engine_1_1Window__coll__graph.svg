@@ -24,7 +24,7 @@
 <text text-anchor="start" x="8" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00"> spic::Color &amp;color)</text>
 <text text-anchor="start" x="8" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Render()</text>
 <text text-anchor="start" x="8" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Quit()</text>
-<text text-anchor="start" x="8" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto ListenForEvents</text>
+<text text-anchor="start" x="8" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ static auto ListenForEvents</text>
 <text text-anchor="start" x="8" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">() &#45;&gt; std::vector&lt; EventsEnum &gt;</text>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ static auto GetPerformance</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Frequency() &#45;&gt; Uint64</text>

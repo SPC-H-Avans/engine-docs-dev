@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SPC-H Platformer Engine: includes/platformer-engine/Facade/InputFacade.hpp Source File</title>
+<title>SPC-H Platformer Engine: src/Facade/InputFacade.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_09e761304027c904456130627fd4dcf5.html">includes</a></li><li class="navelem"><a class="el" href="dir_1587a151464512ea3626aba36cd93a86.html">platformer-engine</a></li><li class="navelem"><a class="el" href="dir_4ad73661ceecee2f59b8c0b0178f9787.html">Facade</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_f9ab0b6dc9229052dbade29aa876c209.html">Facade</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -72,28 +72,163 @@ $(function() {
 <a href="InputFacade_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PLATFORMER_ENGINE_INPUTFACADE_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define PLATFORMER_ENGINE_INPUTFACADE_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;SDL.h&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;Events/EventsEnum.h&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceplatformer__engine.html">platformer_engine</a>{</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classplatformer__engine_1_1InputFacade.html">    8</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classplatformer__engine_1_1InputFacade.html">InputFacade</a>{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <a class="code" href="classplatformer__engine_1_1InputFacade.html#aaafdc69624ed430a9eb71800e7977da6">InputFacade</a>();</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#a05df9ff369e3e968d3ae80ac2ec5e74f">ListenForInput</a>() -&gt; std::vector&lt;EventsEnum&gt;;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordtype">void</span> KeyUp();</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordtype">void</span> KeyDown();</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">const</span> Uint8* _inputKeyStates;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    };</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}  <span class="comment">// namespace platformer_engine</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//PLATFORMER_ENGINE_INPUTFACADE_H</span></div>
-<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html">platformer_engine::InputFacade</a></div><div class="ttdef"><b>Definition:</b> InputFacade.hpp:8</div></div>
-<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_a05df9ff369e3e968d3ae80ac2ec5e74f"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#a05df9ff369e3e968d3ae80ac2ec5e74f">platformer_engine::InputFacade::ListenForInput</a></div><div class="ttdeci">auto ListenForInput() -&gt; std::vector&lt; EventsEnum &gt;</div><div class="ttdoc">Listen of key input.</div><div class="ttdef"><b>Definition:</b> InputFacade.cpp:6</div></div>
-<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_aaafdc69624ed430a9eb71800e7977da6"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#aaafdc69624ed430a9eb71800e7977da6">platformer_engine::InputFacade::InputFacade</a></div><div class="ttdeci">InputFacade()</div><div class="ttdef"><b>Definition:</b> InputFacade.cpp:4</div></div>
-<div class="ttc" id="anamespaceplatformer__engine_html"><div class="ttname"><a href="namespaceplatformer__engine.html">platformer_engine</a></div><div class="ttdef"><b>Definition:</b> LevelParser.cpp:5</div></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;SDL.h&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;Events/EventsEnum.h&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Input_8hpp.html">Input.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="namespaceplatformer__engine.html">   11</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceplatformer__engine.html">platformer_engine</a> {</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classplatformer__engine_1_1InputFacade.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classplatformer__engine_1_1InputFacade.html">InputFacade</a> {</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">enum</span> eKey {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            KEY_UP = SDLK_UP,</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            KEY_DOWN = SDLK_DOWN,</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            KEY_LEFT = SDLK_LEFT,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            KEY_RIGHT = SDLK_RIGHT,</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            KEY_SPACE = SDLK_SPACE,</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            KEY_ESCAPE = SDLK_ESCAPE,</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            KEY_RETURN = SDLK_RETURN,</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            KEY_BACKSPACE = SDLK_BACKSPACE,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            KEY_TAB = SDLK_TAB,</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            KEY_LSHIFT = SDLK_LSHIFT,</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            KEY_RSHIFT = SDLK_RSHIFT,</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            KEY_LCTRL = SDLK_LCTRL,</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            KEY_RCTRL = SDLK_RCTRL,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            KEY_LALT = SDLK_LALT,</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            KEY_RALT = SDLK_RALT,</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            KEY_LGUI = SDLK_LGUI,</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            KEY_RGUI = SDLK_RGUI,</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            KEY_A = SDLK_a,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            KEY_B = SDLK_b,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            KEY_C = SDLK_c,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            KEY_D = SDLK_d,</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            KEY_E = SDLK_e,</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            KEY_F = SDLK_f,</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            KEY_G = SDLK_g,</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            KEY_H = SDLK_h,</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            KEY_I = SDLK_i,</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            KEY_J = SDLK_j,</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            KEY_K = SDLK_k,</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            KEY_L = SDLK_l,</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            KEY_M = SDLK_m,</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            KEY_N = SDLK_n,</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            KEY_O = SDLK_o,</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            KEY_P = SDLK_p,</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            KEY_Q = SDLK_q,</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            KEY_R = SDLK_r,</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            KEY_S = SDLK_s,</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            KEY_T = SDLK_t,</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            KEY_U = SDLK_u,</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            KEY_V = SDLK_v,</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            KEY_W = SDLK_w,</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            KEY_X = SDLK_x,</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            KEY_Y = SDLK_y,</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            KEY_Z = SDLK_z,</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            KEY_0 = SDLK_0,</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            KEY_1 = SDLK_1,</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            KEY_2 = SDLK_2,</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            KEY_3 = SDLK_3,</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            KEY_4 = SDLK_4,</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            KEY_5 = SDLK_5,</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            KEY_6 = SDLK_6,</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            KEY_7 = SDLK_7,</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            KEY_8 = SDLK_8,</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            KEY_9 = SDLK_9,</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            KEY_F1 = SDLK_F1,</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            KEY_F2 = SDLK_F2,</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            KEY_F3 = SDLK_F3,</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            KEY_F4 = SDLK_F4,</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            KEY_F5 = SDLK_F5,</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            KEY_F6 = SDLK_F6,</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            KEY_F7 = SDLK_F7,</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            KEY_F8 = SDLK_F8,</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            KEY_F9 = SDLK_F9,</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            KEY_F10 = SDLK_F10,</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            KEY_F11 = SDLK_F11,</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            KEY_F12 = SDLK_F12,</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        };</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keyword">enum</span> eMouseButton {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            MOUSE_LEFT = SDL_BUTTON_LEFT,</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            MOUSE_MIDDLE = SDL_BUTTON_MIDDLE,</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            MOUSE_RIGHT = SDL_BUTTON_RIGHT,</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        };</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="classplatformer__engine_1_1InputFacade.html#a678465cb212e5e3a02baaa4b4d2293d3">   92</a></span>&#160;        <span class="keyword">static</span> <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#a678465cb212e5e3a02baaa4b4d2293d3">GetInstance</a>() -&gt; <a class="code" href="classplatformer__engine_1_1InputFacade.html">InputFacade</a> &amp; {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="keyword">static</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html">InputFacade</a> instance;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="keywordflow">return</span> instance;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        }</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="classplatformer__engine_1_1InputFacade.html#a3082d204c66a23823dd10b4894b1a2d2">   97</a></span>&#160;        <a class="code" href="classplatformer__engine_1_1InputFacade.html#a3082d204c66a23823dd10b4894b1a2d2">InputFacade</a>(<span class="keyword">const</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html">InputFacade</a>&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="classplatformer__engine_1_1InputFacade.html#ab84d09bcbdb29b1ea020cbddf517127b">   98</a></span>&#160;        <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#ab84d09bcbdb29b1ea020cbddf517127b">operator=</a>(<span class="keyword">const</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html">InputFacade</a>&amp;) -&gt; <a class="code" href="classplatformer__engine_1_1InputFacade.html">InputFacade</a>&amp; = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="classplatformer__engine_1_1InputFacade.html#ac334440a9760e52f8d0ddeb058daf3f1">   99</a></span>&#160;        <a class="code" href="classplatformer__engine_1_1InputFacade.html#ac334440a9760e52f8d0ddeb058daf3f1">InputFacade</a>(<a class="code" href="classplatformer__engine_1_1InputFacade.html">InputFacade</a> &amp;&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="classplatformer__engine_1_1InputFacade.html#a0b5921d2b3c97b3d83ad42dfadcceaf1">  100</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#a0b5921d2b3c97b3d83ad42dfadcceaf1">operator=</a>(<a class="code" href="classplatformer__engine_1_1InputFacade.html">InputFacade</a> &amp;&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#a05df9ff369e3e968d3ae80ac2ec5e74f">ListenForInput</a>() -&gt; std::vector&lt;EventsEnum&gt;;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keyword">static</span> <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#af426920be0dde5295249dc012e98e909">IsAnyHeld</a>() -&gt; bool;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#a9103c0d49ef9541f8ab5bf61579a463b">IsAnyPressed</a>() -&gt; bool;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keyword">static</span> <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#a90751526f1b4b63920ddd45a814a8370">IsKeyHeld</a>(eKey key) -&gt; bool;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#adbe2b75cc59aff77cf0298d188fd1f85">GetKeyPress</a>(eKey key) -&gt; bool;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#a5bd6c43d2aafe91e5c328332f0543ea2">GetKeyRelease</a>(eKey key) -&gt; bool;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <span class="keyword">static</span> <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#aea916eaf00d13a941953d0f1477707cb">IsMouseButtonHeld</a>(eMouseButton button) -&gt; bool;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160; </div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keyword">static</span> <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#a29775646043c50b9cf36c0f7ebbcc308">GetMousePosition</a>() -&gt; std::tuple&lt;int, int&gt;;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#a70fed5e6ed8857dbec33ec0dcf6c635c">GetMousePress</a>(eMouseButton button) -&gt; bool;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160; </div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#a6731b24f45a9c11ff140cf2aa216e54b">GetMouseRelease</a>(eMouseButton button) -&gt; bool;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160; </div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keyword">static</span> <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#ab34e83a9084bdb18a3dfafc1d2699895">GetFacadeKeyCode</a>(<a class="code" href="namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2">spic::Input::KeyCode</a> key) -&gt; eKey;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keyword">static</span> <span class="keyword">auto</span> <a class="code" href="classplatformer__engine_1_1InputFacade.html#a8814589ab0132c9e2409fcea96010f1d">GetFacadeMouseButtonCode</a>(<a class="code" href="namespacespic_1_1Input.html#aedea49171a9999a91014688dd9c29b04">spic::Input::MouseButton</a> button) -&gt; eMouseButton;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <a class="code" href="classplatformer__engine_1_1InputFacade.html">InputFacade</a>();</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        ~<a class="code" href="classplatformer__engine_1_1InputFacade.html">InputFacade</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160; </div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <span class="keywordtype">void</span> ClearKeys();</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordtype">void</span> KeyDown(eKey key);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordtype">void</span> KeyUp(eKey key);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="keywordtype">void</span> MouseDown(eMouseButton button);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordtype">void</span> MouseUp(eMouseButton button);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keyword">const</span> Uint8* _inputKeyStates;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        std::map&lt;eKey, bool&gt; _keysPressed; <span class="comment">// because SDL_KEYDOWN can trigger multiple times, the second bool denotes if the key should trigger</span></div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        std::vector&lt;eKey&gt; _keysReleased;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        std::vector&lt;eMouseButton&gt; _mouseButtonsPressed;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        std::vector&lt;eMouseButton&gt; _mouseButtonsReleased;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    };</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;} <span class="comment">// namespace platformer_engine</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160; </div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//PLATFORMER_ENGINE_INPUTFACADE_H</span></div>
+<div class="ttc" id="aInput_8hpp_html"><div class="ttname"><a href="Input_8hpp.html">Input.hpp</a></div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html">platformer_engine::InputFacade</a></div><div class="ttdef"><b>Definition:</b> InputFacade.hpp:12</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_a05df9ff369e3e968d3ae80ac2ec5e74f"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#a05df9ff369e3e968d3ae80ac2ec5e74f">platformer_engine::InputFacade::ListenForInput</a></div><div class="ttdeci">auto ListenForInput() -&gt; std::vector&lt; EventsEnum &gt;</div><div class="ttdoc">Listen of key input.</div><div class="ttdef"><b>Definition:</b> InputFacade.cpp:11</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_a0b5921d2b3c97b3d83ad42dfadcceaf1"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#a0b5921d2b3c97b3d83ad42dfadcceaf1">platformer_engine::InputFacade::operator=</a></div><div class="ttdeci">void operator=(InputFacade &amp;&amp;)=delete</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_a29775646043c50b9cf36c0f7ebbcc308"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#a29775646043c50b9cf36c0f7ebbcc308">platformer_engine::InputFacade::GetMousePosition</a></div><div class="ttdeci">static auto GetMousePosition() -&gt; std::tuple&lt; int, int &gt;</div><div class="ttdoc">Get the mouse position as a tuple of x and y.</div><div class="ttdef"><b>Definition:</b> InputFacade.cpp:127</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_a3082d204c66a23823dd10b4894b1a2d2"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#a3082d204c66a23823dd10b4894b1a2d2">platformer_engine::InputFacade::InputFacade</a></div><div class="ttdeci">InputFacade(const InputFacade &amp;)=delete</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_a5bd6c43d2aafe91e5c328332f0543ea2"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#a5bd6c43d2aafe91e5c328332f0543ea2">platformer_engine::InputFacade::GetKeyRelease</a></div><div class="ttdeci">auto GetKeyRelease(eKey key) -&gt; bool</div><div class="ttdef"><b>Definition:</b> InputFacade.cpp:113</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_a6731b24f45a9c11ff140cf2aa216e54b"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#a6731b24f45a9c11ff140cf2aa216e54b">platformer_engine::InputFacade::GetMouseRelease</a></div><div class="ttdeci">auto GetMouseRelease(eMouseButton button) -&gt; bool</div><div class="ttdef"><b>Definition:</b> InputFacade.cpp:144</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_a678465cb212e5e3a02baaa4b4d2293d3"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#a678465cb212e5e3a02baaa4b4d2293d3">platformer_engine::InputFacade::GetInstance</a></div><div class="ttdeci">static auto GetInstance() -&gt; InputFacade &amp;</div><div class="ttdoc">Get instance of the InputFacade class.</div><div class="ttdef"><b>Definition:</b> InputFacade.hpp:92</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_a70fed5e6ed8857dbec33ec0dcf6c635c"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#a70fed5e6ed8857dbec33ec0dcf6c635c">platformer_engine::InputFacade::GetMousePress</a></div><div class="ttdeci">auto GetMousePress(eMouseButton button) -&gt; bool</div><div class="ttdef"><b>Definition:</b> InputFacade.cpp:134</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_a8814589ab0132c9e2409fcea96010f1d"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#a8814589ab0132c9e2409fcea96010f1d">platformer_engine::InputFacade::GetFacadeMouseButtonCode</a></div><div class="ttdeci">static auto GetFacadeMouseButtonCode(spic::Input::MouseButton button) -&gt; eMouseButton</div><div class="ttdoc">Converts an Input::MouseButton to a InputFacade::eMouseButton.</div><div class="ttdef"><b>Definition:</b> InputFacade.cpp:227</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_a90751526f1b4b63920ddd45a814a8370"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#a90751526f1b4b63920ddd45a814a8370">platformer_engine::InputFacade::IsKeyHeld</a></div><div class="ttdeci">static auto IsKeyHeld(eKey key) -&gt; bool</div><div class="ttdoc">Check if a key is pressed.</div><div class="ttdef"><b>Definition:</b> InputFacade.cpp:102</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_a9103c0d49ef9541f8ab5bf61579a463b"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#a9103c0d49ef9541f8ab5bf61579a463b">platformer_engine::InputFacade::IsAnyPressed</a></div><div class="ttdeci">auto IsAnyPressed() -&gt; bool</div><div class="ttdef"><b>Definition:</b> InputFacade.cpp:87</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_ab34e83a9084bdb18a3dfafc1d2699895"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#ab34e83a9084bdb18a3dfafc1d2699895">platformer_engine::InputFacade::GetFacadeKeyCode</a></div><div class="ttdeci">static auto GetFacadeKeyCode(spic::Input::KeyCode key) -&gt; eKey</div><div class="ttdoc">Converts an Input::KeyCode to a InputFacade::eKey.</div><div class="ttdef"><b>Definition:</b> InputFacade.cpp:154</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_ab84d09bcbdb29b1ea020cbddf517127b"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#ab84d09bcbdb29b1ea020cbddf517127b">platformer_engine::InputFacade::operator=</a></div><div class="ttdeci">auto operator=(const InputFacade &amp;) -&gt; InputFacade &amp;=delete</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_ac334440a9760e52f8d0ddeb058daf3f1"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#ac334440a9760e52f8d0ddeb058daf3f1">platformer_engine::InputFacade::InputFacade</a></div><div class="ttdeci">InputFacade(InputFacade &amp;&amp;)=delete</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_adbe2b75cc59aff77cf0298d188fd1f85"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#adbe2b75cc59aff77cf0298d188fd1f85">platformer_engine::InputFacade::GetKeyPress</a></div><div class="ttdeci">auto GetKeyPress(eKey key) -&gt; bool</div><div class="ttdef"><b>Definition:</b> InputFacade.cpp:106</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_aea916eaf00d13a941953d0f1477707cb"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#aea916eaf00d13a941953d0f1477707cb">platformer_engine::InputFacade::IsMouseButtonHeld</a></div><div class="ttdeci">static auto IsMouseButtonHeld(eMouseButton button) -&gt; bool</div><div class="ttdoc">Check if a mouse button is pressed.</div><div class="ttdef"><b>Definition:</b> InputFacade.cpp:123</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1InputFacade_html_af426920be0dde5295249dc012e98e909"><div class="ttname"><a href="classplatformer__engine_1_1InputFacade.html#af426920be0dde5295249dc012e98e909">platformer_engine::InputFacade::IsAnyHeld</a></div><div class="ttdeci">static auto IsAnyHeld() -&gt; bool</div><div class="ttdoc">Returns if any key or mouseButton is currently pressed.</div><div class="ttdef"><b>Definition:</b> InputFacade.cpp:72</div></div>
+<div class="ttc" id="anamespaceplatformer__engine_html"><div class="ttname"><a href="namespaceplatformer__engine.html">platformer_engine</a></div><div class="ttdef"><b>Definition:</b> InputFacade.hpp:11</div></div>
+<div class="ttc" id="anamespacespic_1_1Input_html_aed95f16c86236940a2ad1d84ef8c25d2"><div class="ttname"><a href="namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2">spic::Input::KeyCode</a></div><div class="ttdeci">KeyCode</div><div class="ttdoc">An enumeration describing the different keyboard keycodes.</div><div class="ttdef"><b>Definition:</b> Input.hpp:24</div></div>
+<div class="ttc" id="anamespacespic_1_1Input_html_aedea49171a9999a91014688dd9c29b04"><div class="ttname"><a href="namespacespic_1_1Input.html#aedea49171a9999a91014688dd9c29b04">spic::Input::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdoc">Enumeration for different mouse buttons. @spicapi.</div><div class="ttdef"><b>Definition:</b> Input.hpp:266</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
