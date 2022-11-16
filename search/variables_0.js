@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['basetilesize_692',['BaseTileSize',['../classplatformer__engine_1_1GameLevel.html#aebcc8bc38572ded44aae3780ad2f06e8',1,'platformer_engine::GameLevel']]]
+  ['active_709',['active',['../classspic_1_1GameObject.html#a95d3a818765a04540668657c61583158',1,'spic::GameObject']]]
 ];

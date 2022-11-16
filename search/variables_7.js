@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['position_702',['position',['../structspic_1_1Transform.html#ab278760aba139302d10ec824ee1e2996',1,'spic::Transform']]]
+  ['max_5fcolor_5fvalue_722',['MAX_COLOR_VALUE',['../GraphicsFacade_8cpp.html#a8cd0d084dc8209dc61de680057f8a29c',1,'GraphicsFacade.cpp']]]
 ];
