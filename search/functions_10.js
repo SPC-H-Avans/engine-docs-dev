@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['scenebuilder_812',['SceneBuilder',['../classSceneBuilder.html#a91be5ca7f12e7493ed45333d55d3aaae',1,'SceneBuilder']]],
+  ['scenebuilder_812',['SceneBuilder',['../classplatformer__engine_1_1SceneBuilder.html#a6fe9844e7882fed06e7a2eceb7e9c7fd',1,'platformer_engine::SceneBuilder']]],
   ['setactivecamerabyname_813',['SetActiveCameraByName',['../classspic_1_1Scene.html#a968a508834c0df57733d996a723650bb',1,'spic::Scene']]],
   ['setactivescene_814',['SetActiveScene',['../classplatformer__engine_1_1Engine.html#aa9585b617813d9c094f335f548e31ed0',1,'platformer_engine::Engine::SetActiveScene()'],['../classplatformer__engine_1_1Window.html#a7dcd3e299afb317c69088f5aff4eac84',1,'platformer_engine::Window::SetActiveScene()']]],
   ['setcollider_815',['SetCollider',['../classCollision.html#abd39b6afc4ff8380c3764e3d40f25c1d',1,'Collision']]],

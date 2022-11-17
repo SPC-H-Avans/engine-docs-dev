@@ -50,7 +50,7 @@ var searchData=
   ['getobjectbyname_206',['GetObjectByName',['../classspic_1_1Scene.html#a0f92231a9e959167019508b68848644b',1,'spic::Scene']]],
   ['getperformancefrequency_207',['GetPerformanceFrequency',['../classplatformer__engine_1_1Window.html#afe6360906c67ba6fc4f255d22284f019',1,'platformer_engine::Window::GetPerformanceFrequency()'],['../classplatformer__engine_1_1GraphicsFacade.html#af516440407b0848eab22e037fe0e2259',1,'platformer_engine::GraphicsFacade::GetPerformanceFrequency()']]],
   ['getredvalue_208',['GetRedValue',['../classspic_1_1Color.html#a38cc3ecbfcff5f1208f5118434f3c43c',1,'spic::Color']]],
-  ['getscene_209',['GetScene',['../classSceneBuilder.html#ac836fe8918d228f796418f760269be7b',1,'SceneBuilder']]],
+  ['getscene_209',['GetScene',['../classplatformer__engine_1_1SceneBuilder.html#abecb591ddc3f56024a43a45db6ca7643',1,'platformer_engine::SceneBuilder']]],
   ['gettilemap_210',['GetTileMap',['../classplatformer__engine_1_1TileLayer.html#a0912fddf0c51d647a1d70c5868e65610',1,'platformer_engine::TileLayer']]],
   ['gettransform_211',['GetTransform',['../classspic_1_1GameObject.html#a1e2854560e46b6981dd5def054adf9f7',1,'spic::GameObject']]],
   ['graphicsfacade_212',['GraphicsFacade',['../classplatformer__engine_1_1GraphicsFacade.html#a15489eda41b560128af5649836365f86',1,'platformer_engine::GraphicsFacade::GraphicsFacade()'],['../classplatformer__engine_1_1GraphicsFacade.html',1,'platformer_engine::GraphicsFacade']]],

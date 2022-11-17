@@ -7,7 +7,7 @@ var searchData=
   ['scene_465',['Scene',['../classspic_1_1Scene.html',1,'spic']]],
   ['scene_2ecpp_466',['Scene.cpp',['../Scene_8cpp.html',1,'']]],
   ['scene_2ehpp_467',['Scene.hpp',['../Scene_8hpp.html',1,'']]],
-  ['scenebuilder_468',['SceneBuilder',['../classSceneBuilder.html',1,'SceneBuilder'],['../classSceneBuilder.html#a91be5ca7f12e7493ed45333d55d3aaae',1,'SceneBuilder::SceneBuilder()']]],
+  ['scenebuilder_468',['SceneBuilder',['../classplatformer__engine_1_1SceneBuilder.html',1,'platformer_engine::SceneBuilder'],['../classplatformer__engine_1_1SceneBuilder.html#a6fe9844e7882fed06e7a2eceb7e9c7fd',1,'platformer_engine::SceneBuilder::SceneBuilder()']]],
   ['scenebuilder_2ecpp_469',['SceneBuilder.cpp',['../SceneBuilder_8cpp.html',1,'']]],
   ['scenebuilder_2ehpp_470',['SceneBuilder.hpp',['../SceneBuilder_8hpp.html',1,'']]],
   ['scroll_5flock_471',['SCROLL_LOCK',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a324bf1f059b99e2882bc1d567080d8ed',1,'spic::Input']]],
