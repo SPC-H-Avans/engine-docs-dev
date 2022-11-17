@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zoom_763',['Zoom',['../classspic_1_1Camera.html#aaae72b31560a14ac6734021ebdc2b202',1,'spic::Camera']]]
+  ['yellow_829',['Yellow',['../classspic_1_1Color.html#a8ab8ac5634176bfbbab3cffe4996e678',1,'spic::Color']]]
 ];

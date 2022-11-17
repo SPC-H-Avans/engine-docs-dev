@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['scene_548',['Scene',['../classspic_1_1Scene.html',1,'spic']]],
-  ['sprite_549',['Sprite',['../classspic_1_1Sprite.html',1,'spic']]]
+  ['scene_583',['Scene',['../classspic_1_1Scene.html',1,'spic']]],
+  ['scenebuilder_584',['SceneBuilder',['../classSceneBuilder.html',1,'']]],
+  ['sprite_585',['Sprite',['../classspic_1_1Sprite.html',1,'spic']]]
 ];

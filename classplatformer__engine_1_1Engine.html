@@ -81,7 +81,7 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for platformer_engine::Engine:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1Engine__coll__graph.svg" width="182" height="352"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1Engine__coll__graph.svg" width="182" height="455"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -96,8 +96,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a397d1dd45ff747ce2c206d024db24417"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a397d1dd45ff747ce2c206d024db24417">operator=</a> (<a class="el" href="classplatformer__engine_1_1Engine.html">Engine</a> &amp;&amp;)=delete</td></tr>
 <tr class="separator:a397d1dd45ff747ce2c206d024db24417"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab901faa0f167a650785cb898100ddedf"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#ab901faa0f167a650785cb898100ddedf">Init</a> (int width, int height, const std::string &amp;title, const <a class="el" href="classspic_1_1Color.html">spic::Color</a> &amp;color) -&gt; bool</td></tr>
-<tr class="memdesc:ab901faa0f167a650785cb898100ddedf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the engine and create a window.  <a href="classplatformer__engine_1_1Engine.html#ab901faa0f167a650785cb898100ddedf">More...</a><br /></td></tr>
+<tr class="memdesc:ab901faa0f167a650785cb898100ddedf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the engine.  <a href="classplatformer__engine_1_1Engine.html#ab901faa0f167a650785cb898100ddedf">More...</a><br /></td></tr>
 <tr class="separator:ab901faa0f167a650785cb898100ddedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e8226215ee1b917efdc4fa3a6139fab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a7e8226215ee1b917efdc4fa3a6139fab">Start</a> ()</td></tr>
+<tr class="memdesc:a7e8226215ee1b917efdc4fa3a6139fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the engine, open window, start timer etc. @platformerengine.  <a href="classplatformer__engine_1_1Engine.html#a7e8226215ee1b917efdc4fa3a6139fab">More...</a><br /></td></tr>
+<tr class="separator:a7e8226215ee1b917efdc4fa3a6139fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a372966a519c9b07126d547b96b715d50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a372966a519c9b07126d547b96b715d50">Render</a> ()</td></tr>
 <tr class="memdesc:a372966a519c9b07126d547b96b715d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render the game on the screen @platformerengine.  <a href="classplatformer__engine_1_1Engine.html#a372966a519c9b07126d547b96b715d50">More...</a><br /></td></tr>
 <tr class="separator:a372966a519c9b07126d547b96b715d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -110,6 +113,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a779b3afcb42fe28d890e8847c993bb40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a779b3afcb42fe28d890e8847c993bb40">Quit</a> ()</td></tr>
 <tr class="memdesc:a779b3afcb42fe28d890e8847c993bb40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quit the engine @platformerengine.  <a href="classplatformer__engine_1_1Engine.html#a779b3afcb42fe28d890e8847c993bb40">More...</a><br /></td></tr>
 <tr class="separator:a779b3afcb42fe28d890e8847c993bb40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9585b617813d9c094f335f548e31ed0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#aa9585b617813d9c094f335f548e31ed0">SetActiveScene</a> (std::unique_ptr&lt; <a class="el" href="classspic_1_1Scene.html">spic::Scene</a> &gt; scene)</td></tr>
+<tr class="memdesc:aa9585b617813d9c094f335f548e31ed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current active Scene.  <a href="classplatformer__engine_1_1Engine.html#aa9585b617813d9c094f335f548e31ed0">More...</a><br /></td></tr>
+<tr class="separator:aa9585b617813d9c094f335f548e31ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f378511e0b05dc1185d408767883763"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a9f378511e0b05dc1185d408767883763">GetActiveScene</a> () -&gt; std::unique_ptr&lt; <a class="el" href="classspic_1_1Scene.html">spic::Scene</a> &gt; &amp;</td></tr>
+<tr class="memdesc:a9f378511e0b05dc1185d408767883763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current active Scene.  <a href="classplatformer__engine_1_1Engine.html#a9f378511e0b05dc1185d408767883763">More...</a><br /></td></tr>
+<tr class="separator:a9f378511e0b05dc1185d408767883763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -192,6 +201,26 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9f378511e0b05dc1185d408767883763"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f378511e0b05dc1185d408767883763">&#9670;&nbsp;</a></span>GetActiveScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto platformer_engine::Engine::GetActiveScene </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; std::unique_ptr&lt;<a class="el" href="classspic_1_1Scene.html">spic::Scene</a>&gt;&amp;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the current active Scene. </p>
+<dl class="section return"><dt>Returns</dt><dd>std::unique_ptr&lt;spic::Scene&gt;&amp; Current active scene @platformerengine </dd></dl>
+
+</div>
+</div>
 <a id="a297381fd50f83ae153913b2785e1f5fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a297381fd50f83ae153913b2785e1f5fe">&#9670;&nbsp;</a></span>GetInstance()</h2>
 
@@ -258,7 +287,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Start the engine and create a window. </p>
+<p>Initialize the engine. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">width</td><td>The width of the window in px </td></tr>
@@ -359,6 +388,51 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Render the game on the screen @platformerengine. </p>
+
+</div>
+</div>
+<a id="aa9585b617813d9c094f335f548e31ed0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9585b617813d9c094f335f548e31ed0">&#9670;&nbsp;</a></span>SetActiveScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::Engine::SetActiveScene </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classspic_1_1Scene.html">spic::Scene</a> &gt;&#160;</td>
+          <td class="paramname"><em>scene</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the current active Scene. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scene</td><td>Scene to make active @platformerengine </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7e8226215ee1b917efdc4fa3a6139fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e8226215ee1b917efdc4fa3a6139fab">&#9670;&nbsp;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::Engine::Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start the engine, open window, start timer etc. @platformerengine. </p>
 
 </div>
 </div>

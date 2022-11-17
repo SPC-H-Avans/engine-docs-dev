@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['texturemanager_752',['TextureManager',['../classplatformer__engine_1_1TextureManager.html#a4714392165461f24adbb25499c4456ce',1,'platformer_engine::TextureManager']]],
-  ['tilelayer_753',['TileLayer',['../classplatformer__engine_1_1TileLayer.html#a0609bfcb7e81552057e85360f3148c65',1,'platformer_engine::TileLayer']]],
-  ['timer_754',['Timer',['../classplatformer__engine_1_1Timer.html#a3bd494bb4f4ab5b53fe668ffb290e5d3',1,'platformer_engine::Timer::Timer()=default'],['../classplatformer__engine_1_1Timer.html#a0d12c725f017deaf049ca3119148fb1d',1,'platformer_engine::Timer::Timer(const Timer &amp;timer)=delete'],['../classplatformer__engine_1_1Timer.html#a3f5bfa4cdd18c999779717ecda61eb9b',1,'platformer_engine::Timer::Timer(Timer &amp;&amp;timer)=delete']]],
-  ['timescale_755',['TimeScale',['../classplatformer__engine_1_1Timer.html#a9a46151a81e4f7a3ad58b32ff7190d88',1,'platformer_engine::Timer::TimeScale() const -&gt; double'],['../classplatformer__engine_1_1Timer.html#a5bb2d432a1dfaa0f8c2bf17b674f05e4',1,'platformer_engine::Timer::TimeScale(double newTimeScale)'],['../classspic_1_1Time.html#a9936321ffb0c032fc718a0f8b507338f',1,'spic::Time::TimeScale()'],['../classspic_1_1Time.html#a806da38f6176fd9776dcf89d9fec1e4d',1,'spic::Time::TimeScale(double newTimeScale)']]],
-  ['tmxparser_756',['TMXParser',['../classplatformer__engine_1_1TMXParser.html#a260e63bb5fc4e1281d30d682508c2260',1,'platformer_engine::TMXParser']]]
+  ['scenebuilder_812',['SceneBuilder',['../classSceneBuilder.html#a91be5ca7f12e7493ed45333d55d3aaae',1,'SceneBuilder']]],
+  ['setactivecamerabyname_813',['SetActiveCameraByName',['../classspic_1_1Scene.html#a968a508834c0df57733d996a723650bb',1,'spic::Scene']]],
+  ['setactivescene_814',['SetActiveScene',['../classplatformer__engine_1_1Engine.html#aa9585b617813d9c094f335f548e31ed0',1,'platformer_engine::Engine::SetActiveScene()'],['../classplatformer__engine_1_1Window.html#a7dcd3e299afb317c69088f5aff4eac84',1,'platformer_engine::Window::SetActiveScene()']]],
+  ['setcollider_815',['SetCollider',['../classCollision.html#abd39b6afc4ff8380c3764e3d40f25c1d',1,'Collision']]],
+  ['settransform_816',['SetTransform',['../classspic_1_1GameObject.html#a0aa1842e6bcd14add28cb71347d6ca5d',1,'spic::GameObject']]],
+  ['start_817',['Start',['../classplatformer__engine_1_1Engine.html#a7e8226215ee1b917efdc4fa3a6139fab',1,'platformer_engine::Engine']]],
+  ['stop_818',['Stop',['../classspic_1_1Animator.html#a061b63d83ceb2dceec94d6ec0c0f73b4',1,'spic::Animator::Stop()'],['../classspic_1_1AudioSource.html#a88f2d65890e4ce1de154dd3e90b4158f',1,'spic::AudioSource::Stop()']]]
 ];

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['quit_742',['Quit',['../classplatformer__engine_1_1Engine.html#a779b3afcb42fe28d890e8847c993bb40',1,'platformer_engine::Engine::Quit()'],['../classplatformer__engine_1_1GraphicsFacade.html#a319fa29ecb1caa06b99ed141d152ab44',1,'platformer_engine::GraphicsFacade::Quit()'],['../classplatformer__engine_1_1Window.html#a2f0aaa13eb066db658638ad4975fe571',1,'platformer_engine::Window::Quit()']]]
+  ['parent_801',['Parent',['../classspic_1_1GameObject.html#af807bf9fbd3f4f038453922990fcb6aa',1,'spic::GameObject']]],
+  ['parselevel_802',['ParseLevel',['../classplatformer__engine_1_1LevelParser.html#a386af9a634342a17d11c451f07992136',1,'platformer_engine::LevelParser']]],
+  ['play_803',['Play',['../classspic_1_1Animator.html#a1568a4800f79b98bdd8ce3f485810fe2',1,'spic::Animator::Play()'],['../classspic_1_1AudioSource.html#a5b0f771fd18c9fd2dee6c1e5bf187465',1,'spic::AudioSource::Play()']]]
 ];
