@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 658;
+var viewWidth = 786;
 var viewHeight = 296;
 var sectionId = 'dynsection-1';
 </script>
@@ -58,9 +58,9 @@ var sectionId = 'dynsection-1';
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="99,-257.5 99,-287.5 275,-287.5 275,-257.5 99,-257.5"/>
-<text text-anchor="start" x="107" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">includes/platformer</text>
-<text text-anchor="middle" x="187" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;engine/Facade/GraphicsFacade.hpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="157,-257.5 157,-287.5 333,-287.5 333,-257.5 157,-257.5"/>
+<text text-anchor="start" x="165" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">includes/platformer</text>
+<text text-anchor="middle" x="245" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;engine/Facade/GraphicsFacade.hpp</text>
 </a>
 </g>
 </g>
@@ -76,8 +76,8 @@ var sectionId = 'dynsection-1';
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M168.8,-249.26C144.5,-219.56 102.6,-168.35 86.03,-148.1"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="166.4,-251.85 175.44,-257.37 171.82,-247.42 166.4,-251.85"/>
+<path fill="none" stroke="midnightblue" d="M219.4,-251.14C182.46,-221.77 115.82,-168.78 89.81,-148.1"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="217.23,-253.89 227.24,-257.37 221.59,-248.41 217.23,-253.89"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -92,24 +92,24 @@ var sectionId = 'dynsection-1';
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M189.87,-247.29C192.51,-230.58 197.36,-208.19 206,-190 212.37,-176.59 222.75,-163.38 231.21,-153.84"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="186.38,-246.95 188.44,-257.34 193.31,-247.94 186.38,-246.95"/>
+<path fill="none" stroke="midnightblue" d="M245,-247.02C245,-219.51 245,-175.79 245,-153.52"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="241.5,-247.37 245,-257.37 248.5,-247.37 241.5,-247.37"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="TextureManager_8hpp.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="215,-190.5 215,-220.5 389,-220.5 389,-190.5 215,-190.5"/>
-<text text-anchor="start" x="223" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">includes/platformer</text>
-<text text-anchor="middle" x="302" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;engine/Texture/TextureManager.hpp</text>
+<polygon fill="none" stroke="black" points="295,-190.5 295,-220.5 469,-220.5 469,-190.5 295,-190.5"/>
+<text text-anchor="start" x="303" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">includes/platformer</text>
+<text text-anchor="middle" x="382" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;engine/Texture/TextureManager.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M220.98,-252.3C238.97,-242.12 260.68,-229.85 277.1,-220.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="218.94,-249.43 211.95,-257.4 222.38,-255.52 218.94,-249.43"/>
+<path fill="none" stroke="midnightblue" d="M284.01,-252.99C305.72,-242.69 332.33,-230.07 352.33,-220.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="282.26,-249.95 274.73,-257.4 285.26,-256.27 282.26,-249.95"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -175,14 +175,14 @@ var sectionId = 'dynsection-1';
 <!-- Node8&#45;&gt;Node2 -->
 <g id="edge8" class="edge">
 <title>Node8&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M244.26,-187.67C200.68,-174.97 142.69,-158.06 108.26,-148.03"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="243.31,-191.04 253.89,-190.48 245.27,-184.32 243.31,-191.04"/>
+<path fill="none" stroke="midnightblue" d="M306.52,-188.31C246.99,-175.54 166.32,-158.23 118.76,-148.03"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="306.11,-191.8 316.63,-190.48 307.58,-184.96 306.11,-191.8"/>
 </g>
 <!-- Node8&#45;&gt;Node3 -->
-<g id="edge11" class="edge">
+<g id="edge12" class="edge">
 <title>Node8&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M282.91,-182.74C274.48,-173.12 264.81,-162.09 257.34,-153.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="280.41,-185.18 289.63,-190.4 285.67,-180.57 280.41,-185.18"/>
+<path fill="none" stroke="midnightblue" d="M342.99,-185.99C321.28,-175.69 294.67,-163.07 274.67,-153.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="341.74,-189.27 352.27,-190.4 344.74,-182.95 341.74,-189.27"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
@@ -196,23 +196,38 @@ var sectionId = 'dynsection-1';
 <!-- Node8&#45;&gt;Node9 -->
 <g id="edge9" class="edge">
 <title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M332.64,-184.97C351.98,-172.65 376,-157.35 390.65,-148.01"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="330.68,-182.07 324.13,-190.4 334.45,-187.97 330.68,-182.07"/>
+<path fill="none" stroke="midnightblue" d="M390.09,-180.6C393.92,-169.28 398.26,-156.46 401.06,-148.19"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="386.66,-179.8 386.77,-190.4 393.29,-182.05 386.66,-179.8"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="TextureManager_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="494,-129 494,-148 650,-148 650,-129 494,-129"/>
-<text text-anchor="middle" x="572" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">src/Texture/TextureManager.cpp</text>
+<g id="a_node10"><a xlink:href="Scene_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="494,-129 494,-148 604,-148 604,-129 494,-129"/>
+<text text-anchor="middle" x="549" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">src/Scene/Scene.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node10 -->
 <g id="edge10" class="edge">
 <title>Node8&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M370.25,-188.07C423.2,-175.32 494.45,-158.17 536.57,-148.03"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="369.16,-184.73 360.25,-190.48 370.8,-191.54 369.16,-184.73"/>
+<path fill="none" stroke="midnightblue" d="M427.93,-186.62C460.26,-174.04 502.07,-157.77 527.14,-148.01"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="426.29,-183.51 418.24,-190.4 428.83,-190.03 426.29,-183.51"/>
+</g>
+<!-- Node11 -->
+<g id="node11" class="node">
+<title>Node11</title>
+<g id="a_node11"><a xlink:href="TextureManager_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="622,-129 622,-148 778,-148 778,-129 622,-129"/>
+<text text-anchor="middle" x="700" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">src/Texture/TextureManager.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node8&#45;&gt;Node11 -->
+<g id="edge11" class="edge">
+<title>Node8&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M460.45,-188.47C523,-175.68 608.15,-158.27 658.28,-148.03"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="459.71,-185.04 450.61,-190.48 461.11,-191.9 459.71,-185.04"/>
 </g>
 </g>
 </svg>
