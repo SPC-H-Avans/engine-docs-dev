@@ -29,7 +29,7 @@ var searchData=
   ['getcomponentsinparent_185',['GetComponentsInParent',['../classspic_1_1GameObject.html#a637a5d3a5ae12ae7c5e3aa40ebb67a5b',1,'spic::GameObject']]],
   ['getfacadekeycode_186',['GetFacadeKeyCode',['../classplatformer__engine_1_1InputFacade.html#ab34e83a9084bdb18a3dfafc1d2699895',1,'platformer_engine::InputFacade']]],
   ['getfacademousebuttoncode_187',['GetFacadeMouseButtonCode',['../classplatformer__engine_1_1InputFacade.html#a8814589ab0132c9e2409fcea96010f1d',1,'platformer_engine::InputFacade']]],
-  ['getgameobject_188',['GetGameObject',['../classGameObjectBuilder.html#a56470051d3e140f1f5cf103af5662e46',1,'GameObjectBuilder']]],
+  ['getgameobject_188',['GetGameObject',['../classGameObjectBuilder.html#a56470051d3e140f1f5cf103af5662e46',1,'GameObjectBuilder::GetGameObject()'],['../classspic_1_1Component.html#aedc1fcbc43ef7725ae1947ea038a77f4',1,'spic::Component::GetGameObject()']]],
   ['getgreenvalue_189',['GetGreenValue',['../classspic_1_1Color.html#aacedb733c11344c13c842219e24f3768',1,'spic::Color']]],
   ['getinstance_190',['GetInstance',['../classplatformer__engine_1_1Engine.html#a297381fd50f83ae153913b2785e1f5fe',1,'platformer_engine::Engine::GetInstance()'],['../classplatformer__engine_1_1InputFacade.html#a678465cb212e5e3a02baaa4b4d2293d3',1,'platformer_engine::InputFacade::GetInstance()'],['../classplatformer__engine_1_1LevelParser.html#a31221ef2862e066cc1c9f9ca4fdfb1a7',1,'platformer_engine::LevelParser::GetInstance()'],['../classplatformer__engine_1_1TextureManager.html#ac41082c91852e927d4adabcceb0e2f87',1,'platformer_engine::TextureManager::GetInstance()']]],
   ['getkey_191',['GetKey',['../namespacespic_1_1Input.html#a3cc41eac91179aca5c15f8e33ff08dde',1,'spic::Input']]],
