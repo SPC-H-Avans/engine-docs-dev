@@ -11,7 +11,7 @@ var searchData=
   ['addcamera_22',['AddCamera',['../classspic_1_1Scene.html#ac2ac1b945a448bb2a14b6ed8d3530032',1,'spic::Scene::AddCamera()'],['../classplatformer__engine_1_1SceneBuilder.html#aa25187de014378fd521fabdbbc8807ea',1,'platformer_engine::SceneBuilder::AddCamera()']]],
   ['addchild_23',['AddChild',['../classspic_1_1GameObject.html#acbb6c75dadabe2706ac0639c031323dc',1,'spic::GameObject']]],
   ['addcollider_24',['AddCollider',['../classObjectBuilder.html#a7bf290d282eff6453da924d67efa2c50',1,'ObjectBuilder::AddCollider()'],['../classGameObjectBuilder.html#a1ad056bcd6bb1c1a13c80d18e8fdb197',1,'GameObjectBuilder::AddCollider()']]],
-  ['addcollision_25',['AddCollision',['../classspic_1_1Collider.html#a8303c381cc4ea61eca18afe79b9e7c11',1,'spic::Collider']]],
+  ['addcollision_25',['AddCollision',['../classspic_1_1Collider.html#a21902c48742f86faca09eb52006fda65',1,'spic::Collider']]],
   ['addcomponent_26',['AddComponent',['../classspic_1_1GameObject.html#a7f3ad9190c3aa82382a6dd2c98261c1d',1,'spic::GameObject']]],
   ['addforce_27',['AddForce',['../classspic_1_1RigidBody.html#ab97cfa653ee725ea97574dca9469acc1',1,'spic::RigidBody']]],
   ['addgameobject_28',['AddGameObject',['../classplatformer__engine_1_1SceneBuilder.html#a66d2f8f05097490ac59e3d18936aab6b',1,'platformer_engine::SceneBuilder']]],
