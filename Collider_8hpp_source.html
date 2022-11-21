@@ -73,18 +73,34 @@ $(function() {
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define COLLIDER2D_H_</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Component_8hpp.html">Component.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacespic.html">spic</a> {</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classspic_1_1Collider.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classspic_1_1Collider.html">Collider</a> : <span class="keyword">public</span> <a class="code" href="classspic_1_1Component.html">Component</a> {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    };</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// COLLIDER2D_H_</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// Forward decleration of Collider</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="classCollision.html">Collision</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacespic.html">spic</a> {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classspic_1_1Collider.html">   16</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classspic_1_1Collider.html">Collider</a> : <span class="keyword">public</span> <a class="code" href="classspic_1_1Component.html">Component</a> {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        std::vector&lt;std::shared_ptr&lt;Collision&gt;&gt; <a class="code" href="classspic_1_1Collider.html#ae1e87a58817883dee49f27449af12e95">GetCollisions</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        std::shared_ptr&lt;Collision&gt; <a class="code" href="classspic_1_1Collider.html#a60b605348d16cf02011903bba1a1d3bf">GetCollisionById</a>(<span class="keywordtype">int</span> uid);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classspic_1_1Collider.html#a8303c381cc4ea61eca18afe79b9e7c11">AddCollision</a>(std::shared_ptr&lt;Collision&gt; col);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classspic_1_1Collider.html#a10100a09e12c9de777b907855e29d66d">RemoveCollision</a>(<span class="keywordtype">int</span> uid);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        std::vector&lt;std::shared_ptr&lt;Collision&gt;&gt; _collisions;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    };</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// COLLIDER2D_H_</span></div>
 <div class="ttc" id="aComponent_8hpp_html"><div class="ttname"><a href="Component_8hpp.html">Component.hpp</a></div></div>
-<div class="ttc" id="aclassspic_1_1Collider_html"><div class="ttname"><a href="classspic_1_1Collider.html">spic::Collider</a></div><div class="ttdoc">The base class for all colliders. @spicapi.</div><div class="ttdef"><b>Definition:</b> Collider.hpp:12</div></div>
+<div class="ttc" id="aclassCollision_html"><div class="ttname"><a href="classCollision.html">Collision</a></div><div class="ttdoc">Collider wrapper passed to BehaviourScript triggers, adds additional information about a collision ev...</div><div class="ttdef"><b>Definition:</b> Collision.hpp:24</div></div>
+<div class="ttc" id="aclassspic_1_1Collider_html"><div class="ttname"><a href="classspic_1_1Collider.html">spic::Collider</a></div><div class="ttdoc">The base class for all colliders. @spicapi.</div><div class="ttdef"><b>Definition:</b> Collider.hpp:16</div></div>
+<div class="ttc" id="aclassspic_1_1Collider_html_a10100a09e12c9de777b907855e29d66d"><div class="ttname"><a href="classspic_1_1Collider.html#a10100a09e12c9de777b907855e29d66d">spic::Collider::RemoveCollision</a></div><div class="ttdeci">void RemoveCollision(int uid)</div><div class="ttdef"><b>Definition:</b> Collider.cpp:20</div></div>
+<div class="ttc" id="aclassspic_1_1Collider_html_a60b605348d16cf02011903bba1a1d3bf"><div class="ttname"><a href="classspic_1_1Collider.html#a60b605348d16cf02011903bba1a1d3bf">spic::Collider::GetCollisionById</a></div><div class="ttdeci">std::shared_ptr&lt; Collision &gt; GetCollisionById(int uid)</div><div class="ttdef"><b>Definition:</b> Collider.cpp:8</div></div>
+<div class="ttc" id="aclassspic_1_1Collider_html_a8303c381cc4ea61eca18afe79b9e7c11"><div class="ttname"><a href="classspic_1_1Collider.html#a8303c381cc4ea61eca18afe79b9e7c11">spic::Collider::AddCollision</a></div><div class="ttdeci">void AddCollision(std::shared_ptr&lt; Collision &gt; col)</div><div class="ttdef"><b>Definition:</b> Collider.cpp:16</div></div>
+<div class="ttc" id="aclassspic_1_1Collider_html_ae1e87a58817883dee49f27449af12e95"><div class="ttname"><a href="classspic_1_1Collider.html#ae1e87a58817883dee49f27449af12e95">spic::Collider::GetCollisions</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; Collision &gt; &gt; GetCollisions()</div><div class="ttdef"><b>Definition:</b> Collider.cpp:4</div></div>
 <div class="ttc" id="aclassspic_1_1Component_html"><div class="ttname"><a href="classspic_1_1Component.html">spic::Component</a></div><div class="ttdoc">Base class for all components.</div><div class="ttdef"><b>Definition:</b> Component.hpp:12</div></div>
 <div class="ttc" id="anamespacespic_html"><div class="ttname"><a href="namespacespic.html">spic</a></div><div class="ttdef"><b>Definition:</b> CameraNotInSceneException.hpp:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
