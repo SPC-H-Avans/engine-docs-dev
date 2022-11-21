@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['abstractlevelparser_556',['AbstractLevelParser',['../classplatformer__engine_1_1AbstractLevelParser.html',1,'platformer_engine']]],
-  ['animator_557',['Animator',['../classspic_1_1Animator.html',1,'spic']]],
-  ['audiosource_558',['AudioSource',['../classspic_1_1AudioSource.html',1,'spic']]]
+  ['abstractlevelparser_582',['AbstractLevelParser',['../classplatformer__engine_1_1AbstractLevelParser.html',1,'platformer_engine']]],
+  ['animatedsprite_583',['AnimatedSprite',['../classplatformer__engine_1_1AnimatedSprite.html',1,'platformer_engine']]],
+  ['animator_584',['Animator',['../classspic_1_1Animator.html',1,'spic']]],
+  ['audiosource_585',['AudioSource',['../classspic_1_1AudioSource.html',1,'spic']]]
 ];

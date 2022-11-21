@@ -74,11 +74,14 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>The Texture Manager is a singleton class that manages the loading and rendering of textures.  
+ <a href="classplatformer__engine_1_1TextureManager.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="TextureManager_8hpp_source.html">TextureManager.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for platformer_engine::TextureManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1TextureManager__coll__graph.svg" width="262" height="558"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1TextureManager__coll__graph.svg" width="251" height="572"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -89,7 +92,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2344365aa502185d8ac33400552c73f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1TextureManager.html#a2344365aa502185d8ac33400552c73f0">operator=</a> (<a class="el" href="classplatformer__engine_1_1TextureManager.html">TextureManager</a> const &amp;)=delete</td></tr>
 <tr class="separator:a2344365aa502185d8ac33400552c73f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a392a067fa0484db47054152cee392a20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1TextureManager.html#a392a067fa0484db47054152cee392a20">Init</a> (const std::shared_ptr&lt; <a class="el" href="classplatformer__engine_1_1GraphicsFacade.html">GraphicsFacade</a> &gt; &amp;graphicsFacade)</td></tr>
-<tr class="memdesc:a392a067fa0484db47054152cee392a20"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize the <a class="el" href="classplatformer__engine_1_1TextureManager.html">TextureManager</a> with the <a class="el" href="classplatformer__engine_1_1GraphicsFacade.html" title="Facade class that creates a SDL2 window and renderer.">GraphicsFacade</a>  <a href="classplatformer__engine_1_1TextureManager.html#a392a067fa0484db47054152cee392a20">More...</a><br /></td></tr>
+<tr class="memdesc:a392a067fa0484db47054152cee392a20"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize the <a class="el" href="classplatformer__engine_1_1TextureManager.html" title="The Texture Manager is a singleton class that manages the loading and rendering of textures.">TextureManager</a> with the <a class="el" href="classplatformer__engine_1_1GraphicsFacade.html" title="Facade class that creates a SDL2 window and renderer.">GraphicsFacade</a>  <a href="classplatformer__engine_1_1TextureManager.html#a392a067fa0484db47054152cee392a20">More...</a><br /></td></tr>
 <tr class="separator:a392a067fa0484db47054152cee392a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7b6e5d6aecd231741fcee84ef144403"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1TextureManager.html#af7b6e5d6aecd231741fcee84ef144403">LoadTexture</a> (const std::string &amp;id, const std::string &amp;fileName) -&gt; bool</td></tr>
 <tr class="memdesc:af7b6e5d6aecd231741fcee84ef144403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a texture from a file, with an id (id is used to remove textures)  <a href="classplatformer__engine_1_1TextureManager.html#af7b6e5d6aecd231741fcee84ef144403">More...</a><br /></td></tr>
@@ -100,20 +103,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a81d93293802a30fd86ac85d4093bfd8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1TextureManager.html#a81d93293802a30fd86ac85d4093bfd8b">ClearTextures</a> ()</td></tr>
 <tr class="memdesc:a81d93293802a30fd86ac85d4093bfd8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all textures from memory.  <a href="classplatformer__engine_1_1TextureManager.html#a81d93293802a30fd86ac85d4093bfd8b">More...</a><br /></td></tr>
 <tr class="separator:a81d93293802a30fd86ac85d4093bfd8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd7411fb2f03817a2b57168b83a3673a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1TextureManager.html#acd7411fb2f03817a2b57168b83a3673a">DrawTexture</a> (const std::string &amp;id, int x, int y, int width, int height, const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;flip=<a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a>)</td></tr>
-<tr class="memdesc:acd7411fb2f03817a2b57168b83a3673a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a texture with the specified parameters.  <a href="classplatformer__engine_1_1TextureManager.html#acd7411fb2f03817a2b57168b83a3673a">More...</a><br /></td></tr>
-<tr class="separator:acd7411fb2f03817a2b57168b83a3673a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01b0c214c2fe9abcb25e418edd3e245f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1TextureManager.html#a01b0c214c2fe9abcb25e418edd3e245f">DrawTile</a> (const std::string &amp;tileSetID, int tileSize, int x, int y, int row, int frame, const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;flip=<a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a>)</td></tr>
-<tr class="separator:a01b0c214c2fe9abcb25e418edd3e245f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3969d3ea0d1da48019bc2136186d3aa1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1TextureManager.html#a3969d3ea0d1da48019bc2136186d3aa1">DrawFrame</a> (const std::string &amp;id, int x, int y, int width, int height, int row, int frame, const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;flip=<a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a>)</td></tr>
-<tr class="separator:a3969d3ea0d1da48019bc2136186d3aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac51e4e84455c62439475ed033c3738ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1TextureManager.html#ac51e4e84455c62439475ed033c3738ec">DrawTexture</a> (const std::string &amp;id, int x, int y, int width, int height, const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;flip=<a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a>, double scale=1.0)</td></tr>
+<tr class="memdesc:ac51e4e84455c62439475ed033c3738ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a texture with the specified parameters.  <a href="classplatformer__engine_1_1TextureManager.html#ac51e4e84455c62439475ed033c3738ec">More...</a><br /></td></tr>
+<tr class="separator:ac51e4e84455c62439475ed033c3738ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d9c31b9224568a9d6f76b78a3e8768e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1TextureManager.html#a5d9c31b9224568a9d6f76b78a3e8768e">DrawTile</a> (const std::string &amp;tileSetID, int tileSize, int x, int y, int row, int frame, const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;flip=<a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a>, double scale=1.0)</td></tr>
+<tr class="memdesc:a5d9c31b9224568a9d6f76b78a3e8768e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render a Game Map tile on the screen.  <a href="classplatformer__engine_1_1TextureManager.html#a5d9c31b9224568a9d6f76b78a3e8768e">More...</a><br /></td></tr>
+<tr class="separator:a5d9c31b9224568a9d6f76b78a3e8768e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ed803b1c6e051e7fe14a93856e99fc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1TextureManager.html#a7ed803b1c6e051e7fe14a93856e99fc4">DrawFrame</a> (const std::string &amp;id, int x, int y, int width, int height, int row, int frame, const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;flip=<a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a>, double scale=1.0)</td></tr>
+<tr class="memdesc:a7ed803b1c6e051e7fe14a93856e99fc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a frame of a sprite sheet animation.  <a href="classplatformer__engine_1_1TextureManager.html#a7ed803b1c6e051e7fe14a93856e99fc4">More...</a><br /></td></tr>
+<tr class="separator:a7ed803b1c6e051e7fe14a93856e99fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac41082c91852e927d4adabcceb0e2f87"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1TextureManager.html#ac41082c91852e927d4adabcceb0e2f87">GetInstance</a> () -&gt; <a class="el" href="classplatformer__engine_1_1TextureManager.html">TextureManager</a> &amp;</td></tr>
 <tr class="separator:ac41082c91852e927d4adabcceb0e2f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The Texture Manager is a singleton class that manages the loading and rendering of textures. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4714392165461f24adbb25499c4456ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4714392165461f24adbb25499c4456ce">&#9670;&nbsp;</a></span>TextureManager()</h2>
 
@@ -161,8 +168,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3969d3ea0d1da48019bc2136186d3aa1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3969d3ea0d1da48019bc2136186d3aa1">&#9670;&nbsp;</a></span>DrawFrame()</h2>
+<a id="a7ed803b1c6e051e7fe14a93856e99fc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ed803b1c6e051e7fe14a93856e99fc4">&#9670;&nbsp;</a></span>DrawFrame()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,7 +220,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;&#160;</td>
-          <td class="paramname"><em>flip</em> = <code><a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a></code>&#160;</td>
+          <td class="paramname"><em>flip</em> = <code><a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>scale</em> = <code>1.0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -223,10 +236,26 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Draw a frame of a sprite sheet animation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>ID of the texture </td></tr>
+    <tr><td class="paramname">x</td><td>X location on screen </td></tr>
+    <tr><td class="paramname">y</td><td>Y Location on screen </td></tr>
+    <tr><td class="paramname">width</td><td>Width of the sprite </td></tr>
+    <tr><td class="paramname">height</td><td>Height of the sprite </td></tr>
+    <tr><td class="paramname">row</td><td>Row where the animation is located in the sprite </td></tr>
+    <tr><td class="paramname">frame</td><td>Frame to draw </td></tr>
+    <tr><td class="paramname">flip</td><td>Flip the texture according to SPIC_RendererFlip Enum </td></tr>
+    <tr><td class="paramname">scale</td><td>Scale of the sprite </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="acd7411fb2f03817a2b57168b83a3673a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd7411fb2f03817a2b57168b83a3673a">&#9670;&nbsp;</a></span>DrawTexture()</h2>
+<a id="ac51e4e84455c62439475ed033c3738ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac51e4e84455c62439475ed033c3738ec">&#9670;&nbsp;</a></span>DrawTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,7 +294,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;&#160;</td>
-          <td class="paramname"><em>flip</em> = <code><a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a></code>&#160;</td>
+          <td class="paramname"><em>flip</em> = <code><a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>scale</em> = <code>1.0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -284,14 +319,15 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">width</td><td>width of the texture </td></tr>
     <tr><td class="paramname">height</td><td>height of the texture </td></tr>
     <tr><td class="paramname">flip</td><td>Flip the texture according to SPIC_RendererFlip Enum </td></tr>
+    <tr><td class="paramname">scale</td><td>Scale of the sprite </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a01b0c214c2fe9abcb25e418edd3e245f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01b0c214c2fe9abcb25e418edd3e245f">&#9670;&nbsp;</a></span>DrawTile()</h2>
+<a id="a5d9c31b9224568a9d6f76b78a3e8768e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d9c31b9224568a9d6f76b78a3e8768e">&#9670;&nbsp;</a></span>DrawTile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -336,7 +372,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;&#160;</td>
-          <td class="paramname"><em>flip</em> = <code><a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a></code>&#160;</td>
+          <td class="paramname"><em>flip</em> = <code><a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>scale</em> = <code>1.0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -345,6 +387,21 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Render a Game Map tile on the screen. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tileSetID</td><td>ID of the texture </td></tr>
+    <tr><td class="paramname">tileSize</td><td>size of the tile to render </td></tr>
+    <tr><td class="paramname">x</td><td>X location on the screen </td></tr>
+    <tr><td class="paramname">y</td><td>Y location on the screen </td></tr>
+    <tr><td class="paramname">row</td><td>Row where the sprite can be found </td></tr>
+    <tr><td class="paramname">frame</td><td>Frame where to sprite can be found </td></tr>
+    <tr><td class="paramname">flip</td><td>Flip the texture according to SPIC_RendererFlip Enum </td></tr>
+    <tr><td class="paramname">scale</td><td>Scale of the sprite </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -397,7 +454,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>initialize the <a class="el" href="classplatformer__engine_1_1TextureManager.html">TextureManager</a> with the <a class="el" href="classplatformer__engine_1_1GraphicsFacade.html" title="Facade class that creates a SDL2 window and renderer.">GraphicsFacade</a> </p>
+<p>initialize the <a class="el" href="classplatformer__engine_1_1TextureManager.html" title="The Texture Manager is a singleton class that manages the loading and rendering of textures.">TextureManager</a> with the <a class="el" href="classplatformer__engine_1_1GraphicsFacade.html" title="Facade class that creates a SDL2 window and renderer.">GraphicsFacade</a> </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">graphicsFacade</td><td>a shared ptr of the graphics facade </td></tr>

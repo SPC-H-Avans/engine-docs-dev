@@ -74,30 +74,59 @@ $(function() {
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Component_8hpp.html">Component.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Sprite_8hpp.html">Sprite.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacespic.html">spic</a> {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classspic_1_1Animator.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classspic_1_1Animator.html">Animator</a> : <span class="keyword">public</span> <a class="code" href="classspic_1_1Component.html">Component</a> {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classspic_1_1Animator.html#a1568a4800f79b98bdd8ce3f485810fe2">   19</a></span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classspic_1_1Animator.html#a1568a4800f79b98bdd8ce3f485810fe2">Play</a>(<span class="keywordtype">bool</span> looping);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classspic_1_1Animator.html#a061b63d83ceb2dceec94d6ec0c0f73b4">   26</a></span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classspic_1_1Animator.html#a061b63d83ceb2dceec94d6ec0c0f73b4">Stop</a>();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <span class="keywordtype">int</span> fps;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="comment">// ... collection of Sprites here</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    };</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// ANIMATOR_H_</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="AnimatedSprite_8hpp.html">Texture/AnimatedSprite.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Point_8hpp.html">Point.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Transform_8hpp.html">Transform.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacespic.html">spic</a> {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classspic_1_1Animator.html">   15</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classspic_1_1Animator.html">Animator</a> : <span class="keyword">public</span> <a class="code" href="classspic_1_1Component.html">Component</a> {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="classspic_1_1Animator.html#a70f997346604c0829757c1edd7ee5c1e">Animator</a>(<span class="keyword">const</span> std::shared_ptr&lt;platformer_engine::AnimatedSprite&gt; &amp;animatedSprite, <span class="keywordtype">bool</span> isPlaying = <span class="keyword">true</span>,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                 <span class="keywordtype">bool</span> isLooping = <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classspic_1_1Animator.html#a1568a4800f79b98bdd8ce3f485810fe2">Play</a>(<span class="keywordtype">bool</span> looping);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classspic_1_1Animator.html#a061b63d83ceb2dceec94d6ec0c0f73b4">Stop</a>();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classspic_1_1Animator.html#a444456ca99fdd9032bafd4c96c6eac64">AddAnimation</a>(<span class="keyword">const</span> std::shared_ptr&lt;platformer_engine::AnimatedSprite&gt; &amp;animatedSprite);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classspic_1_1Animator.html#a3f6cd3b24b2755d4ab8a5c3a3c16328a">SetActiveAnimation</a>(<span class="keyword">const</span> std::string &amp;animationId);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classspic_1_1Animator.html#ac2f0c8e2c66b3f8b5a17aaee9f053a35">Render</a>(<a class="code" href="structspic_1_1Transform.html">spic::Transform</a> transform);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classspic_1_1Animator.html#ac9a50ec6d95ec32e02c5041c75ab4dfe">Update</a>();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keyword">auto</span> <span class="keyword">inline</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="classspic_1_1Animator.html#a5552d9b8588fa350c3bc9dd7f5e0de99">   58</a></span>&#160;        <a class="code" href="classspic_1_1Animator.html#a5552d9b8588fa350c3bc9dd7f5e0de99">GetLoadedAnimations</a>() -&gt; std::map&lt;std::string, std::shared_ptr&lt;platformer_engine::AnimatedSprite&gt;&gt; { <span class="keywordflow">return</span> _animationMap; };</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        std::map&lt;std::string, std::shared_ptr&lt;platformer_engine::AnimatedSprite&gt;&gt; _animationMap;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        std::shared_ptr&lt;platformer_engine::AnimatedSprite&gt; _currentAnimation{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordtype">bool</span> _isPlaying;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordtype">bool</span> _isLooping;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    };</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// ANIMATOR_H_</span></div>
+<div class="ttc" id="aAnimatedSprite_8hpp_html"><div class="ttname"><a href="AnimatedSprite_8hpp.html">AnimatedSprite.hpp</a></div></div>
 <div class="ttc" id="aComponent_8hpp_html"><div class="ttname"><a href="Component_8hpp.html">Component.hpp</a></div></div>
+<div class="ttc" id="aPoint_8hpp_html"><div class="ttname"><a href="Point_8hpp.html">Point.hpp</a></div></div>
 <div class="ttc" id="aSprite_8hpp_html"><div class="ttname"><a href="Sprite_8hpp.html">Sprite.hpp</a></div></div>
-<div class="ttc" id="aclassspic_1_1Animator_html"><div class="ttname"><a href="classspic_1_1Animator.html">spic::Animator</a></div><div class="ttdoc">A component which can play animated sequences of sprites.</div><div class="ttdef"><b>Definition:</b> Animator.hpp:12</div></div>
-<div class="ttc" id="aclassspic_1_1Animator_html_a061b63d83ceb2dceec94d6ec0c0f73b4"><div class="ttname"><a href="classspic_1_1Animator.html#a061b63d83ceb2dceec94d6ec0c0f73b4">spic::Animator::Stop</a></div><div class="ttdeci">void Stop()</div><div class="ttdoc">Stop playing the image sequence. Whatever sprite was displayed last will remain shown....</div></div>
-<div class="ttc" id="aclassspic_1_1Animator_html_a1568a4800f79b98bdd8ce3f485810fe2"><div class="ttname"><a href="classspic_1_1Animator.html#a1568a4800f79b98bdd8ce3f485810fe2">spic::Animator::Play</a></div><div class="ttdeci">void Play(bool looping)</div><div class="ttdoc">Start playing the image sequence.</div></div>
+<div class="ttc" id="aTransform_8hpp_html"><div class="ttname"><a href="Transform_8hpp.html">Transform.hpp</a></div></div>
+<div class="ttc" id="aclassspic_1_1Animator_html"><div class="ttname"><a href="classspic_1_1Animator.html">spic::Animator</a></div><div class="ttdoc">A component which can play animated sequences of sprites.</div><div class="ttdef"><b>Definition:</b> Animator.hpp:15</div></div>
+<div class="ttc" id="aclassspic_1_1Animator_html_a061b63d83ceb2dceec94d6ec0c0f73b4"><div class="ttname"><a href="classspic_1_1Animator.html#a061b63d83ceb2dceec94d6ec0c0f73b4">spic::Animator::Stop</a></div><div class="ttdeci">void Stop()</div><div class="ttdoc">Stop playing the image sequence. Whatever sprite was displayed last will remain shown....</div><div class="ttdef"><b>Definition:</b> Animator.cpp:40</div></div>
+<div class="ttc" id="aclassspic_1_1Animator_html_a1568a4800f79b98bdd8ce3f485810fe2"><div class="ttname"><a href="classspic_1_1Animator.html#a1568a4800f79b98bdd8ce3f485810fe2">spic::Animator::Play</a></div><div class="ttdeci">void Play(bool looping)</div><div class="ttdoc">Start playing the image sequence.</div><div class="ttdef"><b>Definition:</b> Animator.cpp:35</div></div>
+<div class="ttc" id="aclassspic_1_1Animator_html_a3f6cd3b24b2755d4ab8a5c3a3c16328a"><div class="ttname"><a href="classspic_1_1Animator.html#a3f6cd3b24b2755d4ab8a5c3a3c16328a">spic::Animator::SetActiveAnimation</a></div><div class="ttdeci">void SetActiveAnimation(const std::string &amp;animationId)</div><div class="ttdoc">Set the current animation.</div><div class="ttdef"><b>Definition:</b> Animator.cpp:16</div></div>
+<div class="ttc" id="aclassspic_1_1Animator_html_a444456ca99fdd9032bafd4c96c6eac64"><div class="ttname"><a href="classspic_1_1Animator.html#a444456ca99fdd9032bafd4c96c6eac64">spic::Animator::AddAnimation</a></div><div class="ttdeci">void AddAnimation(const std::shared_ptr&lt; platformer_engine::AnimatedSprite &gt; &amp;animatedSprite)</div><div class="ttdoc">Add an animation to the Animator.</div><div class="ttdef"><b>Definition:</b> Animator.cpp:9</div></div>
+<div class="ttc" id="aclassspic_1_1Animator_html_a5552d9b8588fa350c3bc9dd7f5e0de99"><div class="ttname"><a href="classspic_1_1Animator.html#a5552d9b8588fa350c3bc9dd7f5e0de99">spic::Animator::GetLoadedAnimations</a></div><div class="ttdeci">auto GetLoadedAnimations() -&gt; std::map&lt; std::string, std::shared_ptr&lt; platformer_engine::AnimatedSprite &gt;&gt;</div><div class="ttdef"><b>Definition:</b> Animator.hpp:58</div></div>
+<div class="ttc" id="aclassspic_1_1Animator_html_a70f997346604c0829757c1edd7ee5c1e"><div class="ttname"><a href="classspic_1_1Animator.html#a70f997346604c0829757c1edd7ee5c1e">spic::Animator::Animator</a></div><div class="ttdeci">Animator(const std::shared_ptr&lt; platformer_engine::AnimatedSprite &gt; &amp;animatedSprite, bool isPlaying=true, bool isLooping=true)</div><div class="ttdef"><b>Definition:</b> Animator.cpp:3</div></div>
+<div class="ttc" id="aclassspic_1_1Animator_html_ac2f0c8e2c66b3f8b5a17aaee9f053a35"><div class="ttname"><a href="classspic_1_1Animator.html#ac2f0c8e2c66b3f8b5a17aaee9f053a35">spic::Animator::Render</a></div><div class="ttdeci">void Render(spic::Transform transform)</div><div class="ttdoc">Render the current animated sprite.</div><div class="ttdef"><b>Definition:</b> Animator.cpp:22</div></div>
+<div class="ttc" id="aclassspic_1_1Animator_html_ac9a50ec6d95ec32e02c5041c75ab4dfe"><div class="ttname"><a href="classspic_1_1Animator.html#ac9a50ec6d95ec32e02c5041c75ab4dfe">spic::Animator::Update</a></div><div class="ttdeci">void Update()</div><div class="ttdoc">Update the animated sprite (current frame)</div><div class="ttdef"><b>Definition:</b> Animator.cpp:27</div></div>
 <div class="ttc" id="aclassspic_1_1Component_html"><div class="ttname"><a href="classspic_1_1Component.html">spic::Component</a></div><div class="ttdoc">Base class for all components.</div><div class="ttdef"><b>Definition:</b> Component.hpp:12</div></div>
 <div class="ttc" id="anamespacespic_html"><div class="ttname"><a href="namespacespic.html">spic</a></div><div class="ttdef"><b>Definition:</b> CameraNotInSceneException.hpp:7</div></div>
+<div class="ttc" id="astructspic_1_1Transform_html"><div class="ttname"><a href="structspic_1_1Transform.html">spic::Transform</a></div><div class="ttdoc">Instances of this class represent specific 2D transformations. @spicapi.</div><div class="ttdef"><b>Definition:</b> Transform.hpp:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
