@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['name_951',['Name',['../structplatformer__engine_1_1TileSet.html#a79cb2c80f8e2078e883f8d7d0245f336',1,'platformer_engine::TileSet']]]
+  ['max_5fcolor_5fvalue_1047',['MAX_COLOR_VALUE',['../GraphicsFacade_8cpp.html#a8cd0d084dc8209dc61de680057f8a29c',1,'GraphicsFacade.cpp']]]
 ];

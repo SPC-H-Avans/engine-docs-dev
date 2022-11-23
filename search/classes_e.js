@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['window_646',['Window',['../classplatformer__engine_1_1Window.html',1,'platformer_engine']]]
+  ['uiobject_705',['UIObject',['../classspic_1_1UIObject.html',1,'spic']]]
 ];

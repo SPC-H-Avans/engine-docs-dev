@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y_962',['y',['../structspic_1_1Point.html#a471ba3cfcc8275ed11a1cca5d45b9d88',1,'spic::Point']]]
+  ['x_1065',['x',['../structspic_1_1Point.html#abfa15f71a5ca95c07e83bfa54286934a',1,'spic::Point']]]
 ];

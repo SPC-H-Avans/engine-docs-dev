@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['collisionpoint_967',['CollisionPoint',['../Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f',1,'Collision.hpp']]]
+  ['collisionpoint_1071',['CollisionPoint',['../Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f',1,'Collision.hpp']]],
+  ['connectionstatus_1072',['ConnectionStatus',['../namespaceplatformer__engine.html#a6b84634a580244f05dc1324d5c1b320b',1,'platformer_engine']]]
 ];

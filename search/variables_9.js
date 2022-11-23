@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['rotation_953',['rotation',['../structspic_1_1Transform.html#a862ea207e4904d28fa958fba85a85610',1,'spic::Transform']]],
-  ['rowcount_954',['RowCount',['../classplatformer__engine_1_1GameLevel.html#a7d4e51955f7ea9d7058294850cee1cab',1,'platformer_engine::GameLevel::RowCount()'],['../structplatformer__engine_1_1TileSet.html#a46100217d799696fc51a40f7bd986c84',1,'platformer_engine::TileSet::RowCount()']]]
+  ['packagetype_1053',['packageType',['../structplatformer__engine_1_1MessageHeader.html#add9c5b25b6d9246faaeb9d5d30bc1ea9',1,'platformer_engine::MessageHeader']]],
+  ['position_1054',['position',['../structspic_1_1Transform.html#ab278760aba139302d10ec824ee1e2996',1,'spic::Transform']]],
+  ['protocolmajorversion_1055',['protocolMajorVersion',['../structplatformer__engine_1_1MessageHeader.html#a9ee27c621faffd7e84126aa0ee75b207',1,'platformer_engine::MessageHeader']]],
+  ['protocolminorversion_1056',['protocolMinorVersion',['../structplatformer__engine_1_1MessageHeader.html#adef6476b813a1be0af4f79eb50204007',1,'platformer_engine::MessageHeader']]]
 ];
