@@ -165,6 +165,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0aa1842e6bcd14add28cb71347d6ca5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#a0aa1842e6bcd14add28cb71347d6ca5d">SetTransform</a> (const <a class="el" href="structspic_1_1Transform.html">Transform</a> &amp;transform)</td></tr>
 <tr class="memdesc:a0aa1842e6bcd14add28cb71347d6ca5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the <a class="el" href="structspic_1_1Transform.html" title="Instances of this class represent specific 2D transformations. @spicapi.">Transform</a> of current <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a> @spicapi  <a href="classspic_1_1GameObject.html#a0aa1842e6bcd14add28cb71347d6ca5d">More...</a><br /></td></tr>
 <tr class="separator:a0aa1842e6bcd14add28cb71347d6ca5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd05076329286858ded5602d55f2dd22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#acd05076329286858ded5602d55f2dd22">SetOwnerId</a> (int uid)</td></tr>
+<tr class="memdesc:acd05076329286858ded5602d55f2dd22"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the id of the owning client in network  <a href="classspic_1_1GameObject.html#acd05076329286858ded5602d55f2dd22">More...</a><br /></td></tr>
+<tr class="separator:acd05076329286858ded5602d55f2dd22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af10576aaefa2a853748863a4fa6f4a58"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#af10576aaefa2a853748863a4fa6f4a58">GetOwnerId</a> () -&gt; int</td></tr>
+<tr class="memdesc:af10576aaefa2a853748863a4fa6f4a58"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the ownerId of this <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a>  <a href="classspic_1_1GameObject.html#af10576aaefa2a853748863a4fa6f4a58">More...</a><br /></td></tr>
+<tr class="separator:af10576aaefa2a853748863a4fa6f4a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -212,6 +218,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ad53859565e22349fe2f9fab8fc8bc6f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abda033a62ccbc13d0f4dd1664cec77d1"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#abda033a62ccbc13d0f4dd1664cec77d1">_self</a></td></tr>
 <tr class="separator:abda033a62ccbc13d0f4dd1664cec77d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7efb795fa2d1ad2455477d095c8dd877"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#a7efb795fa2d1ad2455477d095c8dd877">_ownerId</a> = 0</td></tr>
+<tr class="separator:a7efb795fa2d1ad2455477d095c8dd877"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -852,6 +860,26 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="af10576aaefa2a853748863a4fa6f4a58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af10576aaefa2a853748863a4fa6f4a58">&#9670;&nbsp;</a></span>GetOwnerId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto GameObject::GetOwnerId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the ownerId of this <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a> </p>
+<dl class="section return"><dt>Returns</dt><dd>int that represents the clientId in the network </dd></dl>
+
+</div>
+</div>
 <a id="a1e2854560e46b6981dd5def054adf9f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1e2854560e46b6981dd5def054adf9f7">&#9670;&nbsp;</a></span>GetTransform()</h2>
 
@@ -982,6 +1010,26 @@ template&lt;class T &gt; </div>
 
 <p>Returns the parent <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a> of this instance. </p>
 <dl class="section return"><dt>Returns</dt><dd>pointer to the parent <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a>, nullptr if no parent set. @spicapi </dd></dl>
+
+</div>
+</div>
+<a id="acd05076329286858ded5602d55f2dd22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd05076329286858ded5602d55f2dd22">&#9670;&nbsp;</a></span>SetOwnerId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameObject::SetOwnerId </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>uid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sets the id of the owning client in network </p>
 
 </div>
 </div>
@@ -1127,6 +1175,28 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">std::string spic::GameObject::_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7efb795fa2d1ad2455477d095c8dd877"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7efb795fa2d1ad2455477d095c8dd877">&#9670;&nbsp;</a></span>_ownerId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int spic::GameObject::_ownerId = 0</td>
         </tr>
       </table>
   </td>
