@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['window_2ecpp_801',['Window.cpp',['../Window_8cpp.html',1,'']]],
-  ['window_2ehpp_802',['Window.hpp',['../Window_8hpp.html',1,'']]]
+  ['uiobject_2ecpp_815',['UIObject.cpp',['../UIObject_8cpp.html',1,'']]],
+  ['uiobject_2ehpp_816',['UIObject.hpp',['../UIObject_8hpp.html',1,'']]]
 ];

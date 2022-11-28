@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classspic_1_1RigidBody-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">spic::RigidBody Class Reference</div>  </div>
@@ -92,7 +93,7 @@ Collaboration diagram for spic::RigidBody:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab97cfa653ee725ea97574dca9469acc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#ab97cfa653ee725ea97574dca9469acc1">AddForce</a> (const <a class="el" href="structspic_1_1Point.html">Point</a> &amp;forceDirection)</td></tr>
+<tr class="memitem:ab97cfa653ee725ea97574dca9469acc1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#ab97cfa653ee725ea97574dca9469acc1">AddForce</a> (const <a class="el" href="structspic_1_1Point.html">Point</a> &amp;forceDirection)</td></tr>
 <tr class="memdesc:ab97cfa653ee725ea97574dca9469acc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply force to this rigid body.  <a href="classspic_1_1RigidBody.html#ab97cfa653ee725ea97574dca9469acc1">More...</a><br /></td></tr>
 <tr class="separator:ab97cfa653ee725ea97574dca9469acc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a535d6b26499414a1df68600c3c8aa7a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a535d6b26499414a1df68600c3c8aa7a9">BodyType</a> (<a class="el" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a> bodyType)</td></tr>
@@ -129,6 +130,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5372c3b0c1c51de29438bbf78a9c21ef inherit pub_methods_classspic_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedc1fcbc43ef7725ae1947ea038a77f4 inherit pub_methods_classspic_1_1Component"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Component.html#aedc1fcbc43ef7725ae1947ea038a77f4">GetGameObject</a> ()</td></tr>
 <tr class="separator:aedc1fcbc43ef7725ae1947ea038a77f4 inherit pub_methods_classspic_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a73ee5b6ee74ffe7feba32478a093301d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a73ee5b6ee74ffe7feba32478a093301d">_mass</a></td></tr>
+<tr class="separator:a73ee5b6ee74ffe7feba32478a093301d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c95265782c978d7cb3f4d41369dafce"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a5c95265782c978d7cb3f4d41369dafce">_gravityScale</a></td></tr>
+<tr class="separator:a5c95265782c978d7cb3f4d41369dafce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2ab47c14fc918cca22456558dadb02c"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#aa2ab47c14fc918cca22456558dadb02c">_bodyType</a></td></tr>
+<tr class="separator:aa2ab47c14fc918cca22456558dadb02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70e2de89434a33f26f0b1ced6fd0e92d"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a70e2de89434a33f26f0b1ced6fd0e92d">_moveRestrictions</a></td></tr>
+<tr class="separator:a70e2de89434a33f26f0b1ced6fd0e92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A component representing a rigid body. </p>
@@ -138,6 +150,9 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void spic::RigidBody::AddForce </td>
@@ -147,6 +162,11 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Apply force to this rigid body. </p>
@@ -156,6 +176,8 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Reimplemented in <a class="el" href="classMarioRigidBody.html#a1d2382b96dcbd7c5052f3cdff6daa347">MarioRigidBody</a>.</p>
 
 </div>
 </div>
@@ -260,6 +282,95 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa2ab47c14fc918cca22456558dadb02c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2ab47c14fc918cca22456558dadb02c">&#9670;&nbsp;</a></span>_bodyType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a> spic::RigidBody::_bodyType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c95265782c978d7cb3f4d41369dafce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c95265782c978d7cb3f4d41369dafce">&#9670;&nbsp;</a></span>_gravityScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float spic::RigidBody::_gravityScale</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73ee5b6ee74ffe7feba32478a093301d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73ee5b6ee74ffe7feba32478a093301d">&#9670;&nbsp;</a></span>_mass</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float spic::RigidBody::_mass</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a70e2de89434a33f26f0b1ced6fd0e92d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70e2de89434a33f26f0b1ced6fd0e92d">&#9670;&nbsp;</a></span>_moveRestrictions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;<a class="el" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a>, int&gt; spic::RigidBody::_moveRestrictions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

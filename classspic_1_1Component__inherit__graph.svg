@@ -171,10 +171,10 @@ var sectionId = 'dynsection-0';
 <path fill="none" stroke="midnightblue" d="M446.05,-574.39C437.16,-541.95 428.17,-509.18 420.69,-481.89"/>
 <polygon fill="none" stroke="midnightblue" points="442.78,-575.72 448.8,-584.44 449.53,-573.87 442.78,-575.72"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node">
-<title>Node5</title>
-<g id="a_node5"><a xlink:href="classspic_1_1Collider.html" target="_top" xlink:title="The base class for all colliders. @spicapi.">
+<!-- Node6 -->
+<g id="node6" class="node">
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="classspic_1_1Collider.html" target="_top" xlink:title="The base class for all colliders. @spicapi.">
 <polygon fill="none" stroke="black" points="493,-331 493,-498 650,-498 650,-331 493,-331"/>
 <text text-anchor="middle" x="571.5" y="-486" font-family="Helvetica,sans-Serif" font-size="10.00">spic::Collider</text>
 <polyline fill="none" stroke="black" points="493,-479 650,-479 "/>
@@ -194,46 +194,50 @@ var sectionId = 'dynsection-0';
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node5 -->
-<g id="edge4" class="edge">
-<title>Node1&#45;&gt;Node5</title>
+<!-- Node1&#45;&gt;Node6 -->
+<g id="edge5" class="edge">
+<title>Node1&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M527.33,-574.76C534.64,-548.43 542,-521.87 548.57,-498.18"/>
 <polygon fill="none" stroke="midnightblue" points="523.95,-573.87 524.65,-584.44 530.69,-575.74 523.95,-573.87"/>
-</g>
-<!-- Node8 -->
-<g id="node8" class="node">
-<title>Node8</title>
-<g id="a_node8"><a xlink:href="classspic_1_1RigidBody.html" target="_top" xlink:title="A component representing a rigid body.">
-<polygon fill="none" stroke="black" points="668.5,-325.5 668.5,-503.5 812.5,-503.5 812.5,-325.5 668.5,-325.5"/>
-<text text-anchor="middle" x="740.5" y="-491.5" font-family="Helvetica,sans-Serif" font-size="10.00">spic::RigidBody</text>
-<polyline fill="none" stroke="black" points="668.5,-484.5 812.5,-484.5 "/>
-<text text-anchor="middle" x="740.5" y="-472.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="668.5,-465.5 812.5,-465.5 "/>
-<text text-anchor="start" x="676.5" y="-453.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void AddForce(const</text>
-<text text-anchor="start" x="676.5" y="-442.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Point &amp;forceDirection)</text>
-<text text-anchor="start" x="676.5" y="-431.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void BodyType(BodyType</text>
-<text text-anchor="start" x="676.5" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00"> bodyType)</text>
-<text text-anchor="start" x="676.5" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto BodyType() &#45;&gt;</text>
-<text text-anchor="start" x="676.5" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00"> enum BodyType</text>
-<text text-anchor="start" x="676.5" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ bool CanMoveTo(Collision</text>
-<text text-anchor="start" x="676.5" y="-376.5" font-family="Helvetica,sans-Serif" font-size="10.00">Point point)</text>
-<text text-anchor="start" x="676.5" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void AllowMoveTo(Collision</text>
-<text text-anchor="start" x="676.5" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00">Point point)</text>
-<text text-anchor="start" x="676.5" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void DenyMoveTo(Collision</text>
-<text text-anchor="start" x="676.5" y="-332.5" font-family="Helvetica,sans-Serif" font-size="10.00">Point point)</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge7" class="edge">
-<title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M570.79,-645.05C600.43,-616.03 632.95,-581.82 659.5,-548 670.32,-534.22 680.87,-518.89 690.59,-503.69"/>
-<polygon fill="none" stroke="midnightblue" points="568.05,-642.83 563.32,-652.32 572.93,-647.85 568.05,-642.83"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="classspic_1_1Sprite.html" target="_top" xlink:title="A component representing a sprite (small image) @spicapi.">
+<g id="a_node9"><a xlink:href="classspic_1_1RigidBody.html" target="_top" xlink:title="A component representing a rigid body.">
+<polygon fill="none" stroke="black" points="668.5,-303.5 668.5,-525.5 812.5,-525.5 812.5,-303.5 668.5,-303.5"/>
+<text text-anchor="middle" x="740.5" y="-513.5" font-family="Helvetica,sans-Serif" font-size="10.00">spic::RigidBody</text>
+<polyline fill="none" stroke="black" points="668.5,-506.5 812.5,-506.5 "/>
+<text text-anchor="start" x="676.5" y="-494.5" font-family="Helvetica,sans-Serif" font-size="10.00"># float _mass</text>
+<text text-anchor="start" x="676.5" y="-483.5" font-family="Helvetica,sans-Serif" font-size="10.00"># float _gravityScale</text>
+<text text-anchor="start" x="676.5" y="-472.5" font-family="Helvetica,sans-Serif" font-size="10.00"># enum BodyType _bodyType</text>
+<text text-anchor="start" x="676.5" y="-461.5" font-family="Helvetica,sans-Serif" font-size="10.00"># std::map&lt; CollisionPoint,</text>
+<text text-anchor="start" x="676.5" y="-450.5" font-family="Helvetica,sans-Serif" font-size="10.00"> int &gt; _moveRestrictions</text>
+<polyline fill="none" stroke="black" points="668.5,-443.5 812.5,-443.5 "/>
+<text text-anchor="start" x="676.5" y="-431.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void AddForce</text>
+<text text-anchor="start" x="676.5" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const Point &amp;forceDirection)</text>
+<text text-anchor="start" x="676.5" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void BodyType(BodyType</text>
+<text text-anchor="start" x="676.5" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00"> bodyType)</text>
+<text text-anchor="start" x="676.5" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto BodyType() &#45;&gt;</text>
+<text text-anchor="start" x="676.5" y="-376.5" font-family="Helvetica,sans-Serif" font-size="10.00"> enum BodyType</text>
+<text text-anchor="start" x="676.5" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ bool CanMoveTo(Collision</text>
+<text text-anchor="start" x="676.5" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00">Point point)</text>
+<text text-anchor="start" x="676.5" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void AllowMoveTo(Collision</text>
+<text text-anchor="start" x="676.5" y="-332.5" font-family="Helvetica,sans-Serif" font-size="10.00">Point point)</text>
+<text text-anchor="start" x="676.5" y="-321.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void DenyMoveTo(Collision</text>
+<text text-anchor="start" x="676.5" y="-310.5" font-family="Helvetica,sans-Serif" font-size="10.00">Point point)</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge8" class="edge">
+<title>Node1&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M570.57,-644.51C599.92,-615.55 632.1,-581.54 658.5,-548 664.11,-540.88 669.65,-533.35 675.05,-525.65"/>
+<polygon fill="none" stroke="midnightblue" points="567.87,-642.26 563.18,-651.76 572.77,-647.26 567.87,-642.26"/>
+</g>
+<!-- Node11 -->
+<g id="node11" class="node">
+<title>Node11</title>
+<g id="a_node11"><a xlink:href="classspic_1_1Sprite.html" target="_top" xlink:title="A component representing a sprite (small image) @spicapi.">
 <polygon fill="none" stroke="black" points="830.5,-303.5 830.5,-525.5 1020.5,-525.5 1020.5,-303.5 830.5,-303.5"/>
 <text text-anchor="middle" x="925.5" y="-513.5" font-family="Helvetica,sans-Serif" font-size="10.00">spic::Sprite</text>
 <polyline fill="none" stroke="black" points="830.5,-506.5 1020.5,-506.5 "/>
@@ -258,60 +262,112 @@ var sectionId = 'dynsection-0';
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node9 -->
-<g id="edge8" class="edge">
-<title>Node1&#45;&gt;Node9</title>
+<!-- Node1&#45;&gt;Node11 -->
+<g id="edge10" class="edge">
+<title>Node1&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M572.64,-689.35C644.12,-659.55 745.93,-610.65 821.5,-548 829.72,-541.19 837.71,-533.62 845.36,-525.66"/>
 <polygon fill="none" stroke="midnightblue" points="571.11,-686.19 563.2,-693.24 573.78,-692.66 571.11,-686.19"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node">
-<title>Node6</title>
-<g id="a_node6"><a xlink:href="classspic_1_1BoxCollider.html" target="_top" xlink:title="A collider which represents a rectangular collision area.">
-<polygon fill="none" stroke="black" points="421,-72 421,-173 570,-173 570,-72 421,-72"/>
-<text text-anchor="middle" x="495.5" y="-161" font-family="Helvetica,sans-Serif" font-size="10.00">spic::BoxCollider</text>
-<polyline fill="none" stroke="black" points="421,-154 570,-154 "/>
-<text text-anchor="middle" x="495.5" y="-142" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="421,-135 570,-135 "/>
-<text text-anchor="start" x="429" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">+ double Width() const</text>
-<text text-anchor="start" x="429" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Width(double newWidth)</text>
-<text text-anchor="start" x="429" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">+ double Height() const</text>
-<text text-anchor="start" x="429" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Height(double</text>
-<text text-anchor="start" x="429" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00"> newHeight)</text>
+<!-- Node5 -->
+<g id="node5" class="node">
+<title>Node5</title>
+<g id="a_node5"><a xlink:href="classplatformer__engine_1_1CollisionBehaviour.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="234.5,-33.5 234.5,-211.5 366.5,-211.5 366.5,-33.5 234.5,-33.5"/>
+<text text-anchor="start" x="242.5" y="-199.5" font-family="Helvetica,sans-Serif" font-size="10.00">platformer_engine::</text>
+<text text-anchor="middle" x="300.5" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00">CollisionBehaviour</text>
+<polyline fill="none" stroke="black" points="234.5,-181.5 366.5,-181.5 "/>
+<text text-anchor="middle" x="300.5" y="-169.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="234.5,-162.5 366.5,-162.5 "/>
+<text text-anchor="start" x="242.5" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnStart() override</text>
+<text text-anchor="start" x="242.5" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
+<text text-anchor="start" x="242.5" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerEnter2D</text>
+<text text-anchor="start" x="242.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">(Collision collision)</text>
+<text text-anchor="start" x="242.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
+<text text-anchor="start" x="242.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerExit2D</text>
+<text text-anchor="start" x="242.5" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00">(Collision collision)</text>
+<text text-anchor="start" x="242.5" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
+<text text-anchor="start" x="242.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerStay2D</text>
+<text text-anchor="start" x="242.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">(Collision collision)</text>
+<text text-anchor="start" x="242.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge5" class="edge">
-<title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M547.29,-321.1C534.42,-272.03 519.13,-213.66 508.51,-173.14"/>
-<polygon fill="none" stroke="midnightblue" points="543.9,-322 549.82,-330.79 550.67,-320.23 543.9,-322"/>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge4" class="edge">
+<title>Node4&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M375.84,-337.71C362.26,-299.08 345.66,-251.9 331.51,-211.65"/>
+<polygon fill="none" stroke="midnightblue" points="372.61,-339.06 379.23,-347.33 379.21,-336.74 372.61,-339.06"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="classspic_1_1CircleCollider.html" target="_top" xlink:title="A collider which represents a circular collision area.">
-<polygon fill="none" stroke="black" points="588.5,-83 588.5,-162 706.5,-162 706.5,-83 588.5,-83"/>
-<text text-anchor="middle" x="647.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00">spic::CircleCollider</text>
-<polyline fill="none" stroke="black" points="588.5,-143 706.5,-143 "/>
-<text text-anchor="middle" x="647.5" y="-131" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="588.5,-124 706.5,-124 "/>
-<text text-anchor="start" x="596.5" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00">+ double Radius() const</text>
-<text text-anchor="start" x="596.5" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Radius(double</text>
-<text text-anchor="start" x="596.5" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00"> newRadius)</text>
+<g id="a_node7"><a xlink:href="classspic_1_1BoxCollider.html" target="_top" xlink:title="A collider which represents a rectangular collision area.">
+<polygon fill="none" stroke="black" points="385,-72 385,-173 534,-173 534,-72 385,-72"/>
+<text text-anchor="middle" x="459.5" y="-161" font-family="Helvetica,sans-Serif" font-size="10.00">spic::BoxCollider</text>
+<polyline fill="none" stroke="black" points="385,-154 534,-154 "/>
+<text text-anchor="middle" x="459.5" y="-142" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="385,-135 534,-135 "/>
+<text text-anchor="start" x="393" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">+ double Width() const</text>
+<text text-anchor="start" x="393" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Width(double newWidth)</text>
+<text text-anchor="start" x="393" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">+ double Height() const</text>
+<text text-anchor="start" x="393" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Height(double</text>
+<text text-anchor="start" x="393" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00"> newHeight)</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node7 -->
+<!-- Node6&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
-<title>Node5&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M595.77,-320.9C609.84,-267.22 626.81,-202.46 637.38,-162.12"/>
-<polygon fill="none" stroke="midnightblue" points="592.33,-320.23 593.18,-330.79 599.1,-322 592.33,-320.23"/>
+<title>Node6&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M535.93,-321.41C516.96,-272.27 494.35,-213.74 478.67,-173.14"/>
+<polygon fill="none" stroke="midnightblue" points="532.69,-322.72 539.56,-330.79 539.22,-320.2 532.69,-322.72"/>
+</g>
+<!-- Node8 -->
+<g id="node8" class="node">
+<title>Node8</title>
+<g id="a_node8"><a xlink:href="classspic_1_1CircleCollider.html" target="_top" xlink:title="A collider which represents a circular collision area.">
+<polygon fill="none" stroke="black" points="552.5,-83 552.5,-162 670.5,-162 670.5,-83 552.5,-83"/>
+<text text-anchor="middle" x="611.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00">spic::CircleCollider</text>
+<polyline fill="none" stroke="black" points="552.5,-143 670.5,-143 "/>
+<text text-anchor="middle" x="611.5" y="-131" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="552.5,-124 670.5,-124 "/>
+<text text-anchor="start" x="560.5" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00">+ double Radius() const</text>
+<text text-anchor="start" x="560.5" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Radius(double</text>
+<text text-anchor="start" x="560.5" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00"> newRadius)</text>
+</a>
+</g>
+</g>
+<!-- Node6&#45;&gt;Node8 -->
+<g id="edge7" class="edge">
+<title>Node6&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M584.32,-320.56C591.71,-266.95 600.62,-202.38 606.17,-162.12"/>
+<polygon fill="none" stroke="midnightblue" points="580.81,-320.4 582.91,-330.79 587.74,-321.36 580.81,-320.4"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="classplatformer__engine_1_1AnimatedSprite.html" target="_top" xlink:title="AnimatedSprite class which is used to animate sprites.">
+<g id="a_node10"><a xlink:href="classMarioRigidBody.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="688.5,-77.5 688.5,-167.5 802.5,-167.5 802.5,-77.5 688.5,-77.5"/>
+<text text-anchor="middle" x="745.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">MarioRigidBody</text>
+<polyline fill="none" stroke="black" points="688.5,-148.5 802.5,-148.5 "/>
+<text text-anchor="middle" x="745.5" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="688.5,-129.5 802.5,-129.5 "/>
+<text text-anchor="start" x="696.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ MarioRigidBody()</text>
+<text text-anchor="start" x="696.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void AddForce(const</text>
+<text text-anchor="start" x="696.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Point &amp;forceDirection)</text>
+<text text-anchor="start" x="696.5" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
+</a>
+</g>
+</g>
+<!-- Node9&#45;&gt;Node10 -->
+<g id="edge9" class="edge">
+<title>Node9&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M742.57,-293.41C743.34,-248.87 744.16,-201.11 744.74,-167.6"/>
+<polygon fill="none" stroke="midnightblue" points="739.07,-293.39 742.4,-303.45 746.07,-293.51 739.07,-293.39"/>
+</g>
+<!-- Node12 -->
+<g id="node12" class="node">
+<title>Node12</title>
+<g id="a_node12"><a xlink:href="classplatformer__engine_1_1AnimatedSprite.html" target="_top" xlink:title="AnimatedSprite class which is used to animate sprites.">
 <polygon fill="none" stroke="black" points="825,-0.5 825,-244.5 1026,-244.5 1026,-0.5 825,-0.5"/>
 <text text-anchor="start" x="833" y="-232.5" font-family="Helvetica,sans-Serif" font-size="10.00">platformer_engine::</text>
 <text text-anchor="middle" x="925.5" y="-221.5" font-family="Helvetica,sans-Serif" font-size="10.00">AnimatedSprite</text>
@@ -338,9 +394,9 @@ var sectionId = 'dynsection-0';
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node10 -->
-<g id="edge9" class="edge">
-<title>Node9&#45;&gt;Node10</title>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge11" class="edge">
+<title>Node11&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M925.5,-293.01C925.5,-277.02 925.5,-260.62 925.5,-244.62"/>
 <polygon fill="none" stroke="midnightblue" points="922,-293.45 925.5,-303.45 929,-293.45 922,-293.45"/>
 </g>
