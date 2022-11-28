@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['rotation_1086',['rotation',['../structspic_1_1Transform.html#a862ea207e4904d28fa958fba85a85610',1,'spic::Transform']]],
-  ['rowcount_1087',['RowCount',['../classplatformer__engine_1_1GameLevel.html#a7d4e51955f7ea9d7058294850cee1cab',1,'platformer_engine::GameLevel::RowCount()'],['../structplatformer__engine_1_1TileSet.html#a46100217d799696fc51a40f7bd986c84',1,'platformer_engine::TileSet::RowCount()']]]
+  ['packagetype_1200',['packageType',['../structNetPkgs_1_1MessageHeader.html#a5e85c6bf87e8b9f9803b9fa3ee80740c',1,'NetPkgs::MessageHeader']]],
+  ['position_1201',['position',['../structspic_1_1Transform.html#ab278760aba139302d10ec824ee1e2996',1,'spic::Transform']]],
+  ['protocolmajorversion_1202',['protocolMajorVersion',['../structNetPkgs_1_1MessageHeader.html#aae00136d6a992d416ef3f191d1d2afb6',1,'NetPkgs::MessageHeader']]],
+  ['protocolminorversion_1203',['protocolMinorVersion',['../structNetPkgs_1_1MessageHeader.html#aa2d272b7ffca8d75bd2e42894a1e5dfa',1,'NetPkgs::MessageHeader']]]
 ];

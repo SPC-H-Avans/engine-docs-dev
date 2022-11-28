@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y_1095',['y',['../structspic_1_1Point.html#a471ba3cfcc8275ed11a1cca5d45b9d88',1,'spic::Point']]]
+  ['unreliable_5fchannel_1213',['UNRELIABLE_CHANNEL',['../NetworkingFacade_8hpp.html#ab86bbffdde2af30a6750238994cb061e',1,'NetworkingFacade.hpp']]]
 ];

@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['target_5ffps_1090',['TARGET_FPS',['../Engine_8cpp.html#affac1f3bf901d4a093426db2507f0b4c',1,'Engine.cpp']]],
-  ['target_5fframe_5fdelay_1091',['TARGET_FRAME_DELAY',['../Engine_8cpp.html#a1a89abff7e4e954ba05b2970c839afda',1,'Engine.cpp']]],
-  ['tilecount_1092',['TileCount',['../structplatformer__engine_1_1TileSet.html#a073facbdf15dff4c60bd12fdb8a3cd53',1,'platformer_engine::TileSet']]],
-  ['tilesize_1093',['TileSize',['../structplatformer__engine_1_1TileSet.html#a6c7485c431d57dcd2197c2f03307f0dd',1,'platformer_engine::TileSet']]]
+  ['scale_1207',['scale',['../structspic_1_1Transform.html#a4a35390e6bc9a459602a46b7a8232306',1,'spic::Transform']]],
+  ['source_1208',['Source',['../structplatformer__engine_1_1TileSet.html#a45cd8b93fba343978d90f7cf4b08da7b',1,'platformer_engine::TileSet']]]
 ];

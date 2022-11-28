@@ -80,7 +80,7 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for platformer_engine::Client:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1Client__coll__graph.svg" width="170" height="294"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1Client__coll__graph.svg" width="183" height="323"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -89,6 +89,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a511ed4f544fa7a520d656416169ea68f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Client.html#a511ed4f544fa7a520d656416169ea68f">Client</a> (const std::string &amp;ip, int port, int clientId, bool isPartyLeader=false)</td></tr>
 <tr class="memdesc:a511ed4f544fa7a520d656416169ea68f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classplatformer__engine_1_1Client.html" title="Client object for the networking system.">Client</a> object.  <a href="classplatformer__engine_1_1Client.html#a511ed4f544fa7a520d656416169ea68f">More...</a><br /></td></tr>
 <tr class="separator:a511ed4f544fa7a520d656416169ea68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc87c26ad8aa525fd0e620b21811ab9a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Client.html#abc87c26ad8aa525fd0e620b21811ab9a">Client</a> (int clientId, bool isPartyLeader=false)</td></tr>
+<tr class="memdesc:abc87c26ad8aa525fd0e620b21811ab9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classplatformer__engine_1_1Client.html" title="Client object for the networking system.">Client</a> object.  <a href="classplatformer__engine_1_1Client.html#abc87c26ad8aa525fd0e620b21811ab9a">More...</a><br /></td></tr>
+<tr class="separator:abc87c26ad8aa525fd0e620b21811ab9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a2a119392f2a2efaa2fa7980ada8f2b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Client.html#a6a2a119392f2a2efaa2fa7980ada8f2b">GetIp</a> () const -&gt; std::string</td></tr>
 <tr class="memdesc:a6a2a119392f2a2efaa2fa7980ada8f2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Ip of the client.  <a href="classplatformer__engine_1_1Client.html#a6a2a119392f2a2efaa2fa7980ada8f2b">More...</a><br /></td></tr>
 <tr class="separator:a6a2a119392f2a2efaa2fa7980ada8f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -109,7 +112,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p><a class="el" href="classplatformer__engine_1_1Client.html" title="Client object for the networking system.">Client</a> object for the networking system. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a511ed4f544fa7a520d656416169ea68f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a511ed4f544fa7a520d656416169ea68f">&#9670;&nbsp;</a></span>Client()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a511ed4f544fa7a520d656416169ea68f">&#9670;&nbsp;</a></span>Client() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,6 +154,43 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">ip</td><td>ip of client. </td></tr>
     <tr><td class="paramname">port</td><td>port of client </td></tr>
+    <tr><td class="paramname">clientId</td><td>client ID </td></tr>
+    <tr><td class="paramname">isPartyLeader</td><td>If the client is a party leader </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abc87c26ad8aa525fd0e620b21811ab9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc87c26ad8aa525fd0e620b21811ab9a">&#9670;&nbsp;</a></span>Client() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">platformer_engine::Client::Client </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clientId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isPartyLeader</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a new <a class="el" href="classplatformer__engine_1_1Client.html" title="Client object for the networking system.">Client</a> object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
     <tr><td class="paramname">clientId</td><td>client ID </td></tr>
     <tr><td class="paramname">isPartyLeader</td><td>If the client is a party leader </td></tr>
   </table>

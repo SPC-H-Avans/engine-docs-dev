@@ -73,28 +73,53 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Facade for the networking system.  
+ <a href="classplatformer__engine_1_1NetworkingFacade.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="NetworkingFacade_8hpp_source.html">NetworkingFacade.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for platformer_engine::NetworkingFacade:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1NetworkingFacade__coll__graph.svg" width="168" height="162"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1NetworkingFacade__coll__graph.svg" width="272" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1157a84977dc240c0f31d7f8c210cff3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#a1157a84977dc240c0f31d7f8c210cff3">NetworkingFacade</a> ()</td></tr>
+<tr class="memdesc:a1157a84977dc240c0f31d7f8c210cff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new Networking Facade object.  <a href="classplatformer__engine_1_1NetworkingFacade.html#a1157a84977dc240c0f31d7f8c210cff3">More...</a><br /></td></tr>
 <tr class="separator:a1157a84977dc240c0f31d7f8c210cff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adba33f1cf90efcb301491b80adc038c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#adba33f1cf90efcb301491b80adc038c1">~NetworkingFacade</a> ()</td></tr>
+<tr class="memdesc:adba33f1cf90efcb301491b80adc038c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the Networking Facade object.  <a href="classplatformer__engine_1_1NetworkingFacade.html#adba33f1cf90efcb301491b80adc038c1">More...</a><br /></td></tr>
 <tr class="separator:adba33f1cf90efcb301491b80adc038c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0ab324688ce4a2e278400f9a049d376"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#ad0ab324688ce4a2e278400f9a049d376">Initialize</a> ()</td></tr>
-<tr class="separator:ad0ab324688ce4a2e278400f9a049d376"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f323a3b911bb4f14d11e2bda09fff97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#a5f323a3b911bb4f14d11e2bda09fff97">Shutdown</a> ()</td></tr>
-<tr class="separator:a5f323a3b911bb4f14d11e2bda09fff97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a732ed71e5e2a578e8046cfc434e91cb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#a732ed71e5e2a578e8046cfc434e91cb6">Update</a> ()</td></tr>
-<tr class="separator:a732ed71e5e2a578e8046cfc434e91cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d8783f69a7e8e0de3144da7e415d523"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#a2d8783f69a7e8e0de3144da7e415d523">StartServer</a> (int port=<a class="el" href="NetworkingFacade_8hpp.html#a9bf5ad3508c024ba4c9724e1975080cb">DEFAULT_PORT</a>, int playerLimit=<a class="el" href="NetworkingFacade_8hpp.html#a750be8b008bc8e1ab462ef76ab30a98f">DEFAULT_PLAYER_LIMIT</a>)</td></tr>
+<tr class="memdesc:a2d8783f69a7e8e0de3144da7e415d523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start a server.  <a href="classplatformer__engine_1_1NetworkingFacade.html#a2d8783f69a7e8e0de3144da7e415d523">More...</a><br /></td></tr>
+<tr class="separator:a2d8783f69a7e8e0de3144da7e415d523"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc4aabdc98de33df6234b263218a24a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#acc4aabdc98de33df6234b263218a24a4">ConnectClient</a> (const std::string &amp;host_ip, int port, <a class="el" href="classplatformer__engine_1_1NetworkManager.html">NetworkManager</a> &amp;manager)</td></tr>
+<tr class="memdesc:acc4aabdc98de33df6234b263218a24a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start a client and connect to a server.  <a href="classplatformer__engine_1_1NetworkingFacade.html#acc4aabdc98de33df6234b263218a24a4">More...</a><br /></td></tr>
+<tr class="separator:acc4aabdc98de33df6234b263218a24a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab00aec5065c9741ffbd3c1cb0a851e15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#ab00aec5065c9741ffbd3c1cb0a851e15">DisconnectClientFromServer</a> ()</td></tr>
+<tr class="memdesc:ab00aec5065c9741ffbd3c1cb0a851e15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnects a client from its current server.  <a href="classplatformer__engine_1_1NetworkingFacade.html#ab00aec5065c9741ffbd3c1cb0a851e15">More...</a><br /></td></tr>
+<tr class="separator:ab00aec5065c9741ffbd3c1cb0a851e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8321bc4b4ceac0cb5351928813e50cd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#a8321bc4b4ceac0cb5351928813e50cd5">DestroyHost</a> ()</td></tr>
+<tr class="memdesc:a8321bc4b4ceac0cb5351928813e50cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop hosting/being a client.  <a href="classplatformer__engine_1_1NetworkingFacade.html#a8321bc4b4ceac0cb5351928813e50cd5">More...</a><br /></td></tr>
+<tr class="separator:a8321bc4b4ceac0cb5351928813e50cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23c87d6b203405305a9e44843922c011"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#a23c87d6b203405305a9e44843922c011">HandleEvents</a> (<a class="el" href="classplatformer__engine_1_1NetworkManager.html">NetworkManager</a> &amp;manager)</td></tr>
+<tr class="memdesc:a23c87d6b203405305a9e44843922c011"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle network events each game tick.  <a href="classplatformer__engine_1_1NetworkingFacade.html#a23c87d6b203405305a9e44843922c011">More...</a><br /></td></tr>
+<tr class="separator:a23c87d6b203405305a9e44843922c011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a578dba4a184770d3846f6b1f90ce26dd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#a578dba4a184770d3846f6b1f90ce26dd">SendPacketToPeer</a> (int peerId, const void *data, size_t length, bool reliable=false) -&gt; bool</td></tr>
+<tr class="memdesc:a578dba4a184770d3846f6b1f90ce26dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a packet to a peer.  <a href="classplatformer__engine_1_1NetworkingFacade.html#a578dba4a184770d3846f6b1f90ce26dd">More...</a><br /></td></tr>
+<tr class="separator:a578dba4a184770d3846f6b1f90ce26dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39259c5f04e2f300c05a140f66684b45"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#a39259c5f04e2f300c05a140f66684b45">SendPacketToAllPeers</a> (const void *data, size_t length, bool reliable=false) -&gt; bool</td></tr>
+<tr class="memdesc:a39259c5f04e2f300c05a140f66684b45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a packet to all peers.  <a href="classplatformer__engine_1_1NetworkingFacade.html#a39259c5f04e2f300c05a140f66684b45">More...</a><br /></td></tr>
+<tr class="separator:a39259c5f04e2f300c05a140f66684b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c164146f96000f1516a3b778cf745e5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#a7c164146f96000f1516a3b778cf745e5">GetMyPeerId</a> () const -&gt; int</td></tr>
+<tr class="memdesc:a7c164146f96000f1516a3b778cf745e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current peer ID (0 if server)  <a href="classplatformer__engine_1_1NetworkingFacade.html#a7c164146f96000f1516a3b778cf745e5">More...</a><br /></td></tr>
+<tr class="separator:a7c164146f96000f1516a3b778cf745e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Facade for the networking system. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1157a84977dc240c0f31d7f8c210cff3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1157a84977dc240c0f31d7f8c210cff3">&#9670;&nbsp;</a></span>NetworkingFacade()</h2>
 
@@ -109,6 +134,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Construct a new Networking Facade object. </p>
 
 </div>
 </div>
@@ -127,17 +154,62 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Destroy the Networking Facade object. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad0ab324688ce4a2e278400f9a049d376"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0ab324688ce4a2e278400f9a049d376">&#9670;&nbsp;</a></span>Initialize()</h2>
+<a id="acc4aabdc98de33df6234b263218a24a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc4aabdc98de33df6234b263218a24a4">&#9670;&nbsp;</a></span>ConnectClient()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void platformer_engine::NetworkingFacade::Initialize </td>
+          <td class="memname">void platformer_engine::NetworkingFacade::ConnectClient </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>host_ip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classplatformer__engine_1_1NetworkManager.html">NetworkManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>manager</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start a client and connect to a server. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">host_ip</td><td>IP to connect to </td></tr>
+    <tr><td class="paramname">port</td><td>Port to connect to </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8321bc4b4ceac0cb5351928813e50cd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8321bc4b4ceac0cb5351928813e50cd5">&#9670;&nbsp;</a></span>DestroyHost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::NetworkingFacade::DestroyHost </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -145,16 +217,18 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Stop hosting/being a client. </p>
+
 </div>
 </div>
-<a id="a5f323a3b911bb4f14d11e2bda09fff97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f323a3b911bb4f14d11e2bda09fff97">&#9670;&nbsp;</a></span>Shutdown()</h2>
+<a id="ab00aec5065c9741ffbd3c1cb0a851e15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab00aec5065c9741ffbd3c1cb0a851e15">&#9670;&nbsp;</a></span>DisconnectClientFromServer()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void platformer_engine::NetworkingFacade::Shutdown </td>
+          <td class="memname">void platformer_engine::NetworkingFacade::DisconnectClientFromServer </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -162,22 +236,195 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Disconnects a client from its current server. </p>
+
 </div>
 </div>
-<a id="a732ed71e5e2a578e8046cfc434e91cb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a732ed71e5e2a578e8046cfc434e91cb6">&#9670;&nbsp;</a></span>Update()</h2>
+<a id="a7c164146f96000f1516a3b778cf745e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c164146f96000f1516a3b778cf745e5">&#9670;&nbsp;</a></span>GetMyPeerId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto platformer_engine::NetworkingFacade::GetMyPeerId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; int </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get current peer ID (0 if server) </p>
+<dl class="section return"><dt>Returns</dt><dd>int Peer ID </dd></dl>
+
+</div>
+</div>
+<a id="a23c87d6b203405305a9e44843922c011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23c87d6b203405305a9e44843922c011">&#9670;&nbsp;</a></span>HandleEvents()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void platformer_engine::NetworkingFacade::Update </td>
+          <td class="memname">void platformer_engine::NetworkingFacade::HandleEvents </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classplatformer__engine_1_1NetworkManager.html">NetworkManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>manager</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handle network events each game tick. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">manager</td><td>Reference to the network manager </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a39259c5f04e2f300c05a140f66684b45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39259c5f04e2f300c05a140f66684b45">&#9670;&nbsp;</a></span>SendPacketToAllPeers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto platformer_engine::NetworkingFacade::SendPacketToAllPeers </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reliable</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send a packet to all peers. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>Packet to send </td></tr>
+    <tr><td class="paramname">length</td><td>Length of the packet </td></tr>
+    <tr><td class="paramname">reliable</td><td>Reliable or not </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a578dba4a184770d3846f6b1f90ce26dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a578dba4a184770d3846f6b1f90ce26dd">&#9670;&nbsp;</a></span>SendPacketToPeer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto platformer_engine::NetworkingFacade::SendPacketToPeer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>peerId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reliable</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send a packet to a peer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">peerId</td><td>Peer ID where to send it to </td></tr>
+    <tr><td class="paramname">data</td><td>Packet to send </td></tr>
+    <tr><td class="paramname">length</td><td>Length of the packet </td></tr>
+    <tr><td class="paramname">reliable</td><td>Reliable or not </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a2d8783f69a7e8e0de3144da7e415d523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d8783f69a7e8e0de3144da7e415d523">&#9670;&nbsp;</a></span>StartServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::NetworkingFacade::StartServer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>port</em> = <code><a class="el" href="NetworkingFacade_8hpp.html#a9bf5ad3508c024ba4c9724e1975080cb">DEFAULT_PORT</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>playerLimit</em> = <code><a class="el" href="NetworkingFacade_8hpp.html#a750be8b008bc8e1ab462ef76ab30a98f">DEFAULT_PLAYER_LIMIT</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start a server. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">port</td><td>Port to use </td></tr>
+    <tr><td class="paramname">playerLimit</td><td>Max amount of players on server </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
