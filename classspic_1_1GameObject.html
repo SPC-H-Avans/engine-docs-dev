@@ -101,6 +101,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9dcd1cff06033c917753e1b372c62e82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#a9dcd1cff06033c917753e1b372c62e82">GameObject</a> (const std::string &amp;name, const std::string &amp;tag)</td></tr>
 <tr class="memdesc:a9dcd1cff06033c917753e1b372c62e82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classspic_1_1GameObject.html#a9dcd1cff06033c917753e1b372c62e82">More...</a><br /></td></tr>
 <tr class="separator:a9dcd1cff06033c917753e1b372c62e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dbc65bc1f96907996f726175d1fa0e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classspic_1_1GameObject.html">GameObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#a3dbc65bc1f96907996f726175d1fa0e4">operator=</a> (const <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &amp;other)</td></tr>
+<tr class="separator:a3dbc65bc1f96907996f726175d1fa0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ded2d699d815087468c96e28591ea38"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#a2ded2d699d815087468c96e28591ea38">operator bool</a> ()</td></tr>
 <tr class="memdesc:a2ded2d699d815087468c96e28591ea38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does the object exist? TODO wat wordt hiermee bedoeld? @spicapi.  <a href="classspic_1_1GameObject.html#a2ded2d699d815087468c96e28591ea38">More...</a><br /></td></tr>
 <tr class="separator:a2ded2d699d815087468c96e28591ea38"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,7 +177,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b73ddd89ee79a8d481f048c825b81c5"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#a8b73ddd89ee79a8d481f048c825b81c5">Find</a> (const std::string &amp;name) -&gt; std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt;</td></tr>
-<tr class="memdesc:a8b73ddd89ee79a8d481f048c825b81c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a> by name and returns it.  <a href="classspic_1_1GameObject.html#a8b73ddd89ee79a8d481f048c825b81c5">More...</a><br /></td></tr>
+<tr class="memdesc:a8b73ddd89ee79a8d481f048c825b81c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds an active <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a> by name and returns it.  <a href="classspic_1_1GameObject.html#a8b73ddd89ee79a8d481f048c825b81c5">More...</a><br /></td></tr>
 <tr class="separator:a8b73ddd89ee79a8d481f048c825b81c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ceacc8e315297b964bd3f060969e0d9"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#a6ceacc8e315297b964bd3f060969e0d9">FindGameObjectsWithTag</a> (const std::string &amp;tag) -&gt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt;&gt;</td></tr>
 <tr class="memdesc:a6ceacc8e315297b964bd3f060969e0d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector of active GameObjects tagged tag. Returns empty vector if no <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a> was found.  <a href="classspic_1_1GameObject.html#a6ceacc8e315297b964bd3f060969e0d9">More...</a><br /></td></tr>
@@ -246,7 +248,7 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
-<p>The new <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a> will also be added to a statically available collection, the administration. This makes the <a class="el" href="classspic_1_1GameObject.html#a8b73ddd89ee79a8d481f048c825b81c5" title="Finds a GameObject by name and returns it.">Find()</a>-functions possible. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>The new <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a> will also be added to a statically available collection, the administration. This makes the <a class="el" href="classspic_1_1GameObject.html#a8b73ddd89ee79a8d481f048c825b81c5" title="Finds an active GameObject by name and returns it.">Find()</a>-functions possible. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>The name for the game object. @spicapi </td></tr>
   </table>
@@ -282,7 +284,7 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
-<p>The new <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a> will also be added to a statically available collection, the administration. This makes the <a class="el" href="classspic_1_1GameObject.html#a8b73ddd89ee79a8d481f048c825b81c5" title="Finds a GameObject by name and returns it.">Find()</a>-functions possible. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>The new <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a> will also be added to a statically available collection, the administration. This makes the <a class="el" href="classspic_1_1GameObject.html#a8b73ddd89ee79a8d481f048c825b81c5" title="Finds an active GameObject by name and returns it.">Find()</a>-functions possible. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>The name for the game object. </td></tr>
     <tr><td class="paramname">tag</td><td>The tag for the game object. @spicapi </td></tr>
@@ -519,7 +521,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Finds a <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a> by name and returns it. </p>
+<p>Finds an active <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a> by name and returns it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>The name of the <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a> you want to find. </td></tr>
@@ -963,6 +965,24 @@ template&lt;class T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if not equal, false otherwise. @spicapi </dd></dl>
+
+</div>
+</div>
+<a id="a3dbc65bc1f96907996f726175d1fa0e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dbc65bc1f96907996f726175d1fa0e4">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto GameObject::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
