@@ -122,6 +122,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a349b89180aeb7dee55b86d3e0bb9ec5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#a349b89180aeb7dee55b86d3e0bb9ec5f">OnDisconnect</a> (int clientId) override</td></tr>
 <tr class="memdesc:a349b89180aeb7dee55b86d3e0bb9ec5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">On disconnect event.  <a href="classplatformer__engine_1_1ServerNetworkManager.html#a349b89180aeb7dee55b86d3e0bb9ec5f">More...</a><br /></td></tr>
 <tr class="separator:a349b89180aeb7dee55b86d3e0bb9ec5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89a7e5d5183a7633a393d9a3a6960d85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#a89a7e5d5183a7633a393d9a3a6960d85">RegisterEventHandler</a> (int eventID, std::function&lt; void(int clientId, const uint8_t *data, size_t dataLength)&gt; functionToCall) override</td></tr>
+<tr class="memdesc:a89a7e5d5183a7633a393d9a3a6960d85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new event handler to handle incoming packets yourself.  <a href="classplatformer__engine_1_1ServerNetworkManager.html#a89a7e5d5183a7633a393d9a3a6960d85">More...</a><br /></td></tr>
+<tr class="separator:a89a7e5d5183a7633a393d9a3a6960d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad37b9100f741b8b4e4c57946ea392fd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#ad37b9100f741b8b4e4c57946ea392fd3">CreateNetworkedGameObject</a> (const <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &amp;gameObjectToCreate)</td></tr>
+<tr class="memdesc:ad37b9100f741b8b4e4c57946ea392fd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new network Game Object and send it to all clients.  <a href="classplatformer__engine_1_1ServerNetworkManager.html#ad37b9100f741b8b4e4c57946ea392fd3">More...</a><br /></td></tr>
+<tr class="separator:ad37b9100f741b8b4e4c57946ea392fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a30977e65af4a1241898e6c413efad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#a51a30977e65af4a1241898e6c413efad">UpdateNetworkedGameObjectTransform</a> (const <a class="el" href="structspic_1_1Transform.html">spic::Transform</a> &amp;transform, const std::string &amp;gameObjectId)</td></tr>
+<tr class="memdesc:a51a30977e65af4a1241898e6c413efad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the transform of a networked Game Object.  <a href="classplatformer__engine_1_1ServerNetworkManager.html#a51a30977e65af4a1241898e6c413efad">More...</a><br /></td></tr>
+<tr class="separator:a51a30977e65af4a1241898e6c413efad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11f4b3e4da47c4495ea045bca0ab2cc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#a11f4b3e4da47c4495ea045bca0ab2cc5">DestroyNetworkedGameObject</a> (const std::string &amp;gameObjectId)</td></tr>
+<tr class="memdesc:a11f4b3e4da47c4495ea045bca0ab2cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy a networked Game Object.  <a href="classplatformer__engine_1_1ServerNetworkManager.html#a11f4b3e4da47c4495ea045bca0ab2cc5">More...</a><br /></td></tr>
+<tr class="separator:a11f4b3e4da47c4495ea045bca0ab2cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cbcb6b670e2aa4a182615bc36b1a910"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#a1cbcb6b670e2aa4a182615bc36b1a910">HandleGameObjectTransformEventFromClient</a> (int clientId, const void *data, size_t length)</td></tr>
+<tr class="separator:a1cbcb6b670e2aa4a182615bc36b1a910"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -189,6 +203,58 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad37b9100f741b8b4e4c57946ea392fd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad37b9100f741b8b4e4c57946ea392fd3">&#9670;&nbsp;</a></span>CreateNetworkedGameObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::ServerNetworkManager::CreateNetworkedGameObject </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &amp;&#160;</td>
+          <td class="paramname"><em>gameObjectToCreate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a new network Game Object and send it to all clients. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameObjectToCreate</td><td>Game Object to create </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a11f4b3e4da47c4495ea045bca0ab2cc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11f4b3e4da47c4495ea045bca0ab2cc5">&#9670;&nbsp;</a></span>DestroyNetworkedGameObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::ServerNetworkManager::DestroyNetworkedGameObject </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>gameObjectId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroy a networked Game Object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameObjectId</td><td>Game Object ID to destroy </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="acec0e26088395a9f77aaf83c6ffa882d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acec0e26088395a9f77aaf83c6ffa882d">&#9670;&nbsp;</a></span>Events()</h2>
 
@@ -233,6 +299,40 @@ Public Attributes</h2></td></tr>
 
 <p>Get current level name. </p>
 <dl class="section return"><dt>Returns</dt><dd>std::string level name </dd></dl>
+
+</div>
+</div>
+<a id="a1cbcb6b670e2aa4a182615bc36b1a910"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cbcb6b670e2aa4a182615bc36b1a910">&#9670;&nbsp;</a></span>HandleGameObjectTransformEventFromClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::ServerNetworkManager::HandleGameObjectTransformEventFromClient </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clientId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -388,6 +488,53 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a89a7e5d5183a7633a393d9a3a6960d85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89a7e5d5183a7633a393d9a3a6960d85">&#9670;&nbsp;</a></span>RegisterEventHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::ServerNetworkManager::RegisterEventHandler </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>eventID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(int clientId, const uint8_t *data, size_t dataLength)&gt;&#160;</td>
+          <td class="paramname"><em>functionToCall</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Register a new event handler to handle incoming packets yourself. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eventID</td><td>ID of the event to bind to </td></tr>
+    <tr><td class="paramname">functionToCall</td><td>function to call </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classplatformer__engine_1_1NetworkManager.html#a0b02063491208478639c8a9d6cddf2b0">platformer_engine::NetworkManager</a>.</p>
+
+</div>
+</div>
 <a id="af24c369d5b181d104857fd91a04a43b8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af24c369d5b181d104857fd91a04a43b8">&#9670;&nbsp;</a></span>SendUpdateToClients()</h2>
 
@@ -460,6 +607,43 @@ Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">levelName</td><td>level name to set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a51a30977e65af4a1241898e6c413efad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51a30977e65af4a1241898e6c413efad">&#9670;&nbsp;</a></span>UpdateNetworkedGameObjectTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::ServerNetworkManager::UpdateNetworkedGameObjectTransform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structspic_1_1Transform.html">spic::Transform</a> &amp;&#160;</td>
+          <td class="paramname"><em>transform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>gameObjectId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update the transform of a networked Game Object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transform</td><td>New transform </td></tr>
+    <tr><td class="paramname">gameObjectId</td><td>Game Object ID to update </td></tr>
   </table>
   </dd>
 </dl>

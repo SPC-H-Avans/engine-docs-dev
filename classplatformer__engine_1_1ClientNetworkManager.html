@@ -126,6 +126,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa58114bc97a7bfe90d0223d97c263322"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ClientNetworkManager.html#aa58114bc97a7bfe90d0223d97c263322">OnDisconnect</a> (int clientId) override</td></tr>
 <tr class="memdesc:aa58114bc97a7bfe90d0223d97c263322"><td class="mdescLeft">&#160;</td><td class="mdescRight">On disconnect event.  <a href="classplatformer__engine_1_1ClientNetworkManager.html#aa58114bc97a7bfe90d0223d97c263322">More...</a><br /></td></tr>
 <tr class="separator:aa58114bc97a7bfe90d0223d97c263322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56acac5ecdbfe3eaa78718f3fc925088"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ClientNetworkManager.html#a56acac5ecdbfe3eaa78718f3fc925088">RegisterEventHandler</a> (int eventID, std::function&lt; void(int clientId, const uint8_t *data, size_t dataLength)&gt; functionToCall) override</td></tr>
+<tr class="memdesc:a56acac5ecdbfe3eaa78718f3fc925088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new event handler to handle incoming packets yourself.  <a href="classplatformer__engine_1_1ClientNetworkManager.html#a56acac5ecdbfe3eaa78718f3fc925088">More...</a><br /></td></tr>
+<tr class="separator:a56acac5ecdbfe3eaa78718f3fc925088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a301c21d5577a567ae839eff20ead8157"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ClientNetworkManager.html#a301c21d5577a567ae839eff20ead8157">UpdateNetworkedGameObjectTransform</a> (const <a class="el" href="structspic_1_1Transform.html">spic::Transform</a> &amp;transform, const std::string &amp;gameObjectId)</td></tr>
+<tr class="memdesc:a301c21d5577a567ae839eff20ead8157"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the transform of a Game Object (Only if this client owns the object)  <a href="classplatformer__engine_1_1ClientNetworkManager.html#a301c21d5577a567ae839eff20ead8157">More...</a><br /></td></tr>
+<tr class="separator:a301c21d5577a567ae839eff20ead8157"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -422,6 +428,53 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a56acac5ecdbfe3eaa78718f3fc925088"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56acac5ecdbfe3eaa78718f3fc925088">&#9670;&nbsp;</a></span>RegisterEventHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::ClientNetworkManager::RegisterEventHandler </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>eventID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(int clientId, const uint8_t *data, size_t dataLength)&gt;&#160;</td>
+          <td class="paramname"><em>functionToCall</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Register a new event handler to handle incoming packets yourself. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eventID</td><td>ID of the event to bind to </td></tr>
+    <tr><td class="paramname">functionToCall</td><td>function to call </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classplatformer__engine_1_1NetworkManager.html#a0b02063491208478639c8a9d6cddf2b0">platformer_engine::NetworkManager</a>.</p>
+
+</div>
+</div>
 <a id="aa28c48986dcbf9361012bf8d20335d09"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa28c48986dcbf9361012bf8d20335d09">&#9670;&nbsp;</a></span>SendNetworkPackage()</h2>
 
@@ -486,6 +539,43 @@ Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">levelName</td><td>Name of the level </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a301c21d5577a567ae839eff20ead8157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a301c21d5577a567ae839eff20ead8157">&#9670;&nbsp;</a></span>UpdateNetworkedGameObjectTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::ClientNetworkManager::UpdateNetworkedGameObjectTransform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structspic_1_1Transform.html">spic::Transform</a> &amp;&#160;</td>
+          <td class="paramname"><em>transform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>gameObjectId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update the transform of a Game Object (Only if this client owns the object) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transform</td><td>New transform </td></tr>
+    <tr><td class="paramname">gameObjectId</td><td>Game Object ID of the object to update </td></tr>
   </table>
   </dd>
 </dl>

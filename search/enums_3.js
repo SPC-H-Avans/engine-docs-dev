@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['keycode_1224',['KeyCode',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2',1,'spic::Input']]]
+  ['keycode_1262',['KeyCode',['../InputEnum_8hpp.html#a7885f47644a0388f981f416fa20389b2',1,'InputEnum.hpp']]]
 ];

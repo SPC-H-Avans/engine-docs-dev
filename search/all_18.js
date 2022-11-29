@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['x_702',['x',['../structspic_1_1Point.html#abfa15f71a5ca95c07e83bfa54286934a',1,'spic::Point']]],
-  ['x_703',['X',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a02129bb861061d1a052c592e2dc6b383',1,'spic::Input']]]
+  ['x_719',['x',['../structspic_1_1Point.html#abfa15f71a5ca95c07e83bfa54286934a',1,'spic::Point']]],
+  ['x_720',['X',['../InputEnum_8hpp.html#a7885f47644a0388f981f416fa20389b2a02129bb861061d1a052c592e2dc6b383',1,'InputEnum.hpp']]]
 ];

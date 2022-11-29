@@ -86,7 +86,7 @@ Inheritance diagram for platformer_engine::NetworkManager:</div>
 <div class="dynheader">
 Collaboration diagram for platformer_engine::NetworkManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1NetworkManager__coll__graph.svg" width="206" height="191"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1NetworkManager__coll__graph.svg" width="218" height="264"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -101,6 +101,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa1c87d8272b7e7e36a5068bdd0297abd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkManager.html#aa1c87d8272b7e7e36a5068bdd0297abd">OnDisconnect</a> (int clientId)=0</td></tr>
 <tr class="memdesc:aa1c87d8272b7e7e36a5068bdd0297abd"><td class="mdescLeft">&#160;</td><td class="mdescRight">OnDisconnect event, fired when a client disconnects.  <a href="classplatformer__engine_1_1NetworkManager.html#aa1c87d8272b7e7e36a5068bdd0297abd">More...</a><br /></td></tr>
 <tr class="separator:aa1c87d8272b7e7e36a5068bdd0297abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b02063491208478639c8a9d6cddf2b0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkManager.html#a0b02063491208478639c8a9d6cddf2b0">RegisterEventHandler</a> (int eventID, std::function&lt; void(int clientId, const uint8_t *data, size_t dataLength)&gt; functionToCall)=0</td></tr>
+<tr class="memdesc:a0b02063491208478639c8a9d6cddf2b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new event handler to handle incoming packets yourself.  <a href="classplatformer__engine_1_1NetworkManager.html#a0b02063491208478639c8a9d6cddf2b0">More...</a><br /></td></tr>
+<tr class="separator:a0b02063491208478639c8a9d6cddf2b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classplatformer__engine_1_1NetworkManager.html" title="NetworkManager interface.">NetworkManager</a> interface. </p>
@@ -228,6 +231,53 @@ Public Member Functions</h2></td></tr>
 </dl>
 
 <p>Implemented in <a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#acc9e8fb5b04dd0b5cf556620b208dafc">platformer_engine::ServerNetworkManager</a>, and <a class="el" href="classplatformer__engine_1_1ClientNetworkManager.html#a3e3ad56950433b16dc3cbd18a1e723d1">platformer_engine::ClientNetworkManager</a>.</p>
+
+</div>
+</div>
+<a id="a0b02063491208478639c8a9d6cddf2b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b02063491208478639c8a9d6cddf2b0">&#9670;&nbsp;</a></span>RegisterEventHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void platformer_engine::NetworkManager::RegisterEventHandler </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>eventID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(int clientId, const uint8_t *data, size_t dataLength)&gt;&#160;</td>
+          <td class="paramname"><em>functionToCall</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Register a new event handler to handle incoming packets yourself. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eventID</td><td>ID of the event to bind to </td></tr>
+    <tr><td class="paramname">functionToCall</td><td>function to call </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#a89a7e5d5183a7633a393d9a3a6960d85">platformer_engine::ServerNetworkManager</a>, and <a class="el" href="classplatformer__engine_1_1ClientNetworkManager.html#a56acac5ecdbfe3eaa78718f3fc925088">platformer_engine::ClientNetworkManager</a>.</p>
 
 </div>
 </div>

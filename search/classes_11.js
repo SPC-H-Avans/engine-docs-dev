@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['window_787',['Window',['../classplatformer__engine_1_1Window.html',1,'platformer_engine']]]
+  ['uiobject_807',['UIObject',['../classspic_1_1UIObject.html',1,'spic']]],
+  ['updategameobjecttransform_808',['UpdateGameObjectTransform',['../structNetPkgs_1_1UpdateGameObjectTransform.html',1,'NetPkgs']]]
 ];
