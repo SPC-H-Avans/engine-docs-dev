@@ -2,7 +2,7 @@ var searchData=
 [
   ['illegalcollisionbehaviourexception_1061',['IllegalCollisionBehaviourException',['../classspic_1_1IllegalCollisionBehaviourException.html#a860565abd22007159513b37dd529e85c',1,'spic::IllegalCollisionBehaviourException']]],
   ['importlevel_1062',['ImportLevel',['../classspic_1_1Scene.html#a26ac8a235da12fa245807bc870cec501',1,'spic::Scene']]],
-  ['init_1063',['Init',['../classplatformer__engine_1_1Engine.html#ab901faa0f167a650785cb898100ddedf',1,'platformer_engine::Engine::Init()'],['../classplatformer__engine_1_1GraphicsFacade.html#abdf40e78175eefdd64d4534dab599a30',1,'platformer_engine::GraphicsFacade::Init()'],['../classplatformer__engine_1_1TextureManager.html#a392a067fa0484db47054152cee392a20',1,'platformer_engine::TextureManager::Init()']]],
+  ['init_1063',['Init',['../classplatformer__engine_1_1Engine.html#ab901faa0f167a650785cb898100ddedf',1,'platformer_engine::Engine::Init()'],['../classplatformer__engine_1_1GraphicsFacade.html#abdf40e78175eefdd64d4534dab599a30',1,'platformer_engine::GraphicsFacade::Init()']]],
   ['initializeclient_1064',['InitializeClient',['../classplatformer__engine_1_1ServerNetworkManager.html#a9f02f59713865a300f212bc88b904ba2',1,'platformer_engine::ServerNetworkManager']]],
   ['inputfacade_1065',['InputFacade',['../classplatformer__engine_1_1InputFacade.html#a3082d204c66a23823dd10b4894b1a2d2',1,'platformer_engine::InputFacade::InputFacade(const InputFacade &amp;)=delete'],['../classplatformer__engine_1_1InputFacade.html#ac334440a9760e52f8d0ddeb058daf3f1',1,'platformer_engine::InputFacade::InputFacade(InputFacade &amp;&amp;)=delete']]],
   ['instance_1066',['Instance',['../classplatformer__engine_1_1Timer.html#a9e2be69c342894d573650b11cdec725d',1,'platformer_engine::Timer']]],

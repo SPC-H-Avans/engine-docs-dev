@@ -9,7 +9,7 @@ var searchData=
   ['imouselistener_2ehpp_312',['IMouseListener.hpp',['../IMouseListener_8hpp.html',1,'']]],
   ['importlevel_313',['ImportLevel',['../classspic_1_1Scene.html#a26ac8a235da12fa245807bc870cec501',1,'spic::Scene']]],
   ['inetworkmanager_2ehpp_314',['INetworkManager.hpp',['../INetworkManager_8hpp.html',1,'']]],
-  ['init_315',['Init',['../classplatformer__engine_1_1TextureManager.html#a392a067fa0484db47054152cee392a20',1,'platformer_engine::TextureManager::Init()'],['../classplatformer__engine_1_1GraphicsFacade.html#abdf40e78175eefdd64d4534dab599a30',1,'platformer_engine::GraphicsFacade::Init()'],['../classplatformer__engine_1_1Engine.html#ab901faa0f167a650785cb898100ddedf',1,'platformer_engine::Engine::Init()']]],
+  ['init_315',['Init',['../classplatformer__engine_1_1Engine.html#ab901faa0f167a650785cb898100ddedf',1,'platformer_engine::Engine::Init()'],['../classplatformer__engine_1_1GraphicsFacade.html#abdf40e78175eefdd64d4534dab599a30',1,'platformer_engine::GraphicsFacade::Init()']]],
   ['initializeclient_316',['InitializeClient',['../classplatformer__engine_1_1ServerNetworkManager.html#a9f02f59713865a300f212bc88b904ba2',1,'platformer_engine::ServerNetworkManager']]],
   ['initializingmap_317',['InitializingMap',['../namespaceplatformer__engine.html#a6b84634a580244f05dc1324d5c1b320ba7e468acebd06a6b52485bd0f9696fe6b',1,'platformer_engine']]],
   ['input_2ecpp_318',['Input.cpp',['../Input_8cpp.html',1,'']]],

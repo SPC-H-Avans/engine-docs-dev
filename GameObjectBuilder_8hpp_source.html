@@ -89,10 +89,10 @@ $(function() {
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">auto</span> AddAudioSource() -&gt; <a class="code" href="classObjectBuilder.html">ObjectBuilder</a> &amp; <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keyword">auto</span> AddAnimator(std::shared_ptr&lt;platformer_engine::AnimatedSprite&gt; animatedSprite) -&gt; <a class="code" href="classObjectBuilder.html">ObjectBuilder</a> &amp; <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keyword">auto</span> AddAnimator(<a class="code" href="classplatformer__engine_1_1AnimatedSprite.html">platformer_engine::AnimatedSprite</a> &amp;animatedSprite) -&gt; <a class="code" href="classObjectBuilder.html">ObjectBuilder</a> &amp; <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">auto</span> AddAnimator(</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            std::vector&lt;std::shared_ptr&lt;platformer_engine::AnimatedSprite&gt;&gt; animatedSprite) -&gt; <a class="code" href="classObjectBuilder.html">ObjectBuilder</a> &amp; <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            std::vector&lt;platformer_engine::AnimatedSprite&gt; &amp;animatedSprite) -&gt; <a class="code" href="classObjectBuilder.html">ObjectBuilder</a> &amp; <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">auto</span> AddBehaviourScript() -&gt; <a class="code" href="classObjectBuilder.html">ObjectBuilder</a> &amp; <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
@@ -100,7 +100,7 @@ $(function() {
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">auto</span> AddRigidBody() -&gt; <a class="code" href="classObjectBuilder.html">ObjectBuilder</a> &amp; <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keyword">auto</span> AddSprite(<span class="keyword">const</span> std::shared_ptr&lt;spic::Sprite&gt; &amp;sprite) -&gt; <a class="code" href="classObjectBuilder.html">ObjectBuilder</a> &amp; <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keyword">auto</span> AddSprite(<span class="keyword">const</span> <a class="code" href="classspic_1_1Sprite.html">spic::Sprite</a> &amp;sprite) -&gt; <a class="code" href="classObjectBuilder.html">ObjectBuilder</a> &amp; <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">//Shares ptr with GameObject static instace list</span></div>
@@ -114,6 +114,8 @@ $(function() {
 <div class="ttc" id="aObjectBuilder_8hpp_html"><div class="ttname"><a href="ObjectBuilder_8hpp.html">ObjectBuilder.hpp</a></div></div>
 <div class="ttc" id="aclassGameObjectBuilder_html"><div class="ttname"><a href="classGameObjectBuilder.html">GameObjectBuilder</a></div><div class="ttdoc">Implementation of ObjectBuilder to create gameobjects with ease.</div><div class="ttdef"><b>Definition:</b> GameObjectBuilder.hpp:14</div></div>
 <div class="ttc" id="aclassObjectBuilder_html"><div class="ttname"><a href="classObjectBuilder.html">ObjectBuilder</a></div><div class="ttdoc">Base class for GameObjectBuilders.</div><div class="ttdef"><b>Definition:</b> ObjectBuilder.hpp:9</div></div>
+<div class="ttc" id="aclassplatformer__engine_1_1AnimatedSprite_html"><div class="ttname"><a href="classplatformer__engine_1_1AnimatedSprite.html">platformer_engine::AnimatedSprite</a></div><div class="ttdoc">AnimatedSprite class which is used to animate sprites.</div><div class="ttdef"><b>Definition:</b> AnimatedSprite.hpp:16</div></div>
+<div class="ttc" id="aclassspic_1_1Sprite_html"><div class="ttname"><a href="classspic_1_1Sprite.html">spic::Sprite</a></div><div class="ttdoc">A component representing a sprite (small image) @spicapi.</div><div class="ttdef"><b>Definition:</b> Sprite.hpp:18</div></div>
 <div class="ttc" id="anamespacespic_html"><div class="ttname"><a href="namespacespic.html">spic</a></div><div class="ttdef"><b>Definition:</b> CameraNotInSceneException.hpp:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

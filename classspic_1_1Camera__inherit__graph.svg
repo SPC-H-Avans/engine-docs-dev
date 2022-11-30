@@ -115,8 +115,8 @@ var sectionId = 'dynsection-0';
 <text text-anchor="start" x="8" y="-728.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto operator==(const</text>
 <text text-anchor="start" x="8" y="-717.5" font-family="Helvetica,sans-Serif" font-size="10.00"> GameObject &amp;other) </text>
 <text text-anchor="start" x="8" y="-706.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;&gt; bool</text>
-<text text-anchor="start" x="8" y="-695.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetName() &#45;&gt; std</text>
-<text text-anchor="start" x="8" y="-684.5" font-family="Helvetica,sans-Serif" font-size="10.00">::string</text>
+<text text-anchor="start" x="8" y="-695.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetName() const</text>
+<text text-anchor="start" x="8" y="-684.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;&gt; std::string</text>
 <text text-anchor="start" x="8" y="-673.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void AddComponent(std</text>
 <text text-anchor="start" x="8" y="-662.5" font-family="Helvetica,sans-Serif" font-size="10.00">::shared_ptr&lt; Component</text>
 <text text-anchor="start" x="8" y="-651.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; component)</text>
