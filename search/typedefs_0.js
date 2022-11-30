@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['tilemap_1256',['TileMap',['../namespaceplatformer__engine.html#a808ca23f70a6dd731cb55fba68a735ee',1,'platformer_engine']]],
-  ['tilesetslist_1257',['TileSetsList',['../namespaceplatformer__engine.html#a96dd6f10e0f25c9b89b7257467e29f61',1,'platformer_engine']]]
+  ['tilemap_1246',['TileMap',['../classplatformer__engine_1_1TMXParser.html#ae013b60a11f79f6546b8f988132c70de',1,'platformer_engine::TMXParser']]],
+  ['tilesetslist_1247',['TileSetsList',['../classplatformer__engine_1_1TMXParser.html#ad55375d210db5fb5299c853b4d49d34d',1,'platformer_engine::TMXParser']]]
 ];

@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['packagetype_1240',['packageType',['../structNetPkgs_1_1MessageHeader.html#a5e85c6bf87e8b9f9803b9fa3ee80740c',1,'NetPkgs::MessageHeader']]],
-  ['position_1241',['position',['../structspic_1_1Transform.html#ab278760aba139302d10ec824ee1e2996',1,'spic::Transform']]],
-  ['protocolmajorversion_1242',['protocolMajorVersion',['../structNetPkgs_1_1MessageHeader.html#aae00136d6a992d416ef3f191d1d2afb6',1,'NetPkgs::MessageHeader']]],
-  ['protocolminorversion_1243',['protocolMinorVersion',['../structNetPkgs_1_1MessageHeader.html#aa2d272b7ffca8d75bd2e42894a1e5dfa',1,'NetPkgs::MessageHeader']]]
+  ['reliable_5fchannel_1234',['RELIABLE_CHANNEL',['../NetworkingFacade_8hpp.html#a9837813c5e97f7b7fb0531c611c27700',1,'NetworkingFacade.hpp']]],
+  ['rotation_1235',['rotation',['../structspic_1_1Transform.html#a862ea207e4904d28fa958fba85a85610',1,'spic::Transform']]],
+  ['rowcount_1236',['RowCount',['../structplatformer__engine_1_1TMXParser_1_1TileSet.html#a2be4e8b191d2aaae286a7eba32f1f3a4',1,'platformer_engine::TMXParser::TileSet']]]
 ];

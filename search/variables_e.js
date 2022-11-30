@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unreliable_5fchannel_1253',['UNRELIABLE_CHANNEL',['../NetworkingFacade_8hpp.html#ab86bbffdde2af30a6750238994cb061e',1,'NetworkingFacade.hpp']]]
+  ['x_1244',['x',['../structspic_1_1Point.html#abfa15f71a5ca95c07e83bfa54286934a',1,'spic::Point']]]
 ];

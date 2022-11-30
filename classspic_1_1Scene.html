@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classspic_1_1Scene-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">spic::Scene Class Reference</div>  </div>
@@ -104,12 +105,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0f92231a9e959167019508b68848644b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6d219837864e1a0687d663c28b84f29"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#aa6d219837864e1a0687d663c28b84f29">GetAllObjects</a> () const -&gt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt;&gt;</td></tr>
 <tr class="separator:aa6d219837864e1a0687d663c28b84f29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26ac8a235da12fa245807bc870cec501"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#a26ac8a235da12fa245807bc870cec501">ImportLevel</a> (const std::string &amp;id, const std::string &amp;filePath, const std::string &amp;fileName)</td></tr>
-<tr class="memdesc:a26ac8a235da12fa245807bc870cec501"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import a Game Level and add it to this scene.  <a href="classspic_1_1Scene.html#a26ac8a235da12fa245807bc870cec501">More...</a><br /></td></tr>
-<tr class="separator:a26ac8a235da12fa245807bc870cec501"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a233941a95ae951f6d1e0121099e5a8ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#a233941a95ae951f6d1e0121099e5a8ed">SetCurrentLevel</a> (const std::string &amp;id)</td></tr>
-<tr class="memdesc:a233941a95ae951f6d1e0121099e5a8ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current level by level id.  <a href="classspic_1_1Scene.html#a233941a95ae951f6d1e0121099e5a8ed">More...</a><br /></td></tr>
-<tr class="separator:a233941a95ae951f6d1e0121099e5a8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ea89b780ba2e17c4a53043091786e53"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#a7ea89b780ba2e17c4a53043091786e53">GetObjectCount</a> () -&gt; int</td></tr>
+<tr class="separator:a7ea89b780ba2e17c4a53043091786e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaae35042a0a53d65a291a734d9f8b7cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#aaae35042a0a53d65a291a734d9f8b7cb">AddCamera</a> (<a class="el" href="classspic_1_1Camera.html">Camera</a> &amp;camera)</td></tr>
 <tr class="memdesc:aaae35042a0a53d65a291a734d9f8b7cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a camera to this scene.  <a href="classspic_1_1Scene.html#aaae35042a0a53d65a291a734d9f8b7cb">More...</a><br /></td></tr>
 <tr class="separator:aaae35042a0a53d65a291a734d9f8b7cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,12 +125,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a15c14811be52ce8ac60f01e851a2441a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#a15c14811be52ce8ac60f01e851a2441a">ResetScene</a> ()</td></tr>
 <tr class="memdesc:a15c14811be52ce8ac60f01e851a2441a"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets all GameObjects connected to this scene to their original state.  <a href="classspic_1_1Scene.html#a15c14811be52ce8ac60f01e851a2441a">More...</a><br /></td></tr>
 <tr class="separator:a15c14811be52ce8ac60f01e851a2441a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa01d59dda122d63b4a3395f7bca3282"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#aaa01d59dda122d63b4a3395f7bca3282">~Scene</a> ()</td></tr>
-<tr class="memdesc:aaa01d59dda122d63b4a3395f7bca3282"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the levels from memory.  <a href="classspic_1_1Scene.html#aaa01d59dda122d63b4a3395f7bca3282">More...</a><br /></td></tr>
-<tr class="separator:aaa01d59dda122d63b4a3395f7bca3282"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada72193070e7289dc9476671c565de9e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#ada72193070e7289dc9476671c565de9e">GetSceneName</a> () const -&gt; std::string</td></tr>
 <tr class="memdesc:ada72193070e7289dc9476671c565de9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current scene name.  <a href="classspic_1_1Scene.html#ada72193070e7289dc9476671c565de9e">More...</a><br /></td></tr>
 <tr class="separator:ada72193070e7289dc9476671c565de9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a31df1738e37f5be9c87a15e81c7eecca"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#a31df1738e37f5be9c87a15e81c7eecca">ImportLevel</a> (const std::string &amp;id, const std::string &amp;filePath, const std::string &amp;fileName, const std::map&lt; int, std::function&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a>(<a class="el" href="structspic_1_1Transform.html">Transform</a>)&gt;&gt; &amp;config)</td></tr>
+<tr class="memdesc:a31df1738e37f5be9c87a15e81c7eecca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import a Game Level and add it to this scene.  <a href="classspic_1_1Scene.html#a31df1738e37f5be9c87a15e81c7eecca">More...</a><br /></td></tr>
+<tr class="separator:a31df1738e37f5be9c87a15e81c7eecca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class representing a scene which can be rendered by the <a class="el" href="classspic_1_1Camera.html" title="Class representing a point of view towards the game scene. @spicapi.">Camera</a>. </p>
@@ -178,25 +178,6 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaa01d59dda122d63b4a3395f7bca3282"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa01d59dda122d63b4a3395f7bca3282">&#9670;&nbsp;</a></span>~Scene()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">spic::Scene::~Scene </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Remove the levels from memory. </p>
 
 </div>
 </div>
@@ -377,6 +358,23 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7ea89b780ba2e17c4a53043091786e53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ea89b780ba2e17c4a53043091786e53">&#9670;&nbsp;</a></span>GetObjectCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto spic::Scene::GetObjectCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ada72193070e7289dc9476671c565de9e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada72193070e7289dc9476671c565de9e">&#9670;&nbsp;</a></span>GetSceneName()</h2>
 
@@ -405,11 +403,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a26ac8a235da12fa245807bc870cec501"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26ac8a235da12fa245807bc870cec501">&#9670;&nbsp;</a></span>ImportLevel()</h2>
+<a id="a31df1738e37f5be9c87a15e81c7eecca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31df1738e37f5be9c87a15e81c7eecca">&#9670;&nbsp;</a></span>ImportLevel()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void spic::Scene::ImportLevel </td>
@@ -427,7 +428,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>fileName</em>&#160;</td>
+          <td class="paramname"><em>fileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::map&lt; int, std::function&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a>(<a class="el" href="structspic_1_1Transform.html">Transform</a>)&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>config</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -435,14 +442,20 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Import a Game Level and add it to this scene. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">path</td><td>Folder path where to find the Game Level </td></tr>
+    <tr><td class="paramname">id</td><td>The id of the level </td></tr>
+    <tr><td class="paramname">filePath</td><td>Folder path where to find the Game Level </td></tr>
     <tr><td class="paramname">fileName</td><td>Name of the Game Level file </td></tr>
-    <tr><td class="paramname">levelName</td><td>Name of the Game Level (This level name will be used to retrieve the Game Level from the level ist) @spicapi </td></tr>
+    <tr><td class="paramname">config</td><td>A map of Tile IDs and their corresponding Game Object constructors @spicapi </td></tr>
   </table>
   </dd>
 </dl>
@@ -533,40 +546,6 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td><a class="el" href="classspic_1_1Camera.html" title="Class representing a point of view towards the game scene. @spicapi.">Camera</a> name @spicapi </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a233941a95ae951f6d1e0121099e5a8ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a233941a95ae951f6d1e0121099e5a8ed">&#9670;&nbsp;</a></span>SetCurrentLevel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void spic::Scene::SetCurrentLevel </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the current level by level id. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Id</td><td>of the level @spicapi </td></tr>
   </table>
   </dd>
 </dl>
