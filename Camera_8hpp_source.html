@@ -79,30 +79,32 @@ $(function() {
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classspic_1_1Camera.html">   13</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classspic_1_1Camera.html">Camera</a> : <span class="keyword">public</span> <a class="code" href="classspic_1_1GameObject.html">GameObject</a> {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="classspic_1_1Camera.html#ad6362e6407cb258034f42bf1457747d4">Camera</a>(<span class="keyword">const</span> std::string &amp;name, <span class="keyword">const</span> std::string &amp;tag, <a class="code" href="classspic_1_1Color.html">spic::Color</a> backgroundColor,</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;               <span class="keywordtype">double</span> aspectWidth, <span class="keywordtype">double</span> aspectHeight);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classspic_1_1Camera.html#aaae72b31560a14ac6734021ebdc2b202">Zoom</a>(<span class="keywordtype">double</span> aspectWidth, <span class="keywordtype">double</span> aspectHeight);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordtype">double</span> <a class="code" href="classspic_1_1Camera.html#a5395c57a2296d84b91d5b144df3f5f13">GetAspectWidth</a>();</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordtype">double</span> <a class="code" href="classspic_1_1Camera.html#ab21520982692547fa19ca83a08ae6eb1">GetAspectHeight</a>();</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="classspic_1_1Color.html">Color</a> _backgroundColor;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordtype">double</span> _aspectWidth;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordtype">double</span> _aspectHeight;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    };</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}  <span class="comment">// namespace spic</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="classspic_1_1Camera.html#a4563db6123e752c6d774813829e29556">Camera</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;Null&quot;</span>);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="classspic_1_1Camera.html#a4563db6123e752c6d774813829e29556">Camera</a>(<span class="keyword">const</span> std::string &amp;name, <span class="keyword">const</span> std::string &amp;tag, <a class="code" href="classspic_1_1Color.html">spic::Color</a> backgroundColor,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;               <span class="keywordtype">double</span> aspectWidth, <span class="keywordtype">double</span> aspectHeight);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classspic_1_1Camera.html#aaae72b31560a14ac6734021ebdc2b202">Zoom</a>(<span class="keywordtype">double</span> aspectWidth, <span class="keywordtype">double</span> aspectHeight);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordtype">double</span> <a class="code" href="classspic_1_1Camera.html#a5395c57a2296d84b91d5b144df3f5f13">GetAspectWidth</a>();</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordtype">double</span> <a class="code" href="classspic_1_1Camera.html#ab21520982692547fa19ca83a08ae6eb1">GetAspectHeight</a>();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="classspic_1_1Color.html">Color</a> _backgroundColor;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordtype">double</span> _aspectWidth;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">double</span> _aspectHeight;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    };</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// CAMERA_H_</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}  <span class="comment">// namespace spic</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// CAMERA_H_</span></div>
 <div class="ttc" id="aColor_8hpp_html"><div class="ttname"><a href="Color_8hpp.html">Color.hpp</a></div></div>
 <div class="ttc" id="aGameObject_8hpp_html"><div class="ttname"><a href="GameObject_8hpp.html">GameObject.hpp</a></div></div>
 <div class="ttc" id="aclassspic_1_1Camera_html"><div class="ttname"><a href="classspic_1_1Camera.html">spic::Camera</a></div><div class="ttdoc">Class representing a point of view towards the game scene. @spicapi.</div><div class="ttdef"><b>Definition:</b> Camera.hpp:13</div></div>
+<div class="ttc" id="aclassspic_1_1Camera_html_a4563db6123e752c6d774813829e29556"><div class="ttname"><a href="classspic_1_1Camera.html#a4563db6123e752c6d774813829e29556">spic::Camera::Camera</a></div><div class="ttdeci">Camera(const std::string &amp;name=&quot;Null&quot;)</div><div class="ttdef"><b>Definition:</b> Camera.cpp:44</div></div>
 <div class="ttc" id="aclassspic_1_1Camera_html_a5395c57a2296d84b91d5b144df3f5f13"><div class="ttname"><a href="classspic_1_1Camera.html#a5395c57a2296d84b91d5b144df3f5f13">spic::Camera::GetAspectWidth</a></div><div class="ttdeci">double GetAspectWidth()</div><div class="ttdef"><b>Definition:</b> Camera.cpp:35</div></div>
 <div class="ttc" id="aclassspic_1_1Camera_html_aaae72b31560a14ac6734021ebdc2b202"><div class="ttname"><a href="classspic_1_1Camera.html#aaae72b31560a14ac6734021ebdc2b202">spic::Camera::Zoom</a></div><div class="ttdeci">void Zoom(double aspectWidth, double aspectHeight)</div><div class="ttdef"><b>Definition:</b> Camera.cpp:24</div></div>
 <div class="ttc" id="aclassspic_1_1Camera_html_ab21520982692547fa19ca83a08ae6eb1"><div class="ttname"><a href="classspic_1_1Camera.html#ab21520982692547fa19ca83a08ae6eb1">spic::Camera::GetAspectHeight</a></div><div class="ttdeci">double GetAspectHeight()</div><div class="ttdef"><b>Definition:</b> Camera.cpp:39</div></div>
-<div class="ttc" id="aclassspic_1_1Camera_html_ad6362e6407cb258034f42bf1457747d4"><div class="ttname"><a href="classspic_1_1Camera.html#ad6362e6407cb258034f42bf1457747d4">spic::Camera::Camera</a></div><div class="ttdeci">Camera(const std::string &amp;name, const std::string &amp;tag, spic::Color backgroundColor, double aspectWidth, double aspectHeight)</div><div class="ttdef"><b>Definition:</b> Camera.cpp:5</div></div>
-<div class="ttc" id="aclassspic_1_1Color_html"><div class="ttname"><a href="classspic_1_1Color.html">spic::Color</a></div><div class="ttdoc">Color represents a red-green-blue color with alpha.</div><div class="ttdef"><b>Definition:</b> Color.hpp:9</div></div>
-<div class="ttc" id="aclassspic_1_1GameObject_html"><div class="ttname"><a href="classspic_1_1GameObject.html">spic::GameObject</a></div><div class="ttdoc">Any object which should be represented on screen.</div><div class="ttdef"><b>Definition:</b> GameObject.hpp:23</div></div>
+<div class="ttc" id="aclassspic_1_1Color_html"><div class="ttname"><a href="classspic_1_1Color.html">spic::Color</a></div><div class="ttdoc">Color represents a red-green-blue color with alpha.</div><div class="ttdef"><b>Definition:</b> Color.hpp:12</div></div>
+<div class="ttc" id="aclassspic_1_1GameObject_html"><div class="ttname"><a href="classspic_1_1GameObject.html">spic::GameObject</a></div><div class="ttdoc">Any object which should be represented on screen.</div><div class="ttdef"><b>Definition:</b> GameObject.hpp:24</div></div>
 <div class="ttc" id="anamespacespic_html"><div class="ttname"><a href="namespacespic.html">spic</a></div><div class="ttdef"><b>Definition:</b> CameraNotInSceneException.hpp:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

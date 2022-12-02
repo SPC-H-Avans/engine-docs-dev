@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mousebutton_1253',['MouseButton',['../InputEnum_8hpp.html#ac1ec3647c005eacad401b06e7e18f711',1,'InputEnum.hpp']]]
+  ['keycode_1334',['KeyCode',['../InputEnum_8hpp.html#a7885f47644a0388f981f416fa20389b2',1,'InputEnum.hpp']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['tilemap_1246',['TileMap',['../classplatformer__engine_1_1TMXParser.html#ae013b60a11f79f6546b8f988132c70de',1,'platformer_engine::TMXParser']]],
-  ['tilesetslist_1247',['TileSetsList',['../classplatformer__engine_1_1TMXParser.html#ad55375d210db5fb5299c853b4d49d34d',1,'platformer_engine::TMXParser']]]
+  ['detail_5fcommon_5fiarchive_1325',['detail_common_iarchive',['../classportable__binary__iarchive.html#a2b4865d1afcfaae1b84917c29636dde8',1,'portable_binary_iarchive']]],
+  ['detail_5fcommon_5foarchive_1326',['detail_common_oarchive',['../classportable__binary__oarchive.html#a7c62c55b061af135dbbc47b47aaed811',1,'portable_binary_oarchive']]]
 ];
