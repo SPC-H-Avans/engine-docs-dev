@@ -206,36 +206,44 @@ var sectionId = 'dynsection-0';
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="classspic_1_1RigidBody.html" target="_top" xlink:title="A component representing a rigid body.">
-<polygon fill="none" stroke="black" points="650.5,-364 650.5,-608 794.5,-608 794.5,-364 650.5,-364"/>
-<text text-anchor="middle" x="722.5" y="-596" font-family="Helvetica,sans-Serif" font-size="10.00">spic::RigidBody</text>
-<polyline fill="none" stroke="black" points="650.5,-589 794.5,-589 "/>
-<text text-anchor="start" x="658.5" y="-577" font-family="Helvetica,sans-Serif" font-size="10.00"># float _mass</text>
-<text text-anchor="start" x="658.5" y="-566" font-family="Helvetica,sans-Serif" font-size="10.00"># float _gravityScale</text>
-<text text-anchor="start" x="658.5" y="-555" font-family="Helvetica,sans-Serif" font-size="10.00"># enum BodyType _bodyType</text>
-<text text-anchor="start" x="658.5" y="-544" font-family="Helvetica,sans-Serif" font-size="10.00"># std::map&lt; CollisionPoint,</text>
-<text text-anchor="start" x="658.5" y="-533" font-family="Helvetica,sans-Serif" font-size="10.00"> int &gt; _moveRestrictions</text>
-<polyline fill="none" stroke="black" points="650.5,-526 794.5,-526 "/>
-<text text-anchor="start" x="658.5" y="-514" font-family="Helvetica,sans-Serif" font-size="10.00">+ void serialize(archive</text>
-<text text-anchor="start" x="658.5" y="-503" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;ar, const unsigned)</text>
+<polygon fill="none" stroke="black" points="650.5,-320 650.5,-652 794.5,-652 794.5,-320 650.5,-320"/>
+<text text-anchor="middle" x="722.5" y="-640" font-family="Helvetica,sans-Serif" font-size="10.00">spic::RigidBody</text>
+<polyline fill="none" stroke="black" points="650.5,-633 794.5,-633 "/>
+<text text-anchor="start" x="658.5" y="-621" font-family="Helvetica,sans-Serif" font-size="10.00"># enum BodyType _bodyType</text>
+<text text-anchor="start" x="658.5" y="-610" font-family="Helvetica,sans-Serif" font-size="10.00"># float _mass</text>
+<text text-anchor="start" x="658.5" y="-599" font-family="Helvetica,sans-Serif" font-size="10.00"># float _gravityScale</text>
+<text text-anchor="start" x="658.5" y="-588" font-family="Helvetica,sans-Serif" font-size="10.00"># Point _velocity</text>
+<text text-anchor="start" x="658.5" y="-577" font-family="Helvetica,sans-Serif" font-size="10.00"># Point _maxSpeed</text>
+<text text-anchor="start" x="658.5" y="-566" font-family="Helvetica,sans-Serif" font-size="10.00"># const float _friction</text>
+<text text-anchor="start" x="658.5" y="-555" font-family="Helvetica,sans-Serif" font-size="10.00"># std::map&lt; CollisionPoint,</text>
+<text text-anchor="start" x="658.5" y="-544" font-family="Helvetica,sans-Serif" font-size="10.00"> int &gt; _moveRestrictions</text>
+<polyline fill="none" stroke="black" points="650.5,-537 794.5,-537 "/>
+<text text-anchor="start" x="658.5" y="-525" font-family="Helvetica,sans-Serif" font-size="10.00">+ void serialize(archive</text>
+<text text-anchor="start" x="658.5" y="-514" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;ar, const unsigned)</text>
+<text text-anchor="start" x="658.5" y="-503" font-family="Helvetica,sans-Serif" font-size="10.00">+ RigidBody(float friction)</text>
 <text text-anchor="start" x="658.5" y="-492" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void AddForce</text>
 <text text-anchor="start" x="658.5" y="-481" font-family="Helvetica,sans-Serif" font-size="10.00">(const Point &amp;forceDirection)</text>
 <text text-anchor="start" x="658.5" y="-470" font-family="Helvetica,sans-Serif" font-size="10.00">+ void BodyType(BodyType</text>
 <text text-anchor="start" x="658.5" y="-459" font-family="Helvetica,sans-Serif" font-size="10.00"> bodyType)</text>
 <text text-anchor="start" x="658.5" y="-448" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto BodyType() &#45;&gt;</text>
 <text text-anchor="start" x="658.5" y="-437" font-family="Helvetica,sans-Serif" font-size="10.00"> enum BodyType</text>
-<text text-anchor="start" x="658.5" y="-426" font-family="Helvetica,sans-Serif" font-size="10.00">+ bool CanMoveTo(Collision</text>
-<text text-anchor="start" x="658.5" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00">Point point)</text>
+<text text-anchor="start" x="658.5" y="-426" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto CanMoveTo(Collision</text>
+<text text-anchor="start" x="658.5" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00">Point point) &#45;&gt; bool</text>
 <text text-anchor="start" x="658.5" y="-404" font-family="Helvetica,sans-Serif" font-size="10.00">+ void AllowMoveTo(Collision</text>
 <text text-anchor="start" x="658.5" y="-393" font-family="Helvetica,sans-Serif" font-size="10.00">Point point)</text>
 <text text-anchor="start" x="658.5" y="-382" font-family="Helvetica,sans-Serif" font-size="10.00">+ void DenyMoveTo(Collision</text>
 <text text-anchor="start" x="658.5" y="-371" font-family="Helvetica,sans-Serif" font-size="10.00">Point point)</text>
+<text text-anchor="start" x="658.5" y="-360" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetMaxSpeed()</text>
+<text text-anchor="start" x="658.5" y="-349" font-family="Helvetica,sans-Serif" font-size="10.00"> const &#45;&gt; Point</text>
+<text text-anchor="start" x="658.5" y="-338" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetVelocity()</text>
+<text text-anchor="start" x="658.5" y="-327" font-family="Helvetica,sans-Serif" font-size="10.00"> const &#45;&gt; Point</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M552.4,-775.27C582.65,-744.09 615.46,-706.71 640.5,-669 652.96,-650.23 664.38,-629.26 674.48,-608.42"/>
+<path fill="none" stroke="midnightblue" d="M552.4,-775.27C582.65,-744.09 615.46,-706.71 640.5,-669 644.14,-663.51 647.7,-657.84 651.15,-652.04"/>
 <polygon fill="none" stroke="midnightblue" points="549.68,-773.05 545.18,-782.65 554.68,-777.95 549.68,-773.05"/>
 </g>
 <!-- Node11 -->
@@ -289,99 +297,94 @@ var sectionId = 'dynsection-0';
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="classplatformer__engine_1_1CollisionBehaviour.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="219.5,-44.5 219.5,-222.5 351.5,-222.5 351.5,-44.5 219.5,-44.5"/>
-<text text-anchor="start" x="227.5" y="-210.5" font-family="Helvetica,sans-Serif" font-size="10.00">platformer_engine::</text>
-<text text-anchor="middle" x="285.5" y="-199.5" font-family="Helvetica,sans-Serif" font-size="10.00">CollisionBehaviour</text>
-<polyline fill="none" stroke="black" points="219.5,-192.5 351.5,-192.5 "/>
-<text text-anchor="middle" x="285.5" y="-180.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="219.5,-173.5 351.5,-173.5 "/>
-<text text-anchor="start" x="227.5" y="-161.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnStart() override</text>
-<text text-anchor="start" x="227.5" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
-<text text-anchor="start" x="227.5" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerEnter2D</text>
-<text text-anchor="start" x="227.5" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00">(Collision collision)</text>
-<text text-anchor="start" x="227.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
-<text text-anchor="start" x="227.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerExit2D</text>
-<text text-anchor="start" x="227.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">(Collision collision)</text>
-<text text-anchor="start" x="227.5" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
-<text text-anchor="start" x="227.5" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerStay2D</text>
-<text text-anchor="start" x="227.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">(Collision collision)</text>
-<text text-anchor="start" x="227.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
+<polygon fill="none" stroke="black" points="228.5,-44.5 228.5,-222.5 360.5,-222.5 360.5,-44.5 228.5,-44.5"/>
+<text text-anchor="start" x="236.5" y="-210.5" font-family="Helvetica,sans-Serif" font-size="10.00">platformer_engine::</text>
+<text text-anchor="middle" x="294.5" y="-199.5" font-family="Helvetica,sans-Serif" font-size="10.00">CollisionBehaviour</text>
+<polyline fill="none" stroke="black" points="228.5,-192.5 360.5,-192.5 "/>
+<text text-anchor="middle" x="294.5" y="-180.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="228.5,-173.5 360.5,-173.5 "/>
+<text text-anchor="start" x="236.5" y="-161.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnStart() override</text>
+<text text-anchor="start" x="236.5" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
+<text text-anchor="start" x="236.5" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerEnter2D</text>
+<text text-anchor="start" x="236.5" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00">(Collision collision)</text>
+<text text-anchor="start" x="236.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
+<text text-anchor="start" x="236.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerExit2D</text>
+<text text-anchor="start" x="236.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">(Collision collision)</text>
+<text text-anchor="start" x="236.5" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
+<text text-anchor="start" x="236.5" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerStay2D</text>
+<text text-anchor="start" x="236.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">(Collision collision)</text>
+<text text-anchor="start" x="236.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M363.04,-409.01C347.56,-354.23 326.64,-280.16 310.43,-222.76"/>
-<polygon fill="none" stroke="midnightblue" points="359.68,-409.99 365.76,-418.66 366.41,-408.09 359.68,-409.99"/>
+<path fill="none" stroke="midnightblue" d="M364.9,-408.67C350.84,-353.93 331.87,-280.04 317.16,-222.76"/>
+<polygon fill="none" stroke="midnightblue" points="361.59,-409.85 367.47,-418.66 368.37,-408.11 361.59,-409.85"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="classspic_1_1BoxCollider.html" target="_top" xlink:title="A collider which represents a rectangular collision area.">
-<polygon fill="none" stroke="black" points="370,-83 370,-184 519,-184 519,-83 370,-83"/>
-<text text-anchor="middle" x="444.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">spic::BoxCollider</text>
-<polyline fill="none" stroke="black" points="370,-165 519,-165 "/>
-<text text-anchor="middle" x="444.5" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="370,-146 519,-146 "/>
-<text text-anchor="start" x="378" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">+ double Width() const</text>
-<text text-anchor="start" x="378" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Width(double newWidth)</text>
-<text text-anchor="start" x="378" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00">+ double Height() const</text>
-<text text-anchor="start" x="378" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Height(double</text>
-<text text-anchor="start" x="378" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00"> newHeight)</text>
+<polygon fill="none" stroke="black" points="379,-83 379,-184 528,-184 528,-83 379,-83"/>
+<text text-anchor="middle" x="453.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">spic::BoxCollider</text>
+<polyline fill="none" stroke="black" points="379,-165 528,-165 "/>
+<text text-anchor="middle" x="453.5" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="379,-146 528,-146 "/>
+<text text-anchor="start" x="387" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">+ double Width() const</text>
+<text text-anchor="start" x="387" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Width(double newWidth)</text>
+<text text-anchor="start" x="387" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00">+ double Height() const</text>
+<text text-anchor="start" x="387" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Height(double</text>
+<text text-anchor="start" x="387" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00"> newHeight)</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M524.79,-392.68C504.01,-325.87 476.74,-238.16 459.92,-184.1"/>
-<polygon fill="none" stroke="midnightblue" points="521.49,-393.87 527.81,-402.38 528.18,-391.79 521.49,-393.87"/>
+<path fill="none" stroke="midnightblue" d="M527.16,-392.68C508.1,-325.87 483.08,-238.16 467.65,-184.1"/>
+<polygon fill="none" stroke="midnightblue" points="523.82,-393.72 529.93,-402.38 530.55,-391.8 523.82,-393.72"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="classspic_1_1CircleCollider.html" target="_top" xlink:title="A collider which represents a circular collision area.">
-<polygon fill="none" stroke="black" points="537.5,-94 537.5,-173 655.5,-173 655.5,-94 537.5,-94"/>
-<text text-anchor="middle" x="596.5" y="-161" font-family="Helvetica,sans-Serif" font-size="10.00">spic::CircleCollider</text>
-<polyline fill="none" stroke="black" points="537.5,-154 655.5,-154 "/>
-<text text-anchor="middle" x="596.5" y="-142" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="537.5,-135 655.5,-135 "/>
-<text text-anchor="start" x="545.5" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">+ double Radius() const</text>
-<text text-anchor="start" x="545.5" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Radius(double</text>
-<text text-anchor="start" x="545.5" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00"> newRadius)</text>
+<polygon fill="none" stroke="black" points="546.5,-94 546.5,-173 664.5,-173 664.5,-94 546.5,-94"/>
+<text text-anchor="middle" x="605.5" y="-161" font-family="Helvetica,sans-Serif" font-size="10.00">spic::CircleCollider</text>
+<polyline fill="none" stroke="black" points="546.5,-154 664.5,-154 "/>
+<text text-anchor="middle" x="605.5" y="-142" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="546.5,-135 664.5,-135 "/>
+<text text-anchor="start" x="554.5" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">+ double Radius() const</text>
+<text text-anchor="start" x="554.5" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Radius(double</text>
+<text text-anchor="start" x="554.5" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00"> newRadius)</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node6&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M564.91,-392.03C573.66,-320.69 585.3,-225.82 591.72,-173.42"/>
-<polygon fill="none" stroke="midnightblue" points="561.38,-392.03 563.64,-402.38 568.33,-392.88 561.38,-392.03"/>
+<path fill="none" stroke="midnightblue" d="M567.23,-392.47C577.82,-321.08 591.94,-225.93 599.73,-173.42"/>
+<polygon fill="none" stroke="midnightblue" points="563.76,-391.97 565.76,-402.38 570.69,-393 563.76,-391.97"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="classPlayerRigidBody.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="673.5,-77.5 673.5,-189.5 787.5,-189.5 787.5,-77.5 673.5,-77.5"/>
-<text text-anchor="middle" x="730.5" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerRigidBody</text>
-<polyline fill="none" stroke="black" points="673.5,-170.5 787.5,-170.5 "/>
-<text text-anchor="middle" x="730.5" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="673.5,-151.5 787.5,-151.5 "/>
-<text text-anchor="start" x="681.5" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ PlayerRigidBody()</text>
-<text text-anchor="start" x="681.5" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void AddForce(const</text>
-<text text-anchor="start" x="681.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Point &amp;forceDirection)</text>
-<text text-anchor="start" x="681.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
-<text text-anchor="start" x="681.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ float GetXVelocity()</text>
-<text text-anchor="start" x="681.5" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ float GetYVelocity()</text>
+<polygon fill="none" stroke="black" points="683,-105 683,-162 784,-162 784,-105 683,-105"/>
+<text text-anchor="middle" x="733.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00">PlayerRigidBody</text>
+<polyline fill="none" stroke="black" points="683,-143 784,-143 "/>
+<text text-anchor="middle" x="733.5" y="-131" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="683,-124 784,-124 "/>
+<text text-anchor="start" x="691" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00">+ PlayerRigidBody()</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node10 -->
 <g id="edge9" class="edge">
 <title>Node9&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M725.5,-353.75C726.79,-297.06 728.23,-233.79 729.24,-189.85"/>
-<polygon fill="none" stroke="midnightblue" points="721.99,-353.81 725.26,-363.89 728.99,-353.97 721.99,-353.81"/>
+<path fill="none" stroke="midnightblue" d="M728.01,-309.44C729.81,-252.12 731.61,-194.85 732.63,-162.14"/>
+<polygon fill="none" stroke="midnightblue" points="724.5,-309.65 727.69,-319.76 731.5,-309.87 724.5,-309.65"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
