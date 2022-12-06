@@ -102,6 +102,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5395c57a2296d84b91d5b144df3f5f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab21520982692547fa19ca83a08ae6eb1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Camera.html#ab21520982692547fa19ca83a08ae6eb1">GetAspectHeight</a> ()</td></tr>
 <tr class="separator:ab21520982692547fa19ca83a08ae6eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15cf9615c7ca51fb8a289d0ca1ea3f94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Camera.html#a15cf9615c7ca51fb8a289d0ca1ea3f94">SetTarget</a> (const <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &amp;target)</td></tr>
+<tr class="memdesc:a15cf9615c7ca51fb8a289d0ca1ea3f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Let the camera follow a game object.  <a href="classspic_1_1Camera.html#a15cf9615c7ca51fb8a289d0ca1ea3f94">More...</a><br /></td></tr>
+<tr class="separator:a15cf9615c7ca51fb8a289d0ca1ea3f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30c61641364125903ea7cfa938ebf08a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structspic_1_1Transform.html">Transform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Camera.html#a30c61641364125903ea7cfa938ebf08a">GetTarget</a> (int screenWidth, int screenHeight)</td></tr>
+<tr class="separator:a30c61641364125903ea7cfa938ebf08a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classspic_1_1GameObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classspic_1_1GameObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a></td></tr>
 <tr class="memitem:a09a167d31e638f35e8ff25c6362bf672 inherit pub_methods_classspic_1_1GameObject"><td class="memTemplParams" colspan="2">template&lt;typename archive &gt; </td></tr>
 <tr class="memitem:a09a167d31e638f35e8ff25c6362bf672 inherit pub_methods_classspic_1_1GameObject"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#a09a167d31e638f35e8ff25c6362bf672">serialize</a> (archive &amp;ar, const unsigned)</td></tr>
@@ -306,6 +311,76 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30c61641364125903ea7cfa938ebf08a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30c61641364125903ea7cfa938ebf08a">&#9670;&nbsp;</a></span>GetTarget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structspic_1_1Transform.html">Transform</a> spic::Camera::GetTarget </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>screenWidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>screenHeight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15cf9615c7ca51fb8a289d0ca1ea3f94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15cf9615c7ca51fb8a289d0ca1ea3f94">&#9670;&nbsp;</a></span>SetTarget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void spic::Camera::SetTarget </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &amp;&#160;</td>
+          <td class="paramname"><em>target</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Let the camera follow a game object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameObject</td><td>the game object you want to follow </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

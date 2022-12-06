@@ -81,7 +81,7 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for platformer_engine::Engine:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1Engine__coll__graph.svg" width="230" height="587"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1Engine__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <table class="memberdecls">
@@ -95,9 +95,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5f309709c17b57955c8712fd09d313fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a397d1dd45ff747ce2c206d024db24417"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a397d1dd45ff747ce2c206d024db24417">operator=</a> (<a class="el" href="classplatformer__engine_1_1Engine.html">Engine</a> &amp;&amp;)=delete</td></tr>
 <tr class="separator:a397d1dd45ff747ce2c206d024db24417"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab901faa0f167a650785cb898100ddedf"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#ab901faa0f167a650785cb898100ddedf">Init</a> (int width, int height, const std::string &amp;title, const <a class="el" href="classspic_1_1Color.html">spic::Color</a> &amp;color) -&gt; bool</td></tr>
-<tr class="memdesc:ab901faa0f167a650785cb898100ddedf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the engine.  <a href="classplatformer__engine_1_1Engine.html#ab901faa0f167a650785cb898100ddedf">More...</a><br /></td></tr>
-<tr class="separator:ab901faa0f167a650785cb898100ddedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae35e8276089938e23f2a928732fecfbf"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#ae35e8276089938e23f2a928732fecfbf">Init</a> (int width, int height, const std::string &amp;title, const <a class="el" href="classspic_1_1Color.html">spic::Color</a> &amp;color, bool fullScreen) -&gt; bool</td></tr>
+<tr class="memdesc:ae35e8276089938e23f2a928732fecfbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the engine.  <a href="classplatformer__engine_1_1Engine.html#ae35e8276089938e23f2a928732fecfbf">More...</a><br /></td></tr>
+<tr class="separator:ae35e8276089938e23f2a928732fecfbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e8226215ee1b917efdc4fa3a6139fab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a7e8226215ee1b917efdc4fa3a6139fab">Start</a> ()</td></tr>
 <tr class="memdesc:a7e8226215ee1b917efdc4fa3a6139fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the engine, open window, start timer etc. @platformerengine.  <a href="classplatformer__engine_1_1Engine.html#a7e8226215ee1b917efdc4fa3a6139fab">More...</a><br /></td></tr>
 <tr class="separator:a7e8226215ee1b917efdc4fa3a6139fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,6 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aad483857ca594c6c01de10bc844b848e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accf210227dd6e88a2a18644f1accc0a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#accf210227dd6e88a2a18644f1accc0a4">JoinServer</a> (const std::string &amp;ip, int port)</td></tr>
 <tr class="separator:accf210227dd6e88a2a18644f1accc0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4b61855784fd07aeb03e50d462027e3"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#ac4b61855784fd07aeb03e50d462027e3">GetWindow</a> () -&gt; <a class="el" href="classplatformer__engine_1_1Window.html">Window</a> &amp;</td></tr>
+<tr class="memdesc:ac4b61855784fd07aeb03e50d462027e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a reference to the window.  <a href="classplatformer__engine_1_1Engine.html#ac4b61855784fd07aeb03e50d462027e3">More...</a><br /></td></tr>
+<tr class="separator:ac4b61855784fd07aeb03e50d462027e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -311,6 +314,34 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac4b61855784fd07aeb03e50d462027e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4b61855784fd07aeb03e50d462027e3">&#9670;&nbsp;</a></span>GetWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto platformer_engine::Engine::GetWindow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; <a class="el" href="classplatformer__engine_1_1Window.html">Window</a> &amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get a reference to the window. </p>
+<dl class="section return"><dt>Returns</dt><dd>a reference to the window </dd></dl>
+
+</div>
+</div>
 <a id="aad483857ca594c6c01de10bc844b848e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aad483857ca594c6c01de10bc844b848e">&#9670;&nbsp;</a></span>HostServer()</h2>
 
@@ -345,8 +376,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab901faa0f167a650785cb898100ddedf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab901faa0f167a650785cb898100ddedf">&#9670;&nbsp;</a></span>Init()</h2>
+<a id="ae35e8276089938e23f2a928732fecfbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae35e8276089938e23f2a928732fecfbf">&#9670;&nbsp;</a></span>Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -373,7 +404,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classspic_1_1Color.html">spic::Color</a> &amp;&#160;</td>
-          <td class="paramname"><em>color</em>&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fullScreen</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
