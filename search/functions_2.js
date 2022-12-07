@@ -25,7 +25,7 @@ var searchData=
   ['creategameobject_1034',['CreateGameObject',['../structNetPkgs_1_1CreateGameObject.html#a2b731bae78df6a9f38c2cb6d66966533',1,'NetPkgs::CreateGameObject::CreateGameObject()'],['../structNetPkgs_1_1CreateGameObject.html#ad8535ce2832c788d6fb74da42ed62185',1,'NetPkgs::CreateGameObject::CreateGameObject(const char *data, size_t gameObjectDataLength)']]],
   ['createnetworkedgameobject_1035',['CreateNetworkedGameObject',['../classplatformer__engine_1_1ServerNetworkManager.html#ad37b9100f741b8b4e4c57946ea392fd3',1,'platformer_engine::ServerNetworkManager']]],
   ['createnetworkedscene_1036',['CreateNetworkedScene',['../classplatformer__engine_1_1ServerNetworkManager.html#af81e823e8c7b577c18c7c1fec0fe9e65',1,'platformer_engine::ServerNetworkManager']]],
-  ['createplayer_1037',['CreatePlayer',['../classGameObjectDirector.html#a3e76e6b33c7b027b54d946c31366df7a',1,'GameObjectDirector']]],
+  ['createplayer_1037',['CreatePlayer',['../classGameObjectDirector.html#a3171c8147ff7d3908cd03f8e6afbdcd1',1,'GameObjectDirector']]],
   ['createscene_1038',['CreateScene',['../structNetPkgs_1_1CreateScene.html#a4c87247cc05ec6852b2fd07e88cd25a3',1,'NetPkgs::CreateScene::CreateScene()'],['../structNetPkgs_1_1CreateScene.html#ae2b18ab8efe86a9de2c4dde8807e8d6c',1,'NetPkgs::CreateScene::CreateScene(const char *data, size_t sceneDataLength)']]],
   ['createtile_1039',['CreateTile',['../classGameObjectDirector.html#a47dc6a59657ab700e061c7cb0d972c87',1,'GameObjectDirector']]],
   ['cyan_1040',['Cyan',['../classspic_1_1Color.html#aff4511a983c9abed13b40c5d10bd8f6c',1,'spic::Color']]]
