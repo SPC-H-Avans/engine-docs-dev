@@ -98,6 +98,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a09a167d31e638f35e8ff25c6362bf672"><td class="memTemplParams" colspan="2">template&lt;typename archive &gt; </td></tr>
 <tr class="memitem:a09a167d31e638f35e8ff25c6362bf672"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#a09a167d31e638f35e8ff25c6362bf672">serialize</a> (archive &amp;ar, const unsigned)</td></tr>
 <tr class="separator:a09a167d31e638f35e8ff25c6362bf672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa62854841effcf9dfdd3a20b736b9225"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#aa62854841effcf9dfdd3a20b736b9225">ResetSelf</a> ()</td></tr>
+<tr class="memdesc:aa62854841effcf9dfdd3a20b736b9225"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the _self pointer to match the current <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a>. Should only be used after de-serialization.  <a href="classspic_1_1GameObject.html#aa62854841effcf9dfdd3a20b736b9225">More...</a><br /></td></tr>
+<tr class="separator:aa62854841effcf9dfdd3a20b736b9225"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d9e32906ac30c3b0ba2302a2d8fbbed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#a5d9e32906ac30c3b0ba2302a2d8fbbed">FixComponents</a> ()</td></tr>
+<tr class="memdesc:a5d9e32906ac30c3b0ba2302a2d8fbbed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixes the private gameObject pointer in the components this Game Object has. Should only be used after de-serialization.  <a href="classspic_1_1GameObject.html#a5d9e32906ac30c3b0ba2302a2d8fbbed">More...</a><br /></td></tr>
+<tr class="separator:a5d9e32906ac30c3b0ba2302a2d8fbbed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa729cf2ab5cac154e83ced4195164b2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#aa729cf2ab5cac154e83ced4195164b2d">FixGameObjectAfterDeserialize</a> ()</td></tr>
+<tr class="memdesc:aa729cf2ab5cac154e83ced4195164b2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs some fixes on the Game Object after it being de-serialized. Recommended to run after de-serialization.  <a href="classspic_1_1GameObject.html#aa729cf2ab5cac154e83ced4195164b2d">More...</a><br /></td></tr>
+<tr class="separator:aa729cf2ab5cac154e83ced4195164b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3b2ab69cfde29160ac81c4900dd609c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1GameObject.html#aa3b2ab69cfde29160ac81c4900dd609c">GameObject</a> (const std::string &amp;name=&quot;Null&quot;)</td></tr>
 <tr class="memdesc:aa3b2ab69cfde29160ac81c4900dd609c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classspic_1_1GameObject.html#aa3b2ab69cfde29160ac81c4900dd609c">More...</a><br /></td></tr>
 <tr class="separator:aa3b2ab69cfde29160ac81c4900dd609c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -600,6 +609,44 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="a5d9e32906ac30c3b0ba2302a2d8fbbed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d9e32906ac30c3b0ba2302a2d8fbbed">&#9670;&nbsp;</a></span>FixComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameObject::FixComponents </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fixes the private gameObject pointer in the components this Game Object has. Should only be used after de-serialization. </p>
+
+</div>
+</div>
+<a id="aa729cf2ab5cac154e83ced4195164b2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa729cf2ab5cac154e83ced4195164b2d">&#9670;&nbsp;</a></span>FixGameObjectAfterDeserialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameObject::FixGameObjectAfterDeserialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Runs some fixes on the Game Object after it being de-serialized. Recommended to run after de-serialization. </p>
+
+</div>
+</div>
 <a id="afafbf132b81ee31f95399580526ac654"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afafbf132b81ee31f95399580526ac654">&#9670;&nbsp;</a></span>GetComponent()</h2>
 
@@ -828,6 +875,25 @@ template&lt;class T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if equal, false otherwise. @spicapi </dd></dl>
+
+</div>
+</div>
+<a id="aa62854841effcf9dfdd3a20b736b9225"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa62854841effcf9dfdd3a20b736b9225">&#9670;&nbsp;</a></span>ResetSelf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameObject::ResetSelf </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset the _self pointer to match the current <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen.">GameObject</a>. Should only be used after de-serialization. </p>
 
 </div>
 </div>

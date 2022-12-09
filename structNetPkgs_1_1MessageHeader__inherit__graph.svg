@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1065;
+var viewWidth = 1576;
 var viewHeight = 259;
 var sectionId = 'dynsection-0';
 </script>
@@ -58,15 +58,15 @@ var sectionId = 'dynsection-0';
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="The base class for all protocol packages.">
-<polygon fill="#bfbfbf" stroke="black" points="496,-160.5 496,-250.5 644,-250.5 644,-160.5 496,-160.5"/>
-<text text-anchor="middle" x="570" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::MessageHeader</text>
-<polyline fill="none" stroke="black" points="496,-231.5 644,-231.5 "/>
-<text text-anchor="start" x="504" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ uint8_t protocolMajorVersion</text>
-<text text-anchor="start" x="504" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ uint8_t protocolMinorVersion</text>
-<text text-anchor="start" x="504" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ uint8_t packageType</text>
-<polyline fill="none" stroke="black" points="496,-190.5 644,-190.5 "/>
-<text text-anchor="start" x="504" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ MessageHeader(uint8</text>
-<text text-anchor="start" x="504" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">_t packageType=0)</text>
+<polygon fill="#bfbfbf" stroke="black" points="746,-160.5 746,-250.5 894,-250.5 894,-160.5 746,-160.5"/>
+<text text-anchor="middle" x="820" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::MessageHeader</text>
+<polyline fill="none" stroke="black" points="746,-231.5 894,-231.5 "/>
+<text text-anchor="start" x="754" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ uint8_t protocolMajorVersion</text>
+<text text-anchor="start" x="754" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ uint8_t protocolMinorVersion</text>
+<text text-anchor="start" x="754" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ uint8_t packageType</text>
+<polyline fill="none" stroke="black" points="746,-190.5 894,-190.5 "/>
+<text text-anchor="start" x="754" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ MessageHeader(uint8</text>
+<text text-anchor="start" x="754" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">_t packageType=0)</text>
 </a>
 </g>
 </g>
@@ -86,8 +86,8 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M485.82,-199.2C399.58,-191.27 263.18,-171.74 155,-124 136.33,-115.76 117.89,-102.62 103.24,-90.63"/>
-<polygon fill="none" stroke="midnightblue" points="485.55,-202.69 495.82,-200.08 486.17,-195.71 485.55,-202.69"/>
+<path fill="none" stroke="midnightblue" d="M735.45,-199.68C580.78,-189.98 258.66,-165.41 155,-124 135.72,-116.3 116.94,-102.9 102.22,-90.61"/>
+<polygon fill="none" stroke="midnightblue" points="735.64,-203.2 745.84,-200.33 736.07,-196.21 735.64,-203.2"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -109,115 +109,184 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M486.37,-181.78C440.49,-167.86 383.27,-148.09 335,-124 328.16,-120.59 321.23,-116.73 314.41,-112.65"/>
-<polygon fill="none" stroke="midnightblue" points="485.4,-185.14 495.99,-184.66 487.41,-178.43 485.4,-185.14"/>
+<path fill="none" stroke="midnightblue" d="M735.7,-201.59C636.35,-195.69 467.86,-177.85 334,-124 326.18,-120.85 318.36,-116.93 310.78,-112.6"/>
+<polygon fill="none" stroke="midnightblue" points="735.51,-205.08 745.69,-202.16 735.9,-198.09 735.51,-205.08"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="structNetPkgs_1_1CreateScene.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="344,-11.5 344,-112.5 478,-112.5 478,-11.5 344,-11.5"/>
-<text text-anchor="middle" x="411" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::CreateScene</text>
-<polyline fill="none" stroke="black" points="344,-93.5 478,-93.5 "/>
-<text text-anchor="start" x="352" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ size_t _sceneDataLength</text>
-<text text-anchor="start" x="352" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ char _data</text>
-<polyline fill="none" stroke="black" points="344,-63.5 478,-63.5 "/>
-<text text-anchor="start" x="352" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CreateScene()</text>
-<text text-anchor="start" x="352" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CreateScene(const</text>
-<text text-anchor="start" x="352" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00"> char *data, size_t</text>
-<text text-anchor="start" x="352" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00"> sceneDataLength)</text>
+<g id="a_node4"><a xlink:href="structNetPkgs_1_1CreatePlayerCharacter.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="343.5,-11.5 343.5,-112.5 500.5,-112.5 500.5,-11.5 343.5,-11.5"/>
+<text text-anchor="middle" x="422" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::CreatePlayerCharacter</text>
+<polyline fill="none" stroke="black" points="343.5,-93.5 500.5,-93.5 "/>
+<text text-anchor="start" x="351.5" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ size_t _characterLength</text>
+<text text-anchor="start" x="351.5" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ char _data</text>
+<polyline fill="none" stroke="black" points="343.5,-63.5 500.5,-63.5 "/>
+<text text-anchor="start" x="351.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CreatePlayerCharacter()</text>
+<text text-anchor="start" x="351.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CreatePlayerCharacter</text>
+<text text-anchor="start" x="351.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const char *data, size</text>
+<text text-anchor="start" x="351.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">_t characterLength)</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M512.46,-153.29C497.57,-140.05 481.58,-125.81 466.78,-112.64"/>
-<polygon fill="none" stroke="midnightblue" points="510.33,-156.08 520.13,-160.12 514.98,-150.85 510.33,-156.08"/>
+<path fill="none" stroke="midnightblue" d="M735.76,-190.94C671.82,-178.7 582.8,-157.4 510,-124 502.9,-120.74 495.77,-116.92 488.79,-112.79"/>
+<polygon fill="none" stroke="midnightblue" points="735.33,-194.42 745.8,-192.83 736.62,-187.54 735.33,-194.42"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="structNetPkgs_1_1DestroyGameObject.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="496.5,-22.5 496.5,-101.5 643.5,-101.5 643.5,-22.5 496.5,-22.5"/>
-<text text-anchor="middle" x="570" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::DestroyGameObject</text>
-<polyline fill="none" stroke="black" points="496.5,-82.5 643.5,-82.5 "/>
-<text text-anchor="start" x="504.5" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ char _data</text>
-<polyline fill="none" stroke="black" points="496.5,-63.5 643.5,-63.5 "/>
-<text text-anchor="start" x="504.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ DestroyGameObject()</text>
-<text text-anchor="start" x="504.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ DestroyGameObject</text>
-<text text-anchor="start" x="504.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const char *gameObjectId)</text>
+<g id="a_node5"><a xlink:href="structNetPkgs_1_1CreateScene.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="519,-11.5 519,-112.5 653,-112.5 653,-11.5 519,-11.5"/>
+<text text-anchor="middle" x="586" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::CreateScene</text>
+<polyline fill="none" stroke="black" points="519,-93.5 653,-93.5 "/>
+<text text-anchor="start" x="527" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ size_t _sceneDataLength</text>
+<text text-anchor="start" x="527" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ char _data</text>
+<polyline fill="none" stroke="black" points="519,-63.5 653,-63.5 "/>
+<text text-anchor="start" x="527" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CreateScene()</text>
+<text text-anchor="start" x="527" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CreateScene(const</text>
+<text text-anchor="start" x="527" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00"> char *data, size_t</text>
+<text text-anchor="start" x="527" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00"> sceneDataLength)</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M570,-149.83C570,-133.86 570,-116.75 570,-101.97"/>
-<polygon fill="none" stroke="midnightblue" points="566.5,-150.12 570,-160.12 573.5,-150.12 566.5,-150.12"/>
+<path fill="none" stroke="midnightblue" d="M736.9,-166.17C712.2,-153.72 685.49,-139.18 662,-124 656.6,-120.51 651.13,-116.71 645.73,-112.77"/>
+<polygon fill="none" stroke="midnightblue" points="735.38,-169.33 745.89,-170.66 738.51,-163.06 735.38,-169.33"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="structNetPkgs_1_1KickClient.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="661.5,-33.5 661.5,-90.5 780.5,-90.5 780.5,-33.5 661.5,-33.5"/>
-<text text-anchor="middle" x="721" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::KickClient</text>
-<polyline fill="none" stroke="black" points="661.5,-71.5 780.5,-71.5 "/>
-<text text-anchor="start" x="669.5" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ int clientId</text>
-<polyline fill="none" stroke="black" points="661.5,-52.5 780.5,-52.5 "/>
-<text text-anchor="start" x="669.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ KickClient(int clientId)</text>
+<g id="a_node6"><a xlink:href="structNetPkgs_1_1DestroyGameObject.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="671.5,-22.5 671.5,-101.5 818.5,-101.5 818.5,-22.5 671.5,-22.5"/>
+<text text-anchor="middle" x="745" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::DestroyGameObject</text>
+<polyline fill="none" stroke="black" points="671.5,-82.5 818.5,-82.5 "/>
+<text text-anchor="start" x="679.5" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ char _data</text>
+<polyline fill="none" stroke="black" points="671.5,-63.5 818.5,-63.5 "/>
+<text text-anchor="start" x="679.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ DestroyGameObject()</text>
+<text text-anchor="start" x="679.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ DestroyGameObject</text>
+<text text-anchor="start" x="679.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const char *gameObjectId)</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M624.87,-153.08C647.34,-132.03 672.44,-108.5 691.36,-90.77"/>
-<polygon fill="none" stroke="midnightblue" points="622.27,-150.72 617.36,-160.12 627.05,-155.83 622.27,-150.72"/>
+<path fill="none" stroke="midnightblue" d="M791.75,-151.19C783.08,-134.84 773.71,-117.17 765.65,-101.97"/>
+<polygon fill="none" stroke="midnightblue" points="788.7,-152.92 796.48,-160.12 794.88,-149.64 788.7,-152.92"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="structNetPkgs_1_1Ping.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="798.5,-33.5 798.5,-90.5 877.5,-90.5 877.5,-33.5 798.5,-33.5"/>
-<text text-anchor="middle" x="838" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::Ping</text>
-<polyline fill="none" stroke="black" points="798.5,-71.5 877.5,-71.5 "/>
-<text text-anchor="middle" x="838" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="798.5,-52.5 877.5,-52.5 "/>
-<text text-anchor="start" x="806.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Ping()</text>
+<g id="a_node7"><a xlink:href="structNetPkgs_1_1KickClient.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="836.5,-33.5 836.5,-90.5 955.5,-90.5 955.5,-33.5 836.5,-33.5"/>
+<text text-anchor="middle" x="896" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::KickClient</text>
+<polyline fill="none" stroke="black" points="836.5,-71.5 955.5,-71.5 "/>
+<text text-anchor="start" x="844.5" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ int clientId</text>
+<polyline fill="none" stroke="black" points="836.5,-52.5 955.5,-52.5 "/>
+<text text-anchor="start" x="844.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ KickClient(int clientId)</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M653.95,-185.59C697.37,-173.01 749.6,-153.3 790,-124 802.22,-115.14 812.93,-102.36 821.12,-90.78"/>
-<polygon fill="none" stroke="midnightblue" points="652.93,-182.24 644.26,-188.32 654.83,-188.98 652.93,-182.24"/>
+<path fill="none" stroke="midnightblue" d="M848.65,-151.15C859.69,-130.6 871.85,-107.96 881.08,-90.77"/>
+<polygon fill="none" stroke="midnightblue" points="845.49,-149.65 843.84,-160.12 851.65,-152.96 845.49,-149.65"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="structNetPkgs_1_1UpdateGameObjectTransform.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="895.5,-0.5 895.5,-123.5 1056.5,-123.5 1056.5,-0.5 895.5,-0.5"/>
-<text text-anchor="start" x="903.5" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::UpdateGameObject</text>
-<text text-anchor="middle" x="976" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">Transform</text>
-<polyline fill="none" stroke="black" points="895.5,-93.5 1056.5,-93.5 "/>
-<text text-anchor="start" x="903.5" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ char _gameObjectId</text>
-<text text-anchor="start" x="903.5" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ char _data</text>
-<polyline fill="none" stroke="black" points="895.5,-63.5 1056.5,-63.5 "/>
-<text text-anchor="start" x="903.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ UpdateGameObjectTransform()</text>
-<text text-anchor="start" x="903.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ UpdateGameObjectTransform</text>
-<text text-anchor="start" x="903.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const char *gameObjectId,</text>
-<text text-anchor="start" x="903.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00"> const char *data, size_t</text>
-<text text-anchor="start" x="903.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00"> dataLength)</text>
+<g id="a_node8"><a xlink:href="structNetPkgs_1_1LoadedTextures.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="974,-11.5 974,-112.5 1110,-112.5 1110,-11.5 974,-11.5"/>
+<text text-anchor="middle" x="1042" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::LoadedTextures</text>
+<polyline fill="none" stroke="black" points="974,-93.5 1110,-93.5 "/>
+<text text-anchor="start" x="982" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ size_t _characterLength</text>
+<text text-anchor="start" x="982" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ char _data</text>
+<polyline fill="none" stroke="black" points="974,-63.5 1110,-63.5 "/>
+<text text-anchor="start" x="982" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ LoadedTextures()</text>
+<text text-anchor="start" x="982" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ LoadedTextures(const</text>
+<text text-anchor="start" x="982" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00"> char *data, size_t character</text>
+<text text-anchor="start" x="982" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Length)</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M654.08,-191.49C719.58,-179.41 811.71,-158.05 887,-124 889.82,-122.73 892.64,-121.36 895.46,-119.93"/>
-<polygon fill="none" stroke="midnightblue" points="653.43,-188.05 644.21,-193.28 654.68,-194.94 653.43,-188.05"/>
+<path fill="none" stroke="midnightblue" d="M902.82,-161.57C923.53,-150.01 945.41,-137.07 965,-124 970.39,-120.4 975.88,-116.53 981.31,-112.54"/>
+<polygon fill="none" stroke="midnightblue" points="901.09,-158.53 894.03,-166.43 904.48,-164.65 901.09,-158.53"/>
+</g>
+<!-- Node9 -->
+<g id="node9" class="node">
+<title>Node9</title>
+<g id="a_node9"><a xlink:href="structNetPkgs_1_1Ping.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="1128.5,-33.5 1128.5,-90.5 1207.5,-90.5 1207.5,-33.5 1128.5,-33.5"/>
+<text text-anchor="middle" x="1168" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::Ping</text>
+<polyline fill="none" stroke="black" points="1128.5,-71.5 1207.5,-71.5 "/>
+<text text-anchor="middle" x="1168" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="1128.5,-52.5 1207.5,-52.5 "/>
+<text text-anchor="start" x="1136.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Ping()</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge8" class="edge">
+<title>Node1&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M904.03,-196.12C967.34,-186.59 1054.06,-166.41 1119,-124 1131.97,-115.53 1143.1,-102.51 1151.46,-90.67"/>
+<polygon fill="none" stroke="midnightblue" points="903.47,-192.66 894.07,-197.56 904.47,-199.59 903.47,-192.66"/>
+</g>
+<!-- Node10 -->
+<g id="node10" class="node">
+<title>Node10</title>
+<g id="a_node10"><a xlink:href="structNetPkgs_1_1UpdateActiveAnimation.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="1226,-11.5 1226,-112.5 1388,-112.5 1388,-11.5 1226,-11.5"/>
+<text text-anchor="middle" x="1307" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::UpdateActiveAnimation</text>
+<polyline fill="none" stroke="black" points="1226,-93.5 1388,-93.5 "/>
+<text text-anchor="start" x="1234" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ char _gameObjectId</text>
+<text text-anchor="start" x="1234" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ char _animationId</text>
+<polyline fill="none" stroke="black" points="1226,-63.5 1388,-63.5 "/>
+<text text-anchor="start" x="1234" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ UpdateActiveAnimation()</text>
+<text text-anchor="start" x="1234" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ UpdateActiveAnimation</text>
+<text text-anchor="start" x="1234" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const char *gameObjectId,</text>
+<text text-anchor="start" x="1234" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00"> const char *animationId)</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge9" class="edge">
+<title>Node1&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M904.34,-197.14C986.71,-187.73 1114.31,-167.16 1217,-124 1224.66,-120.78 1232.34,-116.87 1239.81,-112.59"/>
+<polygon fill="none" stroke="midnightblue" points="903.83,-193.67 894.28,-198.26 904.6,-200.63 903.83,-193.67"/>
+</g>
+<!-- Node11 -->
+<g id="node11" class="node">
+<title>Node11</title>
+<g id="a_node11"><a xlink:href="structNetPkgs_1_1UpdateGameObjectTransform.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="1406.5,-0.5 1406.5,-123.5 1567.5,-123.5 1567.5,-0.5 1406.5,-0.5"/>
+<text text-anchor="start" x="1414.5" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">NetPkgs::UpdateGameObject</text>
+<text text-anchor="middle" x="1487" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">Transform</text>
+<polyline fill="none" stroke="black" points="1406.5,-93.5 1567.5,-93.5 "/>
+<text text-anchor="start" x="1414.5" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ char _gameObjectId</text>
+<text text-anchor="start" x="1414.5" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ char _data</text>
+<polyline fill="none" stroke="black" points="1406.5,-63.5 1567.5,-63.5 "/>
+<text text-anchor="start" x="1414.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ UpdateGameObjectTransform()</text>
+<text text-anchor="start" x="1414.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ UpdateGameObjectTransform</text>
+<text text-anchor="start" x="1414.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const char *gameObjectId,</text>
+<text text-anchor="start" x="1414.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00"> const char *data, size_t</text>
+<text text-anchor="start" x="1414.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00"> dataLength)</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node11 -->
+<g id="edge10" class="edge">
+<title>Node1&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M904.31,-204.57C1019.42,-202.05 1230.45,-188.05 1397,-124 1400.17,-122.78 1403.34,-121.43 1406.5,-119.98"/>
+<polygon fill="none" stroke="midnightblue" points="904.09,-201.07 894.16,-204.76 904.23,-208.07 904.09,-201.07"/>
 </g>
 </g>
 </svg>

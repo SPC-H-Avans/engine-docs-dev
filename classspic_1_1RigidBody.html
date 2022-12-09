@@ -96,6 +96,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa6b7f28a8616dd4e3e6def2609ee7337"><td class="memTemplParams" colspan="2">template&lt;typename archive &gt; </td></tr>
 <tr class="memitem:aa6b7f28a8616dd4e3e6def2609ee7337"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#aa6b7f28a8616dd4e3e6def2609ee7337">serialize</a> (archive &amp;ar, const unsigned)</td></tr>
 <tr class="separator:aa6b7f28a8616dd4e3e6def2609ee7337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28203d38d278da0695ace20c66ee5f0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a28203d38d278da0695ace20c66ee5f0a">RigidBody</a> ()</td></tr>
+<tr class="separator:a28203d38d278da0695ace20c66ee5f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a468892004f47d3fc49ef083869892943"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a468892004f47d3fc49ef083869892943">RigidBody</a> (float friction)</td></tr>
 <tr class="separator:a468892004f47d3fc49ef083869892943"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab97cfa653ee725ea97574dca9469acc1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#ab97cfa653ee725ea97574dca9469acc1">AddForce</a> (const <a class="el" href="structspic_1_1Point.html">Point</a> &amp;forceDirection)</td></tr>
@@ -103,8 +105,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab97cfa653ee725ea97574dca9469acc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a535d6b26499414a1df68600c3c8aa7a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a535d6b26499414a1df68600c3c8aa7a9">BodyType</a> (<a class="el" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a> bodyType)</td></tr>
 <tr class="separator:a535d6b26499414a1df68600c3c8aa7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e831362de332496079daeb3421aff13"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a0e831362de332496079daeb3421aff13">BodyType</a> () -&gt; enum <a class="el" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a></td></tr>
-<tr class="separator:a0e831362de332496079daeb3421aff13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afacbf1c675cf3b665bd7e5085f886504"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#afacbf1c675cf3b665bd7e5085f886504">BodyType</a> () const</td></tr>
+<tr class="separator:afacbf1c675cf3b665bd7e5085f886504"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a28be72b22ada0b35994b98886dc4b8"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a0a28be72b22ada0b35994b98886dc4b8">CanMoveTo</a> (<a class="el" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a> point) -&gt; bool</td></tr>
 <tr class="memdesc:a0a28be72b22ada0b35994b98886dc4b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the rigidbody can move to a certain point.  <a href="classspic_1_1RigidBody.html#a0a28be72b22ada0b35994b98886dc4b8">More...</a><br /></td></tr>
 <tr class="separator:a0a28be72b22ada0b35994b98886dc4b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,26 +154,43 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aa2ab47c14fc918cca22456558dadb02c"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#aa2ab47c14fc918cca22456558dadb02c">_bodyType</a></td></tr>
-<tr class="separator:aa2ab47c14fc918cca22456558dadb02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73ee5b6ee74ffe7feba32478a093301d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a73ee5b6ee74ffe7feba32478a093301d">_mass</a></td></tr>
 <tr class="separator:a73ee5b6ee74ffe7feba32478a093301d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c95265782c978d7cb3f4d41369dafce"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a5c95265782c978d7cb3f4d41369dafce">_gravityScale</a></td></tr>
 <tr class="separator:a5c95265782c978d7cb3f4d41369dafce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2ab47c14fc918cca22456558dadb02c"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#aa2ab47c14fc918cca22456558dadb02c">_bodyType</a></td></tr>
+<tr class="separator:aa2ab47c14fc918cca22456558dadb02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a705657f74a42dead028028483e118375"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structspic_1_1Point.html">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a705657f74a42dead028028483e118375">_velocity</a></td></tr>
 <tr class="separator:a705657f74a42dead028028483e118375"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a031815dd1dfba5563c53c59cf4c8f275"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structspic_1_1Point.html">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a031815dd1dfba5563c53c59cf4c8f275">_maxSpeed</a></td></tr>
 <tr class="separator:a031815dd1dfba5563c53c59cf4c8f275"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a657b56f5305186655809a83744e01f53"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a657b56f5305186655809a83744e01f53">_friction</a></td></tr>
-<tr class="separator:a657b56f5305186655809a83744e01f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a528bcd93072831df63b5c2296a4b584f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a528bcd93072831df63b5c2296a4b584f">_friction</a></td></tr>
+<tr class="separator:a528bcd93072831df63b5c2296a4b584f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70e2de89434a33f26f0b1ced6fd0e92d"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a70e2de89434a33f26f0b1ced6fd0e92d">_moveRestrictions</a></td></tr>
 <tr class="separator:a70e2de89434a33f26f0b1ced6fd0e92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A component representing a rigid body. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a28203d38d278da0695ace20c66ee5f0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28203d38d278da0695ace20c66ee5f0a">&#9670;&nbsp;</a></span>RigidBody() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RigidBody::RigidBody </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a468892004f47d3fc49ef083869892943"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a468892004f47d3fc49ef083869892943">&#9670;&nbsp;</a></span>RigidBody()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a468892004f47d3fc49ef083869892943">&#9670;&nbsp;</a></span>RigidBody() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -243,8 +262,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0e831362de332496079daeb3421aff13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e831362de332496079daeb3421aff13">&#9670;&nbsp;</a></span>BodyType() <span class="overload">[1/2]</span></h2>
+<a id="afacbf1c675cf3b665bd7e5085f886504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afacbf1c675cf3b665bd7e5085f886504">&#9670;&nbsp;</a></span>BodyType() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -253,10 +272,10 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto spic::RigidBody::BodyType </td>
+          <td class="memname">enum <a class="el" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a> spic::RigidBody::BodyType </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; enum <a class="el" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a> </td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -433,8 +452,8 @@ template&lt;typename archive &gt; </div>
 
 </div>
 </div>
-<a id="a657b56f5305186655809a83744e01f53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a657b56f5305186655809a83744e01f53">&#9670;&nbsp;</a></span>_friction</h2>
+<a id="a528bcd93072831df63b5c2296a4b584f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a528bcd93072831df63b5c2296a4b584f">&#9670;&nbsp;</a></span>_friction</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -443,7 +462,7 @@ template&lt;typename archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const float spic::RigidBody::_friction</td>
+          <td class="memname">float spic::RigidBody::_friction</td>
         </tr>
       </table>
   </td>

@@ -82,7 +82,7 @@ Inheritance diagram for ObjectBuilder:</div>
 <div class="dynheader">
 Collaboration diagram for ObjectBuilder:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classObjectBuilder__coll__graph.svg" width="259" height="352"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classObjectBuilder__coll__graph.svg" width="259" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -109,6 +109,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad8a18b208442e599bb7599aab1a10bd0"><td class="memItemLeft" align="right" valign="top">virtual auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectBuilder.html#ad8a18b208442e599bb7599aab1a10bd0">AddSprite</a> (const <a class="el" href="classspic_1_1Sprite.html">spic::Sprite</a> &amp;sprite) -&gt; <a class="el" href="classObjectBuilder.html">ObjectBuilder</a> &amp;=0</td></tr>
 <tr class="memdesc:ad8a18b208442e599bb7599aab1a10bd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a Sprite component to the current GameObject being build.  <a href="classObjectBuilder.html#ad8a18b208442e599bb7599aab1a10bd0">More...</a><br /></td></tr>
 <tr class="separator:ad8a18b208442e599bb7599aab1a10bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5bac235872548692c7625b3bbd7b123"><td class="memItemLeft" align="right" valign="top">virtual auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectBuilder.html#aa5bac235872548692c7625b3bbd7b123">AddTransform</a> (const <a class="el" href="structspic_1_1Transform.html">spic::Transform</a> &amp;transform) -&gt; <a class="el" href="classObjectBuilder.html">ObjectBuilder</a> &amp;=0</td></tr>
+<tr class="memdesc:aa5bac235872548692c7625b3bbd7b123"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a Transform component to the current GameObject being build.  <a href="classObjectBuilder.html#aa5bac235872548692c7625b3bbd7b123">More...</a><br /></td></tr>
+<tr class="separator:aa5bac235872548692c7625b3bbd7b123"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a540bab3381e0006ee9b61b462a8bbfb6"><td class="memItemLeft" align="right" valign="top">virtual auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObjectBuilder.html#a540bab3381e0006ee9b61b462a8bbfb6">SetOwnerId</a> (int ownerId) -&gt; <a class="el" href="classObjectBuilder.html">ObjectBuilder</a> &amp;=0</td></tr>
+<tr class="memdesc:a540bab3381e0006ee9b61b462a8bbfb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the owner id of the current GameObject being build.  <a href="classObjectBuilder.html#a540bab3381e0006ee9b61b462a8bbfb6">More...</a><br /></td></tr>
+<tr class="separator:a540bab3381e0006ee9b61b462a8bbfb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for GameObjectBuilders. </p>
@@ -336,6 +342,68 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>reference to <a class="el" href="classObjectBuilder.html" title="Base class for GameObjectBuilders.">ObjectBuilder</a>, allows method chaining. </dd></dl>
 
 <p>Implemented in <a class="el" href="classGameObjectBuilder.html#a89314e32b608aa3abee4aa0e7715aae1">GameObjectBuilder</a>.</p>
+
+</div>
+</div>
+<a id="aa5bac235872548692c7625b3bbd7b123"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5bac235872548692c7625b3bbd7b123">&#9670;&nbsp;</a></span>AddTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual auto ObjectBuilder::AddTransform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structspic_1_1Transform.html">spic::Transform</a> &amp;&#160;</td>
+          <td class="paramname"><em>transform</em></td><td>)</td>
+          <td> -&gt;  <a class="el" href="classObjectBuilder.html">ObjectBuilder</a> &amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds a Transform component to the current GameObject being build. </p>
+<dl class="section return"><dt>Returns</dt><dd>reference to <a class="el" href="classObjectBuilder.html" title="Base class for GameObjectBuilders.">ObjectBuilder</a>, allows method chaining. </dd></dl>
+
+<p>Implemented in <a class="el" href="classGameObjectBuilder.html#a68d2a1a1edb055fcd51aa1bf6e7d44a7">GameObjectBuilder</a>.</p>
+
+</div>
+</div>
+<a id="a540bab3381e0006ee9b61b462a8bbfb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a540bab3381e0006ee9b61b462a8bbfb6">&#9670;&nbsp;</a></span>SetOwnerId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual auto ObjectBuilder::SetOwnerId </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ownerId</em></td><td>)</td>
+          <td> -&gt;  <a class="el" href="classObjectBuilder.html">ObjectBuilder</a> &amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the owner id of the current GameObject being build. </p>
+<dl class="section return"><dt>Returns</dt><dd>reference to <a class="el" href="classObjectBuilder.html" title="Base class for GameObjectBuilders.">ObjectBuilder</a>, allows method chaining. </dd></dl>
+
+<p>Implemented in <a class="el" href="classGameObjectBuilder.html#a6fc144ab8966d6bdb95aa015209d545b">GameObjectBuilder</a>.</p>
 
 </div>
 </div>

@@ -118,6 +118,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a89314e32b608aa3abee4aa0e7715aae1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameObjectBuilder.html#a89314e32b608aa3abee4aa0e7715aae1">AddSprite</a> (const <a class="el" href="classspic_1_1Sprite.html">spic::Sprite</a> &amp;sprite) -&gt; <a class="el" href="classGameObjectBuilder.html">GameObjectBuilder</a> &amp;override</td></tr>
 <tr class="memdesc:a89314e32b608aa3abee4aa0e7715aae1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a Sprite component to the current GameObject being build.  <a href="classGameObjectBuilder.html#a89314e32b608aa3abee4aa0e7715aae1">More...</a><br /></td></tr>
 <tr class="separator:a89314e32b608aa3abee4aa0e7715aae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68d2a1a1edb055fcd51aa1bf6e7d44a7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameObjectBuilder.html#a68d2a1a1edb055fcd51aa1bf6e7d44a7">AddTransform</a> (const <a class="el" href="structspic_1_1Transform.html">spic::Transform</a> &amp;transform) -&gt; <a class="el" href="classGameObjectBuilder.html">GameObjectBuilder</a> &amp;override</td></tr>
+<tr class="memdesc:a68d2a1a1edb055fcd51aa1bf6e7d44a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a Transform component to the current GameObject being build.  <a href="classGameObjectBuilder.html#a68d2a1a1edb055fcd51aa1bf6e7d44a7">More...</a><br /></td></tr>
+<tr class="separator:a68d2a1a1edb055fcd51aa1bf6e7d44a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc144ab8966d6bdb95aa015209d545b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameObjectBuilder.html#a6fc144ab8966d6bdb95aa015209d545b">SetOwnerId</a> (int ownerId) -&gt; <a class="el" href="classGameObjectBuilder.html">GameObjectBuilder</a> &amp;override</td></tr>
+<tr class="memdesc:a6fc144ab8966d6bdb95aa015209d545b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the owner id of the current GameObject being build.  <a href="classGameObjectBuilder.html#a6fc144ab8966d6bdb95aa015209d545b">More...</a><br /></td></tr>
+<tr class="separator:a6fc144ab8966d6bdb95aa015209d545b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of <a class="el" href="classObjectBuilder.html" title="Base class for GameObjectBuilders.">ObjectBuilder</a> to create gameobjects with ease. </p>
@@ -369,6 +375,37 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a68d2a1a1edb055fcd51aa1bf6e7d44a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68d2a1a1edb055fcd51aa1bf6e7d44a7">&#9670;&nbsp;</a></span>AddTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto GameObjectBuilder::AddTransform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structspic_1_1Transform.html">spic::Transform</a> &amp;&#160;</td>
+          <td class="paramname"><em>transform</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classGameObjectBuilder.html">GameObjectBuilder</a> &amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds a Transform component to the current GameObject being build. </p>
+<dl class="section return"><dt>Returns</dt><dd>reference to <a class="el" href="classObjectBuilder.html" title="Base class for GameObjectBuilders.">ObjectBuilder</a>, allows method chaining. </dd></dl>
+
+<p>Implements <a class="el" href="classObjectBuilder.html#aa5bac235872548692c7625b3bbd7b123">ObjectBuilder</a>.</p>
+
+</div>
+</div>
 <a id="add7fcc5de56ee716d92472ab9bf9a1f1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add7fcc5de56ee716d92472ab9bf9a1f1">&#9670;&nbsp;</a></span>GetGameObject()</h2>
 
@@ -413,6 +450,37 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>shared pointer to GameObject. (Shared with static instance list) </dd></dl>
+
+</div>
+</div>
+<a id="a6fc144ab8966d6bdb95aa015209d545b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fc144ab8966d6bdb95aa015209d545b">&#9670;&nbsp;</a></span>SetOwnerId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto GameObjectBuilder::SetOwnerId </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ownerId</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classGameObjectBuilder.html">GameObjectBuilder</a> &amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the owner id of the current GameObject being build. </p>
+<dl class="section return"><dt>Returns</dt><dd>reference to <a class="el" href="classObjectBuilder.html" title="Base class for GameObjectBuilders.">ObjectBuilder</a>, allows method chaining. </dd></dl>
+
+<p>Implements <a class="el" href="classObjectBuilder.html#a540bab3381e0006ee9b61b462a8bbfb6">ObjectBuilder</a>.</p>
 
 </div>
 </div>

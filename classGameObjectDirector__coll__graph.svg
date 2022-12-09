@@ -29,13 +29,13 @@
 <text text-anchor="start" x="8" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;sprite, Transform transform)</text>
 <text text-anchor="start" x="8" y="-260.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;&gt; GameObject &amp;</text>
 <text text-anchor="start" x="8" y="-249.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ static auto CreatePlayer</text>
-<text text-anchor="start" x="8" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">(Transform transform, int</text>
-<text text-anchor="start" x="8" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00"> colliderWidth, int colliderHeight,</text>
-<text text-anchor="start" x="8" y="-216.5" font-family="Helvetica,sans-Serif" font-size="10.00"> std::vector&lt; platformer_engine</text>
-<text text-anchor="start" x="8" y="-205.5" font-family="Helvetica,sans-Serif" font-size="10.00">::AnimatedSprite &gt; &amp;animations,</text>
-<text text-anchor="start" x="8" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00"> const std::vector&lt; std::shared_ptr</text>
-<text text-anchor="start" x="8" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; BehaviourScript &gt;&gt; &amp;behaviourScripts)</text>
-<text text-anchor="start" x="8" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;&gt; GameObject &amp;</text>
+<text text-anchor="start" x="8" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">(int playerId, Transform</text>
+<text text-anchor="start" x="8" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00"> transform, int colliderWidth,</text>
+<text text-anchor="start" x="8" y="-216.5" font-family="Helvetica,sans-Serif" font-size="10.00"> int colliderHeight, std::vector</text>
+<text text-anchor="start" x="8" y="-205.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; platformer_engine::AnimatedSprite</text>
+<text text-anchor="start" x="8" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; &amp;animations, const std::vector</text>
+<text text-anchor="start" x="8" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; std::shared_ptr&lt; BehaviourScript</text>
+<text text-anchor="start" x="8" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt;&gt; &amp;behaviourScripts) &#45;&gt; GameObject &amp;</text>
 <text text-anchor="start" x="8" y="-161.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ static auto CreateText</text>
 <text text-anchor="start" x="8" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00">(Transform transform,</text>
 <text text-anchor="start" x="8" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00"> const std::string objectId,</text>

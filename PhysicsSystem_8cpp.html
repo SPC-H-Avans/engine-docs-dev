@@ -106,8 +106,8 @@ Functions</h2></td></tr>
 <tr class="separator:a894009d736b7b9f7dae0b7b500e7b8bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedbf52edc772a134cdc9808a0af0c5d5"><td class="memItemLeft" align="right" valign="top">vector&lt; shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#aedbf52edc772a134cdc9808a0af0c5d5">GetNearbyObjects</a> (<a class="el" href="classspic_1_1GameObject.html">GameObject</a> &amp;obj, <a class="el" href="classspic_1_1BoxCollider.html">BoxCollider</a> &amp;objCollider, <a class="el" href="PhysicsSystem_8cpp.html#aabf846d1fafc4774485f7954790986c1">SpatialMap</a> &amp;map)</td></tr>
 <tr class="separator:aedbf52edc772a134cdc9808a0af0c5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b1b8dd10dcc9589765beac833f06300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#a9b1b8dd10dcc9589765beac833f06300">PopCollisionFromList</a> (std::vector&lt; <a class="el" href="classCollision.html">Collision</a> &gt; &amp;list, int collisionId)</td></tr>
-<tr class="separator:a9b1b8dd10dcc9589765beac833f06300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eac807965aa70e76eb2f226d7dd95bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#a0eac807965aa70e76eb2f226d7dd95bd">PopCollisionFromList</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classCollision.html">Collision</a> &gt;&gt; &amp;list, int collisionId)</td></tr>
+<tr class="separator:a0eac807965aa70e76eb2f226d7dd95bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -232,8 +232,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9b1b8dd10dcc9589765beac833f06300"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b1b8dd10dcc9589765beac833f06300">&#9670;&nbsp;</a></span>PopCollisionFromList()</h2>
+<a id="a0eac807965aa70e76eb2f226d7dd95bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eac807965aa70e76eb2f226d7dd95bd">&#9670;&nbsp;</a></span>PopCollisionFromList()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +241,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void PopCollisionFromList </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="classCollision.html">Collision</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classCollision.html">Collision</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>list</em>, </td>
         </tr>
         <tr>

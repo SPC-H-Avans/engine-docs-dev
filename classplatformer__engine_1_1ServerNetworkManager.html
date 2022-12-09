@@ -104,6 +104,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af24c369d5b181d104857fd91a04a43b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#af24c369d5b181d104857fd91a04a43b8">SendUpdateToClients</a> (const void *data, size_t dataLength, bool reliable=false)</td></tr>
 <tr class="memdesc:af24c369d5b181d104857fd91a04a43b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send update to all clients.  <a href="classplatformer__engine_1_1ServerNetworkManager.html#af24c369d5b181d104857fd91a04a43b8">More...</a><br /></td></tr>
 <tr class="separator:af24c369d5b181d104857fd91a04a43b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab53178b9a4b31d1c48457b4fa9389ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#aab53178b9a4b31d1c48457b4fa9389ca">SendUpdateToClientsExcept</a> (std::vector&lt; int &gt; clientIds, const void *data, size_t dataLength, bool reliable=false)</td></tr>
+<tr class="separator:aab53178b9a4b31d1c48457b4fa9389ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a818055d0ec3d99a1000d4193b5ffab57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#a818055d0ec3d99a1000d4193b5ffab57">SendUpdateToClient</a> (int clientId, const void *data, size_t dataLength, bool reliable=false)</td></tr>
 <tr class="memdesc:a818055d0ec3d99a1000d4193b5ffab57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send update to a specific client.  <a href="classplatformer__engine_1_1ServerNetworkManager.html#a818055d0ec3d99a1000d4193b5ffab57">More...</a><br /></td></tr>
 <tr class="separator:a818055d0ec3d99a1000d4193b5ffab57"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,8 +142,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af81e823e8c7b577c18c7c1fec0fe9e65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#af81e823e8c7b577c18c7c1fec0fe9e65">CreateNetworkedScene</a> (int clientId, const <a class="el" href="classspic_1_1Scene.html">spic::Scene</a> &amp;scene)</td></tr>
 <tr class="memdesc:af81e823e8c7b577c18c7c1fec0fe9e65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new network scene and send it to all clients.  <a href="classplatformer__engine_1_1ServerNetworkManager.html#af81e823e8c7b577c18c7c1fec0fe9e65">More...</a><br /></td></tr>
 <tr class="separator:af81e823e8c7b577c18c7c1fec0fe9e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cbcb6b670e2aa4a182615bc36b1a910"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#a1cbcb6b670e2aa4a182615bc36b1a910">HandleGameObjectTransformEventFromClient</a> (int clientId, const void *data, size_t length)</td></tr>
-<tr class="separator:a1cbcb6b670e2aa4a182615bc36b1a910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39b2c0a2a2aec3fc579eda07eb0ed210"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#a39b2c0a2a2aec3fc579eda07eb0ed210">SendLoadedTexturesToClient</a> (int clientId)</td></tr>
+<tr class="separator:a39b2c0a2a2aec3fc579eda07eb0ed210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a1cd036769601c2775be23c76b332c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#a3a1cd036769601c2775be23c76b332c6">CreateNetworkedPlayerCharacter</a> (int clientId, const <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &amp;gameObjectToCreate)</td></tr>
+<tr class="separator:a3a1cd036769601c2775be23c76b332c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2886476a4e051b18be5cf486395cc06a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html#a2886476a4e051b18be5cf486395cc06a">UpdateAnimation</a> (int clientId, const std::string &amp;gameObjectId, const std::string &amp;animationId)</td></tr>
+<tr class="separator:a2886476a4e051b18be5cf486395cc06a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -232,6 +238,34 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a3a1cd036769601c2775be23c76b332c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a1cd036769601c2775be23c76b332c6">&#9670;&nbsp;</a></span>CreateNetworkedPlayerCharacter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::ServerNetworkManager::CreateNetworkedPlayerCharacter </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clientId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &amp;&#160;</td>
+          <td class="paramname"><em>gameObjectToCreate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -341,40 +375,6 @@ Public Attributes</h2></td></tr>
 
 <p>Get current level name. </p>
 <dl class="section return"><dt>Returns</dt><dd>std::string level name </dd></dl>
-
-</div>
-</div>
-<a id="a1cbcb6b670e2aa4a182615bc36b1a910"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cbcb6b670e2aa4a182615bc36b1a910">&#9670;&nbsp;</a></span>HandleGameObjectTransformEventFromClient()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void platformer_engine::ServerNetworkManager::HandleGameObjectTransformEventFromClient </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>clientId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const void *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>length</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -577,6 +577,24 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a39b2c0a2a2aec3fc579eda07eb0ed210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39b2c0a2a2aec3fc579eda07eb0ed210">&#9670;&nbsp;</a></span>SendLoadedTexturesToClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::ServerNetworkManager::SendLoadedTexturesToClient </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clientId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a818055d0ec3d99a1000d4193b5ffab57"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a818055d0ec3d99a1000d4193b5ffab57">&#9670;&nbsp;</a></span>SendUpdateToClient()</h2>
 
@@ -672,6 +690,46 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aab53178b9a4b31d1c48457b4fa9389ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab53178b9a4b31d1c48457b4fa9389ca">&#9670;&nbsp;</a></span>SendUpdateToClientsExcept()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::ServerNetworkManager::SendUpdateToClientsExcept </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>clientIds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>dataLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reliable</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a88c37163c09ac4bf46ba086406c64e05"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88c37163c09ac4bf46ba086406c64e05">&#9670;&nbsp;</a></span>SetActiveScene()</h2>
 
@@ -703,6 +761,40 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a2886476a4e051b18be5cf486395cc06a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2886476a4e051b18be5cf486395cc06a">&#9670;&nbsp;</a></span>UpdateAnimation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::ServerNetworkManager::UpdateAnimation </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>clientId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>gameObjectId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>animationId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

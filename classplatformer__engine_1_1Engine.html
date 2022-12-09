@@ -95,9 +95,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5f309709c17b57955c8712fd09d313fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a397d1dd45ff747ce2c206d024db24417"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a397d1dd45ff747ce2c206d024db24417">operator=</a> (<a class="el" href="classplatformer__engine_1_1Engine.html">Engine</a> &amp;&amp;)=delete</td></tr>
 <tr class="separator:a397d1dd45ff747ce2c206d024db24417"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae35e8276089938e23f2a928732fecfbf"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#ae35e8276089938e23f2a928732fecfbf">Init</a> (int width, int height, const std::string &amp;title, const <a class="el" href="classspic_1_1Color.html">spic::Color</a> &amp;color, bool fullScreen) -&gt; bool</td></tr>
-<tr class="memdesc:ae35e8276089938e23f2a928732fecfbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the engine.  <a href="classplatformer__engine_1_1Engine.html#ae35e8276089938e23f2a928732fecfbf">More...</a><br /></td></tr>
-<tr class="separator:ae35e8276089938e23f2a928732fecfbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59e1c3f47718baa81bb939c9f0ff358e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a59e1c3f47718baa81bb939c9f0ff358e">Init</a> (int width, int height, const std::string &amp;title, const <a class="el" href="classspic_1_1Color.html">spic::Color</a> &amp;color, bool fullScreen, bool debugLogs=false) -&gt; bool</td></tr>
+<tr class="memdesc:a59e1c3f47718baa81bb939c9f0ff358e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the engine.  <a href="classplatformer__engine_1_1Engine.html#a59e1c3f47718baa81bb939c9f0ff358e">More...</a><br /></td></tr>
+<tr class="separator:a59e1c3f47718baa81bb939c9f0ff358e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e8226215ee1b917efdc4fa3a6139fab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a7e8226215ee1b917efdc4fa3a6139fab">Start</a> ()</td></tr>
 <tr class="memdesc:a7e8226215ee1b917efdc4fa3a6139fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the engine, open window, start timer etc. @platformerengine.  <a href="classplatformer__engine_1_1Engine.html#a7e8226215ee1b917efdc4fa3a6139fab">More...</a><br /></td></tr>
 <tr class="separator:a7e8226215ee1b917efdc4fa3a6139fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,15 +120,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a02db56110cd6aa0f4310a8dfeb068d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current active Scene.  <a href="classplatformer__engine_1_1Engine.html#a02db56110cd6aa0f4310a8dfeb068d55">More...</a><br /></td></tr>
 <tr class="separator:a02db56110cd6aa0f4310a8dfeb068d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad21831ef35842d3298c7c6144e74f986"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#ad21831ef35842d3298c7c6144e74f986">AddScene</a> (const <a class="el" href="classspic_1_1Scene.html">Scene</a> &amp;scene)</td></tr>
+<tr class="memdesc:ad21831ef35842d3298c7c6144e74f986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a scene to the scene list.  <a href="classplatformer__engine_1_1Engine.html#ad21831ef35842d3298c7c6144e74f986">More...</a><br /></td></tr>
 <tr class="separator:ad21831ef35842d3298c7c6144e74f986"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28e24948a06b594cd5f5870cc187ac68"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a28e24948a06b594cd5f5870cc187ac68">GetServerNetworkManager</a> () -&gt; <a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html">ServerNetworkManager</a> &amp;</td></tr>
+<tr class="memdesc:a28e24948a06b594cd5f5870cc187ac68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the server network manager when active.  <a href="classplatformer__engine_1_1Engine.html#a28e24948a06b594cd5f5870cc187ac68">More...</a><br /></td></tr>
 <tr class="separator:a28e24948a06b594cd5f5870cc187ac68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00979a7546cd9c9db93e9a4db88ce62e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a00979a7546cd9c9db93e9a4db88ce62e">GetClientNetworkManager</a> () -&gt; <a class="el" href="classplatformer__engine_1_1ClientNetworkManager.html">ClientNetworkManager</a> &amp;</td></tr>
+<tr class="memdesc:a00979a7546cd9c9db93e9a4db88ce62e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the client network manager when active.  <a href="classplatformer__engine_1_1Engine.html#a00979a7546cd9c9db93e9a4db88ce62e">More...</a><br /></td></tr>
 <tr class="separator:a00979a7546cd9c9db93e9a4db88ce62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad483857ca594c6c01de10bc844b848e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#aad483857ca594c6c01de10bc844b848e">HostServer</a> (const std::string &amp;sceneId, int playerLimit, int port)</td></tr>
+<tr class="memdesc:aad483857ca594c6c01de10bc844b848e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Host a new server and load into a scene.  <a href="classplatformer__engine_1_1Engine.html#aad483857ca594c6c01de10bc844b848e">More...</a><br /></td></tr>
 <tr class="separator:aad483857ca594c6c01de10bc844b848e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accf210227dd6e88a2a18644f1accc0a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#accf210227dd6e88a2a18644f1accc0a4">JoinServer</a> (const std::string &amp;ip, int port)</td></tr>
+<tr class="memdesc:accf210227dd6e88a2a18644f1accc0a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a server by IP and port.  <a href="classplatformer__engine_1_1Engine.html#accf210227dd6e88a2a18644f1accc0a4">More...</a><br /></td></tr>
 <tr class="separator:accf210227dd6e88a2a18644f1accc0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45010b5b6c7ebe1a67f19cbe5a87535f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a45010b5b6c7ebe1a67f19cbe5a87535f">GetLocalClientId</a> () -&gt; const int</td></tr>
+<tr class="memdesc:a45010b5b6c7ebe1a67f19cbe5a87535f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get local client is, local client id is 0 when not in a server or when being the host.  <a href="classplatformer__engine_1_1Engine.html#a45010b5b6c7ebe1a67f19cbe5a87535f">More...</a><br /></td></tr>
+<tr class="separator:a45010b5b6c7ebe1a67f19cbe5a87535f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e5d07ead6288e30a3b67c233616216b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a6e5d07ead6288e30a3b67c233616216b">GetNetworkingStatus</a> () -&gt; const <a class="el" href="namespaceplatformer__engine.html#a70f702a9d8490198e4a1b293544b5af0">NetworkingStatus</a></td></tr>
+<tr class="memdesc:a6e5d07ead6288e30a3b67c233616216b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the networking status.  <a href="classplatformer__engine_1_1Engine.html#a6e5d07ead6288e30a3b67c233616216b">More...</a><br /></td></tr>
+<tr class="separator:a6e5d07ead6288e30a3b67c233616216b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d590eb01b40b9ac2bc277c27976ddb3"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a2d590eb01b40b9ac2bc277c27976ddb3">IsDebugLogsEnabled</a> () const -&gt; bool</td></tr>
+<tr class="memdesc:a2d590eb01b40b9ac2bc277c27976ddb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is debug logs enabled.  <a href="classplatformer__engine_1_1Engine.html#a2d590eb01b40b9ac2bc277c27976ddb3">More...</a><br /></td></tr>
+<tr class="separator:a2d590eb01b40b9ac2bc277c27976ddb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afce1c5ea2fb60ff5cb842e0e8a12c6c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#afce1c5ea2fb60ff5cb842e0e8a12c6c1">SetDebugLogsEnabled</a> (bool enabled)</td></tr>
+<tr class="memdesc:afce1c5ea2fb60ff5cb842e0e8a12c6c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set debug logs enabled.  <a href="classplatformer__engine_1_1Engine.html#afce1c5ea2fb60ff5cb842e0e8a12c6c1">More...</a><br /></td></tr>
+<tr class="separator:afce1c5ea2fb60ff5cb842e0e8a12c6c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4b61855784fd07aeb03e50d462027e3"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#ac4b61855784fd07aeb03e50d462027e3">GetWindow</a> () -&gt; <a class="el" href="classplatformer__engine_1_1Window.html">Window</a> &amp;</td></tr>
 <tr class="memdesc:ac4b61855784fd07aeb03e50d462027e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a reference to the window.  <a href="classplatformer__engine_1_1Engine.html#ac4b61855784fd07aeb03e50d462027e3">More...</a><br /></td></tr>
 <tr class="separator:ac4b61855784fd07aeb03e50d462027e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,6 +228,14 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Add a scene to the scene list. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scene</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a84fd6c69c45980ebffd6a338abe9983e"></a>
@@ -267,6 +292,9 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get the client network manager when active. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classplatformer__engine_1_1ClientNetworkManager.html" title="The ClientNetworkManager class, handles the client side of the network.">ClientNetworkManager</a> </dd></dl>
+
 </div>
 </div>
 <a id="a297381fd50f83ae153913b2785e1f5fe"></a>
@@ -297,6 +325,46 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a45010b5b6c7ebe1a67f19cbe5a87535f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45010b5b6c7ebe1a67f19cbe5a87535f">&#9670;&nbsp;</a></span>GetLocalClientId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto platformer_engine::Engine::GetLocalClientId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; const int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get local client is, local client id is 0 when not in a server or when being the host. </p>
+<dl class="section return"><dt>Returns</dt><dd>int local client id </dd></dl>
+
+</div>
+</div>
+<a id="a6e5d07ead6288e30a3b67c233616216b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e5d07ead6288e30a3b67c233616216b">&#9670;&nbsp;</a></span>GetNetworkingStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto platformer_engine::Engine::GetNetworkingStatus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; const <a class="el" href="namespaceplatformer__engine.html#a70f702a9d8490198e4a1b293544b5af0">NetworkingStatus</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the networking status. </p>
+<dl class="section return"><dt>Returns</dt><dd>NetworkingStatus </dd></dl>
+
+</div>
+</div>
 <a id="a28e24948a06b594cd5f5870cc187ac68"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28e24948a06b594cd5f5870cc187ac68">&#9670;&nbsp;</a></span>GetServerNetworkManager()</h2>
 
@@ -311,6 +379,9 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the server network manager when active. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html" title="The ServerNetworkManager class, handles all the networking for the server.">ServerNetworkManager</a> </dd></dl>
 
 </div>
 </div>
@@ -374,10 +445,20 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Host a new server and load into a scene. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sceneId</td><td>scene to use </td></tr>
+    <tr><td class="paramname">playerLimit</td><td>Max player amount </td></tr>
+    <tr><td class="paramname">port</td><td>Port </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="ae35e8276089938e23f2a928732fecfbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae35e8276089938e23f2a928732fecfbf">&#9670;&nbsp;</a></span>Init()</h2>
+<a id="a59e1c3f47718baa81bb939c9f0ff358e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59e1c3f47718baa81bb939c9f0ff358e">&#9670;&nbsp;</a></span>Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -410,7 +491,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>fullScreen</em>&#160;</td>
+          <td class="paramname"><em>fullScreen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>debugLogs</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -427,10 +514,39 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">height</td><td>The height of the window in px </td></tr>
     <tr><td class="paramname">title</td><td>Title of the window </td></tr>
     <tr><td class="paramname">color</td><td>Color of the window background </td></tr>
+    <tr><td class="paramname">debugLogs</td><td>Enable debug logs </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool True if the engine is initialized, false if not @platformerengine </dd></dl>
+
+</div>
+</div>
+<a id="a2d590eb01b40b9ac2bc277c27976ddb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d590eb01b40b9ac2bc277c27976ddb3">&#9670;&nbsp;</a></span>IsDebugLogsEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto platformer_engine::Engine::IsDebugLogsEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; bool </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Is debug logs enabled. </p>
+<dl class="section return"><dt>Returns</dt><dd>bool True if debug logs are enabled, false if not </dd></dl>
 
 </div>
 </div>
@@ -459,6 +575,15 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Join a server by IP and port. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ip</td><td>IP of the server </td></tr>
+    <tr><td class="paramname">port</td><td>Port of the server </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -572,6 +697,40 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">scene</td><td>Scene to make active @platformerengine </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afce1c5ea2fb60ff5cb842e0e8a12c6c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afce1c5ea2fb60ff5cb842e0e8a12c6c1">&#9670;&nbsp;</a></span>SetDebugLogsEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::Engine::SetDebugLogsEnabled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set debug logs enabled. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">enabled</td><td>True if debug logs are enabled, false if not </td></tr>
   </table>
   </dd>
 </dl>

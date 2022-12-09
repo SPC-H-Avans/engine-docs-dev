@@ -77,52 +77,60 @@ $(function() {
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Point_8hpp.html">Point.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Collider_8hpp.html">Collider.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;boost/serialization/access.hpp&gt;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">   11</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a> {</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa9d4d8b0b72fc2659da772d761a3c5ecb">   12</a></span>&#160;    <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa9d4d8b0b72fc2659da772d761a3c5ecb">Left</a>,</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fad48f7af8c070184f3774c8e85854eb66">   13</a></span>&#160;    <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fad48f7af8c070184f3774c8e85854eb66">Right</a>,</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa47321105d20c4efd6c573a6d829e1ad9">   14</a></span>&#160;    <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa47321105d20c4efd6c573a6d829e1ad9">Top</a>,</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa05cdd4fa6b505ee008f4e865acfecccb">   15</a></span>&#160;    <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa05cdd4fa6b505ee008f4e865acfecccb">Bottom</a>,</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa5c1ff5d85570f466119b73675d546384">Uncertain</a></div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa5c1ff5d85570f466119b73675d546384">   17</a></span>&#160;};</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacespic.html">spic</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;boost/serialization/export.hpp&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;boost/serialization/shared_ptr.hpp&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">   13</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a> {</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa9d4d8b0b72fc2659da772d761a3c5ecb">   14</a></span>&#160;    <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa9d4d8b0b72fc2659da772d761a3c5ecb">Left</a>,</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fad48f7af8c070184f3774c8e85854eb66">   15</a></span>&#160;    <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fad48f7af8c070184f3774c8e85854eb66">Right</a>,</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa47321105d20c4efd6c573a6d829e1ad9">   16</a></span>&#160;    <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa47321105d20c4efd6c573a6d829e1ad9">Top</a>,</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa05cdd4fa6b505ee008f4e865acfecccb">   17</a></span>&#160;    <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa05cdd4fa6b505ee008f4e865acfecccb">Bottom</a>,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa5c1ff5d85570f466119b73675d546384">Uncertain</a></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa5c1ff5d85570f466119b73675d546384">   19</a></span>&#160;};</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classCollision.html">   24</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classCollision.html">Collision</a> {</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="classCollision.html">Collision</a>(std::shared_ptr&lt;Collider&gt; other, <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a> direction, <span class="keywordtype">int</span> uid);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="classCollision.html">Collision</a>(std::shared_ptr&lt;Collider&gt; other, <span class="keywordtype">int</span> uid);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordtype">void</span> SetCollider(<span class="keyword">const</span> std::shared_ptr&lt;Collider&gt;&amp; other);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacespic.html">spic</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classCollision.html">   26</a></span>&#160;<span class="keyword">class </span><a class="code" href="classCollision.html">Collision</a> {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">class</span> Archive&gt;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classCollision.html#a8fdb8569cdba0f0ddebe798427b92cf7">   29</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCollision.html#a8fdb8569cdba0f0ddebe798427b92cf7">serialize</a>(Archive &amp;ar, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> version) {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        ar &amp; _id;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="classCollision.html">Collision</a>(std::shared_ptr&lt;Collider&gt; other, <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a> direction, <span class="keywordtype">int</span> uid);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classCollision.html">Collision</a>(std::shared_ptr&lt;Collider&gt; other, <span class="keywordtype">int</span> uid);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        [[nodiscard]] <span class="keyword">auto</span> GetCollider() -&gt; std::shared_ptr&lt;Collider&gt;;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> SetCollider(<span class="keyword">const</span> std::shared_ptr&lt;Collider&gt; &amp;other);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordtype">void</span> Contact(<a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a> point);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    [[nodiscard]] <span class="keyword">auto</span> GetCollider() const -&gt; std::shared_ptr&lt;<a class="code" href="classspic_1_1Collider.html">Collider</a>&gt;;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        [[nodiscard]] <span class="keyword">auto</span> Contact() <span class="keyword">const</span> -&gt; <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> Contact(<a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a> point);</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        [[nodiscard]] <span class="keyword">auto</span> GetId() <span class="keyword">const</span> -&gt; int;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    [[nodiscard]] auto Contact() const -&gt; <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a>;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        std::shared_ptr&lt;Collider&gt; _other;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a> _contact;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordtype">int</span> _id;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    };</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    [[nodiscard]] auto GetId() const -&gt; <span class="keywordtype">int</span>;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//PLATFORMER_ENGINE_COLLISION_HPP</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;private:</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    std::shared_ptr&lt;<a class="code" href="classspic_1_1Collider.html">Collider</a>&gt; _other;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a> _contact;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">int</span> _id;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;};</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//PLATFORMER_ENGINE_COLLISION_HPP</span></div>
 <div class="ttc" id="aCollider_8hpp_html"><div class="ttname"><a href="Collider_8hpp.html">Collider.hpp</a></div></div>
-<div class="ttc" id="aCollision_8hpp_html_a90dcf1378adc32cf4160392883fa955f"><div class="ttname"><a href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a></div><div class="ttdeci">CollisionPoint</div><div class="ttdef"><b>Definition:</b> Collision.hpp:11</div></div>
-<div class="ttc" id="aCollision_8hpp_html_a90dcf1378adc32cf4160392883fa955fa05cdd4fa6b505ee008f4e865acfecccb"><div class="ttname"><a href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa05cdd4fa6b505ee008f4e865acfecccb">Bottom</a></div><div class="ttdeci">@ Bottom</div><div class="ttdef"><b>Definition:</b> Collision.hpp:15</div></div>
-<div class="ttc" id="aCollision_8hpp_html_a90dcf1378adc32cf4160392883fa955fa47321105d20c4efd6c573a6d829e1ad9"><div class="ttname"><a href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa47321105d20c4efd6c573a6d829e1ad9">Top</a></div><div class="ttdeci">@ Top</div><div class="ttdef"><b>Definition:</b> Collision.hpp:14</div></div>
-<div class="ttc" id="aCollision_8hpp_html_a90dcf1378adc32cf4160392883fa955fa5c1ff5d85570f466119b73675d546384"><div class="ttname"><a href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa5c1ff5d85570f466119b73675d546384">Uncertain</a></div><div class="ttdeci">@ Uncertain</div><div class="ttdef"><b>Definition:</b> Collision.hpp:16</div></div>
-<div class="ttc" id="aCollision_8hpp_html_a90dcf1378adc32cf4160392883fa955fa9d4d8b0b72fc2659da772d761a3c5ecb"><div class="ttname"><a href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa9d4d8b0b72fc2659da772d761a3c5ecb">Left</a></div><div class="ttdeci">@ Left</div><div class="ttdef"><b>Definition:</b> Collision.hpp:12</div></div>
-<div class="ttc" id="aCollision_8hpp_html_a90dcf1378adc32cf4160392883fa955fad48f7af8c070184f3774c8e85854eb66"><div class="ttname"><a href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fad48f7af8c070184f3774c8e85854eb66">Right</a></div><div class="ttdeci">@ Right</div><div class="ttdef"><b>Definition:</b> Collision.hpp:13</div></div>
+<div class="ttc" id="aCollision_8hpp_html_a90dcf1378adc32cf4160392883fa955f"><div class="ttname"><a href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955f">CollisionPoint</a></div><div class="ttdeci">CollisionPoint</div><div class="ttdef"><b>Definition:</b> Collision.hpp:13</div></div>
+<div class="ttc" id="aCollision_8hpp_html_a90dcf1378adc32cf4160392883fa955fa05cdd4fa6b505ee008f4e865acfecccb"><div class="ttname"><a href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa05cdd4fa6b505ee008f4e865acfecccb">Bottom</a></div><div class="ttdeci">@ Bottom</div><div class="ttdef"><b>Definition:</b> Collision.hpp:17</div></div>
+<div class="ttc" id="aCollision_8hpp_html_a90dcf1378adc32cf4160392883fa955fa47321105d20c4efd6c573a6d829e1ad9"><div class="ttname"><a href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa47321105d20c4efd6c573a6d829e1ad9">Top</a></div><div class="ttdeci">@ Top</div><div class="ttdef"><b>Definition:</b> Collision.hpp:16</div></div>
+<div class="ttc" id="aCollision_8hpp_html_a90dcf1378adc32cf4160392883fa955fa5c1ff5d85570f466119b73675d546384"><div class="ttname"><a href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa5c1ff5d85570f466119b73675d546384">Uncertain</a></div><div class="ttdeci">@ Uncertain</div><div class="ttdef"><b>Definition:</b> Collision.hpp:18</div></div>
+<div class="ttc" id="aCollision_8hpp_html_a90dcf1378adc32cf4160392883fa955fa9d4d8b0b72fc2659da772d761a3c5ecb"><div class="ttname"><a href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fa9d4d8b0b72fc2659da772d761a3c5ecb">Left</a></div><div class="ttdeci">@ Left</div><div class="ttdef"><b>Definition:</b> Collision.hpp:14</div></div>
+<div class="ttc" id="aCollision_8hpp_html_a90dcf1378adc32cf4160392883fa955fad48f7af8c070184f3774c8e85854eb66"><div class="ttname"><a href="Collision_8hpp.html#a90dcf1378adc32cf4160392883fa955fad48f7af8c070184f3774c8e85854eb66">Right</a></div><div class="ttdeci">@ Right</div><div class="ttdef"><b>Definition:</b> Collision.hpp:15</div></div>
 <div class="ttc" id="aPoint_8hpp_html"><div class="ttname"><a href="Point_8hpp.html">Point.hpp</a></div></div>
-<div class="ttc" id="aclassCollision_html"><div class="ttname"><a href="classCollision.html">Collision</a></div><div class="ttdoc">Collider wrapper passed to BehaviourScript triggers, adds additional information about a collision ev...</div><div class="ttdef"><b>Definition:</b> Collision.hpp:24</div></div>
+<div class="ttc" id="aclassCollision_html"><div class="ttname"><a href="classCollision.html">Collision</a></div><div class="ttdoc">Collider wrapper passed to BehaviourScript triggers, adds additional information about a collision ev...</div><div class="ttdef"><b>Definition:</b> Collision.hpp:26</div></div>
+<div class="ttc" id="aclassCollision_html_a8fdb8569cdba0f0ddebe798427b92cf7"><div class="ttname"><a href="classCollision.html#a8fdb8569cdba0f0ddebe798427b92cf7">Collision::serialize</a></div><div class="ttdeci">void serialize(Archive &amp;ar, unsigned int version)</div><div class="ttdef"><b>Definition:</b> Collision.hpp:29</div></div>
+<div class="ttc" id="aclassspic_1_1Collider_html"><div class="ttname"><a href="classspic_1_1Collider.html">spic::Collider</a></div><div class="ttdoc">The base class for all colliders. @spicapi.</div><div class="ttdef"><b>Definition:</b> Collider.hpp:24</div></div>
 <div class="ttc" id="anamespacespic_html"><div class="ttname"><a href="namespacespic.html">spic</a></div><div class="ttdef"><b>Definition:</b> CameraNotInSceneException.hpp:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

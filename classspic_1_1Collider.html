@@ -92,8 +92,11 @@ Collaboration diagram for spic::Collider:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae786c66399cff1585fb77e8143847553"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#ae786c66399cff1585fb77e8143847553">GetCollisions</a> () const -&gt; const std::vector&lt; <a class="el" href="classCollision.html">Collision</a> &gt; &amp;</td></tr>
-<tr class="separator:ae786c66399cff1585fb77e8143847553"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b622f81da4f9c46cb80b0147941cf61"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
+<tr class="memitem:a6b622f81da4f9c46cb80b0147941cf61"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#a6b622f81da4f9c46cb80b0147941cf61">serialize</a> (Archive &amp;ar, unsigned int version)</td></tr>
+<tr class="separator:a6b622f81da4f9c46cb80b0147941cf61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf8cb651ba3a1e3811739338d802dab4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#acf8cb651ba3a1e3811739338d802dab4">GetCollisions</a> () const -&gt; const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classCollision.html">Collision</a> &gt;&gt; &amp;</td></tr>
+<tr class="separator:acf8cb651ba3a1e3811739338d802dab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f934d6f1e444b8e8a4555a887694ac7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#a7f934d6f1e444b8e8a4555a887694ac7">GetCollisionsWith</a> (const <a class="el" href="classspic_1_1Collider.html">Collider</a> &amp;col) -&gt; std::vector&lt; <a class="el" href="classCollision.html">Collision</a> &gt;</td></tr>
 <tr class="separator:a7f934d6f1e444b8e8a4555a887694ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ae1e38d9e03559f64eabd0d3d2e06de"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#a4ae1e38d9e03559f64eabd0d3d2e06de">GetCollisionById</a> (int uid) -&gt; <a class="el" href="classCollision.html">Collision</a> &amp;</td></tr>
@@ -164,24 +167,24 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>uid</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="classCollision.html">Collision</a>&amp;</td>
+          <td> -&gt; <a class="el" href="classCollision.html">Collision</a> &amp;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ae786c66399cff1585fb77e8143847553"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae786c66399cff1585fb77e8143847553">&#9670;&nbsp;</a></span>GetCollisions()</h2>
+<a id="acf8cb651ba3a1e3811739338d802dab4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf8cb651ba3a1e3811739338d802dab4">&#9670;&nbsp;</a></span>GetCollisions()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt; <a class="el" href="classCollision.html">Collision</a> &gt; &amp; spic::Collider::GetCollisions </td>
+          <td class="memname">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classCollision.html">Collision</a> &gt; &gt; &amp; spic::Collider::GetCollisions </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const -&gt; const std::vector&lt;<a class="el" href="classCollision.html">Collision</a>&gt;&amp;</td>
+          <td> const -&gt; const std::vector&lt;std::shared_ptr&lt;<a class="el" href="classCollision.html">Collision</a>&gt;&gt; &amp;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -220,6 +223,44 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6b622f81da4f9c46cb80b0147941cf61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b622f81da4f9c46cb80b0147941cf61">&#9670;&nbsp;</a></span>serialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Archive &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void spic::Collider::serialize </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>ar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>version</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

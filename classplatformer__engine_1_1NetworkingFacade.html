@@ -80,7 +80,7 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for platformer_engine::NetworkingFacade:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1NetworkingFacade__coll__graph.svg" width="272" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classplatformer__engine_1_1NetworkingFacade__coll__graph.svg" width="272" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -113,6 +113,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a39259c5f04e2f300c05a140f66684b45"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#a39259c5f04e2f300c05a140f66684b45">SendPacketToAllPeers</a> (const void *data, size_t length, bool reliable=false) -&gt; bool</td></tr>
 <tr class="memdesc:a39259c5f04e2f300c05a140f66684b45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a packet to all peers.  <a href="classplatformer__engine_1_1NetworkingFacade.html#a39259c5f04e2f300c05a140f66684b45">More...</a><br /></td></tr>
 <tr class="separator:a39259c5f04e2f300c05a140f66684b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19f50ed65e6882696d845a28143ad31b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#a19f50ed65e6882696d845a28143ad31b">SendPacketToAllPeersExcept</a> (std::vector&lt; int &gt; clientIds, const void *data, size_t length, bool reliable=false) -&gt; bool</td></tr>
+<tr class="separator:a19f50ed65e6882696d845a28143ad31b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c164146f96000f1516a3b778cf745e5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1NetworkingFacade.html#a7c164146f96000f1516a3b778cf745e5">GetMyPeerId</a> () const -&gt; int</td></tr>
 <tr class="memdesc:a7c164146f96000f1516a3b778cf745e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current peer ID (0 if server)  <a href="classplatformer__engine_1_1NetworkingFacade.html#a7c164146f96000f1516a3b778cf745e5">More...</a><br /></td></tr>
 <tr class="separator:a7c164146f96000f1516a3b778cf745e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -336,6 +338,46 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a19f50ed65e6882696d845a28143ad31b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19f50ed65e6882696d845a28143ad31b">&#9670;&nbsp;</a></span>SendPacketToAllPeersExcept()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto platformer_engine::NetworkingFacade::SendPacketToAllPeersExcept </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>clientIds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reliable</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

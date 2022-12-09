@@ -89,6 +89,9 @@ Collaboration diagram for platformer_engine::CollisionBehaviour:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a3334765dbe32e03d9aa1542a189d3438"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
+<tr class="memitem:a3334765dbe32e03d9aa1542a189d3438"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1CollisionBehaviour.html#a3334765dbe32e03d9aa1542a189d3438">serialize</a> (Archive &amp;ar, unsigned int version)</td></tr>
+<tr class="separator:a3334765dbe32e03d9aa1542a189d3438"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36c5654782635ced76c8711ec74c498a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1CollisionBehaviour.html#a36c5654782635ced76c8711ec74c498a">OnStart</a> () override</td></tr>
 <tr class="memdesc:a36c5654782635ced76c8711ec74c498a"><td class="mdescLeft">&#160;</td><td class="mdescRight">On start of behaviour script @spicapi.  <a href="classplatformer__engine_1_1CollisionBehaviour.html#a36c5654782635ced76c8711ec74c498a">More...</a><br /></td></tr>
 <tr class="separator:a36c5654782635ced76c8711ec74c498a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -104,6 +107,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af5a12d14ff44e429d7982353a22167a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1CollisionBehaviour.html#af5a12d14ff44e429d7982353a22167a0">OnTriggerStay2D</a> (<a class="el" href="classCollision.html">Collision</a> collision) override</td></tr>
 <tr class="memdesc:af5a12d14ff44e429d7982353a22167a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sent each frame where another object is within a trigger collider attached to this object (2D physics only). @spicapi.  <a href="classplatformer__engine_1_1CollisionBehaviour.html#af5a12d14ff44e429d7982353a22167a0">More...</a><br /></td></tr>
 <tr class="separator:af5a12d14ff44e429d7982353a22167a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classspic_1_1BehaviourScript"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classspic_1_1BehaviourScript')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classspic_1_1BehaviourScript.html">spic::BehaviourScript</a></td></tr>
+<tr class="memitem:a5101079f8363686f20c467f2bc553461 inherit pub_methods_classspic_1_1BehaviourScript"><td class="memTemplParams" colspan="2">template&lt;typename archive &gt; </td></tr>
+<tr class="memitem:a5101079f8363686f20c467f2bc553461 inherit pub_methods_classspic_1_1BehaviourScript"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classspic_1_1BehaviourScript.html#a5101079f8363686f20c467f2bc553461">serialize</a> (archive &amp;ar, const unsigned)</td></tr>
+<tr class="separator:a5101079f8363686f20c467f2bc553461 inherit pub_methods_classspic_1_1BehaviourScript"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classspic_1_1Component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classspic_1_1Component')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classspic_1_1Component.html">spic::Component</a></td></tr>
 <tr class="memitem:a9e7893fbf087bb77ca42a6a7aebedefb inherit pub_methods_classspic_1_1Component"><td class="memTemplParams" colspan="2">template&lt;typename archive &gt; </td></tr>
 <tr class="memitem:a9e7893fbf087bb77ca42a6a7aebedefb inherit pub_methods_classspic_1_1Component"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classspic_1_1Component.html#a9e7893fbf087bb77ca42a6a7aebedefb">serialize</a> (archive &amp;ar, const unsigned)</td></tr>
@@ -280,6 +287,44 @@ Public Member Functions</h2></td></tr>
 <p>On update of behaviour script @spicapi. </p>
 
 <p>Reimplemented from <a class="el" href="classspic_1_1BehaviourScript.html#a6e2d489237a308ace55b84ab9e575972">spic::BehaviourScript</a>.</p>
+
+</div>
+</div>
+<a id="a3334765dbe32e03d9aa1542a189d3438"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3334765dbe32e03d9aa1542a189d3438">&#9670;&nbsp;</a></span>serialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Archive &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::CollisionBehaviour::serialize </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>ar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>version</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
