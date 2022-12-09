@@ -108,9 +108,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a213e22b5f20ba1f547ff12715f839a65"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1GraphicsFacade.html#a213e22b5f20ba1f547ff12715f839a65">LoadTexture</a> (const std::string &amp;id, const std::string &amp;fileName) -&gt; bool</td></tr>
 <tr class="memdesc:a213e22b5f20ba1f547ff12715f839a65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a texture.  <a href="classplatformer__engine_1_1GraphicsFacade.html#a213e22b5f20ba1f547ff12715f839a65">More...</a><br /></td></tr>
 <tr class="separator:a213e22b5f20ba1f547ff12715f839a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81df36e22f5dc8493e8ae67d8fa0b2d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1GraphicsFacade.html#ab81df36e22f5dc8493e8ae67d8fa0b2d">LoadUIText</a> (const std::string textId, const std::string filePath, const std::string text, const int fontSize, const <a class="el" href="classspic_1_1Color.html">spic::Color</a> color) -&gt; bool</td></tr>
+<tr class="memdesc:ab81df36e22f5dc8493e8ae67d8fa0b2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a text object.  <a href="classplatformer__engine_1_1GraphicsFacade.html#ab81df36e22f5dc8493e8ae67d8fa0b2d">More...</a><br /></td></tr>
+<tr class="separator:ab81df36e22f5dc8493e8ae67d8fa0b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a766a1dadc9641d569c8071d690a1e4a4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1GraphicsFacade.html#a766a1dadc9641d569c8071d690a1e4a4">CreateOrUpdateUIText</a> (const std::string textId, const std::string filePath, const std::string text, const int fontSize, const <a class="el" href="classspic_1_1Color.html">spic::Color</a> color) -&gt; bool</td></tr>
+<tr class="memdesc:a766a1dadc9641d569c8071d690a1e4a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Text element, or update it if the textId already exists.  <a href="classplatformer__engine_1_1GraphicsFacade.html#a766a1dadc9641d569c8071d690a1e4a4">More...</a><br /></td></tr>
+<tr class="separator:a766a1dadc9641d569c8071d690a1e4a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8783dd810ca90d10c7e7acb7d6ed75e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1GraphicsFacade.html#a8783dd810ca90d10c7e7acb7d6ed75e4">DrawTexture</a> (const std::string &amp;id, int x, int y, int width, int height, const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;flip=<a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a>, double scale=1.0, int spriteSheetX=0, int spriteSheetY=0)</td></tr>
 <tr class="memdesc:a8783dd810ca90d10c7e7acb7d6ed75e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a texture (complete png for example)  <a href="classplatformer__engine_1_1GraphicsFacade.html#a8783dd810ca90d10c7e7acb7d6ed75e4">More...</a><br /></td></tr>
 <tr class="separator:a8783dd810ca90d10c7e7acb7d6ed75e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a987115a3b22e2113663c2d5b7389d9da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1GraphicsFacade.html#a987115a3b22e2113663c2d5b7389d9da">DrawUIText</a> (const std::string textId, const int x, const int y, const int width, const int height)</td></tr>
+<tr class="memdesc:a987115a3b22e2113663c2d5b7389d9da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a text UI element.  <a href="classplatformer__engine_1_1GraphicsFacade.html#a987115a3b22e2113663c2d5b7389d9da">More...</a><br /></td></tr>
+<tr class="separator:a987115a3b22e2113663c2d5b7389d9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7bb17c3031c2048e4d9f8395dd977bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1GraphicsFacade.html#ac7bb17c3031c2048e4d9f8395dd977bc">DrawFrame</a> (const std::string &amp;id, int x, int y, int width, int height, int row, int frame, const <a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3">SPIC_RendererFlip</a> &amp;flip=<a class="el" href="namespaceplatformer__engine.html#a35560c5d4993464dddf37849f86816d3a245385c067eb05fcf566b22abcded3d8">FLIP_NONE</a>, double scale=1.0)</td></tr>
 <tr class="separator:ac7bb17c3031c2048e4d9f8395dd977bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87343aebfd25414524442f29d533c9fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1GraphicsFacade.html#a87343aebfd25414524442f29d533c9fc">ClearTextures</a> ()</td></tr>
@@ -206,6 +215,54 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a766a1dadc9641d569c8071d690a1e4a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a766a1dadc9641d569c8071d690a1e4a4">&#9670;&nbsp;</a></span>CreateOrUpdateUIText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto platformer_engine::GraphicsFacade::CreateOrUpdateUIText </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>textId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>filePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>fontSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classspic_1_1Color.html">spic::Color</a>&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a Text element, or update it if the textId already exists. </p>
 
 </div>
 </div>
@@ -359,6 +416,54 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a987115a3b22e2113663c2d5b7389d9da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a987115a3b22e2113663c2d5b7389d9da">&#9670;&nbsp;</a></span>DrawUIText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::GraphicsFacade::DrawUIText </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>textId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw a text UI element. </p>
 
 </div>
 </div>
@@ -533,6 +638,54 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ab81df36e22f5dc8493e8ae67d8fa0b2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab81df36e22f5dc8493e8ae67d8fa0b2d">&#9670;&nbsp;</a></span>LoadUIText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto platformer_engine::GraphicsFacade::LoadUIText </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>textId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>filePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>fontSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classspic_1_1Color.html">spic::Color</a>&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load a text object. </p>
 
 </div>
 </div>

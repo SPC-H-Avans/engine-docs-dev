@@ -85,21 +85,31 @@ $(function() {
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    };</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classspic_1_1Text.html">   24</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classspic_1_1Text.html">Text</a> : <span class="keyword">public</span> <a class="code" href="classspic_1_1UIObject.html">UIObject</a> {</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            std::string text;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            std::string font;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="keywordtype">int</span> size;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <a class="code" href="namespacespic.html#aaa0301faebebc81988adda719b02a0fe">Alignment</a> alignment;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <a class="code" href="classspic_1_1Color.html">Color</a> color;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    };</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <a class="code" href="classspic_1_1Text.html#a8d05f7b8a3caedf5b445d8aaceae5230">Text</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keywordtype">double</span> width, <span class="keywordtype">double</span> height,</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                 <span class="keyword">const</span> std::string&amp; text, <span class="keyword">const</span> std::string&amp; fontPath,</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                 <span class="keywordtype">int</span> fontSize = 24, <a class="code" href="classspic_1_1Color.html">Color</a> color = <a class="code" href="classspic_1_1Color.html#ab2f1f803d93b6eddd4703ef672fe3386">Color::Black</a>(),</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                 <a class="code" href="namespacespic.html#aaa0301faebebc81988adda719b02a0fe">Alignment</a> alignment = <a class="code" href="namespacespic.html#aaa0301faebebc81988adda719b02a0feaadb115059e28d960fa8badfac5516667">Alignment::center</a>); <span class="comment">// alignment is currently unused</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// TEXT_H_</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classspic_1_1Text.html#a397e6629b28b9bf138fe92ed4591e3d9">Render</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            std::string _text;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            std::string _font;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keywordtype">int</span> _size;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <a class="code" href="namespacespic.html#aaa0301faebebc81988adda719b02a0fe">Alignment</a> _alignment;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <a class="code" href="classspic_1_1Color.html">Color</a> _color;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    };</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// TEXT_H_</span></div>
 <div class="ttc" id="aColor_8hpp_html"><div class="ttname"><a href="Color_8hpp.html">Color.hpp</a></div></div>
 <div class="ttc" id="aUIObject_8hpp_html"><div class="ttname"><a href="UIObject_8hpp.html">UIObject.hpp</a></div></div>
 <div class="ttc" id="aclassspic_1_1Color_html"><div class="ttname"><a href="classspic_1_1Color.html">spic::Color</a></div><div class="ttdoc">Color represents a red-green-blue color with alpha.</div><div class="ttdef"><b>Definition:</b> Color.hpp:12</div></div>
+<div class="ttc" id="aclassspic_1_1Color_html_ab2f1f803d93b6eddd4703ef672fe3386"><div class="ttname"><a href="classspic_1_1Color.html#ab2f1f803d93b6eddd4703ef672fe3386">spic::Color::Black</a></div><div class="ttdeci">static auto Black() -&gt; const Color &amp;</div><div class="ttdoc">One of the standard colors (read-only): black.</div><div class="ttdef"><b>Definition:</b> Color.hpp:91</div></div>
 <div class="ttc" id="aclassspic_1_1Text_html"><div class="ttname"><a href="classspic_1_1Text.html">spic::Text</a></div><div class="ttdoc">Class representing a piece of text which can be rendered. @spicapi.</div><div class="ttdef"><b>Definition:</b> Text.hpp:24</div></div>
+<div class="ttc" id="aclassspic_1_1Text_html_a397e6629b28b9bf138fe92ed4591e3d9"><div class="ttname"><a href="classspic_1_1Text.html#a397e6629b28b9bf138fe92ed4591e3d9">spic::Text::Render</a></div><div class="ttdeci">void Render() override</div><div class="ttdoc">Render the Text @spicapi.</div><div class="ttdef"><b>Definition:</b> Text.cpp:18</div></div>
+<div class="ttc" id="aclassspic_1_1Text_html_a8d05f7b8a3caedf5b445d8aaceae5230"><div class="ttname"><a href="classspic_1_1Text.html#a8d05f7b8a3caedf5b445d8aaceae5230">spic::Text::Text</a></div><div class="ttdeci">Text(const std::string &amp;name, double width, double height, const std::string &amp;text, const std::string &amp;fontPath, int fontSize=24, Color color=Color::Black(), Alignment alignment=Alignment::center)</div><div class="ttdoc">Text constructor @spicapi.</div><div class="ttdef"><b>Definition:</b> Text.cpp:3</div></div>
 <div class="ttc" id="aclassspic_1_1UIObject_html"><div class="ttname"><a href="classspic_1_1UIObject.html">spic::UIObject</a></div><div class="ttdoc">Base class for a user interface object like Button or Text. @spicapi.</div><div class="ttdef"><b>Definition:</b> UIObject.hpp:12</div></div>
 <div class="ttc" id="anamespacespic_html"><div class="ttname"><a href="namespacespic.html">spic</a></div><div class="ttdef"><b>Definition:</b> CameraNotInSceneException.hpp:7</div></div>
 <div class="ttc" id="anamespacespic_html_aaa0301faebebc81988adda719b02a0fe"><div class="ttname"><a href="namespacespic.html#aaa0301faebebc81988adda719b02a0fe">spic::Alignment</a></div><div class="ttdeci">Alignment</div><div class="ttdoc">Enumeration for different text alignments. @spicapi.</div><div class="ttdef"><b>Definition:</b> Text.hpp:14</div></div>
