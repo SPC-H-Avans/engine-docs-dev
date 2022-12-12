@@ -181,32 +181,36 @@ var sectionId = 'dynsection-0';
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="classspic_1_1Collider.html" target="_top" xlink:title="The base class for all colliders. @spicapi.">
-<polygon fill="none" stroke="black" points="475,-419 475,-619 632,-619 632,-419 475,-419"/>
-<text text-anchor="middle" x="553.5" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">spic::Collider</text>
-<polyline fill="none" stroke="black" points="475,-600 632,-600 "/>
-<text text-anchor="middle" x="553.5" y="-588" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="475,-581 632,-581 "/>
-<text text-anchor="start" x="483" y="-569" font-family="Helvetica,sans-Serif" font-size="10.00">+ void serialize(Archive</text>
-<text text-anchor="start" x="483" y="-558" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;ar, unsigned int version)</text>
-<text text-anchor="start" x="483" y="-547" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetCollisions</text>
-<text text-anchor="start" x="483" y="-536" font-family="Helvetica,sans-Serif" font-size="10.00">() const &#45;&gt; const std</text>
-<text text-anchor="start" x="483" y="-525" font-family="Helvetica,sans-Serif" font-size="10.00">::vector&lt; std::shared</text>
-<text text-anchor="start" x="483" y="-514" font-family="Helvetica,sans-Serif" font-size="10.00">_ptr&lt; Collision &gt;&gt; &amp;</text>
-<text text-anchor="start" x="483" y="-503" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetCollisionsWith</text>
-<text text-anchor="start" x="483" y="-492" font-family="Helvetica,sans-Serif" font-size="10.00">(const Collider &amp;col)</text>
-<text text-anchor="start" x="483" y="-481" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;&gt; std::vector&lt; Collision &gt;</text>
-<text text-anchor="start" x="483" y="-470" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetCollisionById</text>
-<text text-anchor="start" x="483" y="-459" font-family="Helvetica,sans-Serif" font-size="10.00">(int uid) &#45;&gt; Collision &amp;</text>
-<text text-anchor="start" x="483" y="-448" font-family="Helvetica,sans-Serif" font-size="10.00">+ void AddCollision(Collision col)</text>
-<text text-anchor="start" x="483" y="-437" font-family="Helvetica,sans-Serif" font-size="10.00">+ void RemoveCollision</text>
-<text text-anchor="start" x="483" y="-426" font-family="Helvetica,sans-Serif" font-size="10.00">(int uid)</text>
+<polygon fill="none" stroke="black" points="475,-397 475,-641 632,-641 632,-397 475,-397"/>
+<text text-anchor="middle" x="553.5" y="-629" font-family="Helvetica,sans-Serif" font-size="10.00">spic::Collider</text>
+<polyline fill="none" stroke="black" points="475,-622 632,-622 "/>
+<text text-anchor="middle" x="553.5" y="-610" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="475,-603 632,-603 "/>
+<text text-anchor="start" x="483" y="-591" font-family="Helvetica,sans-Serif" font-size="10.00">+ void serialize(Archive</text>
+<text text-anchor="start" x="483" y="-580" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;ar, unsigned int version)</text>
+<text text-anchor="start" x="483" y="-569" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetCollisions</text>
+<text text-anchor="start" x="483" y="-558" font-family="Helvetica,sans-Serif" font-size="10.00">() const &#45;&gt; const std</text>
+<text text-anchor="start" x="483" y="-547" font-family="Helvetica,sans-Serif" font-size="10.00">::vector&lt; std::shared</text>
+<text text-anchor="start" x="483" y="-536" font-family="Helvetica,sans-Serif" font-size="10.00">_ptr&lt; Collision &gt;&gt; &amp;</text>
+<text text-anchor="start" x="483" y="-525" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetCollisionsWith</text>
+<text text-anchor="start" x="483" y="-514" font-family="Helvetica,sans-Serif" font-size="10.00">(const Collider &amp;col)</text>
+<text text-anchor="start" x="483" y="-503" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;&gt; std::vector&lt; Collision &gt;</text>
+<text text-anchor="start" x="483" y="-492" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetCollisionById</text>
+<text text-anchor="start" x="483" y="-481" font-family="Helvetica,sans-Serif" font-size="10.00">(int uid) &#45;&gt; Collision &amp;</text>
+<text text-anchor="start" x="483" y="-470" font-family="Helvetica,sans-Serif" font-size="10.00">+ void AddCollision(Collision col)</text>
+<text text-anchor="start" x="483" y="-459" font-family="Helvetica,sans-Serif" font-size="10.00">+ void RemoveCollision</text>
+<text text-anchor="start" x="483" y="-448" font-family="Helvetica,sans-Serif" font-size="10.00">(int uid)</text>
+<text text-anchor="start" x="483" y="-437" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetObstructsMovement</text>
+<text text-anchor="start" x="483" y="-426" font-family="Helvetica,sans-Serif" font-size="10.00">() const &#45;&gt; bool</text>
+<text text-anchor="start" x="483" y="-415" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SetObstructsMovement</text>
+<text text-anchor="start" x="483" y="-404" font-family="Helvetica,sans-Serif" font-size="10.00">(bool obstructsMovement)</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M505.25,-728.34C513.85,-691.2 522.77,-652.67 530.57,-619"/>
+<path fill="none" stroke="midnightblue" d="M505.24,-728.38C512.01,-699.14 518.98,-669.03 525.45,-641.12"/>
 <polygon fill="none" stroke="midnightblue" points="501.8,-727.72 502.95,-738.26 508.62,-729.3 501.8,-727.72"/>
 </g>
 <!-- Node9 -->
@@ -359,8 +363,8 @@ var sectionId = 'dynsection-0';
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M520.55,-409.05C503.56,-352.88 483.17,-285.48 467.5,-233.65"/>
-<polygon fill="none" stroke="midnightblue" points="517.22,-410.13 523.46,-418.68 523.92,-408.1 517.22,-410.13"/>
+<path fill="none" stroke="midnightblue" d="M513.88,-387C498.41,-335.85 481.14,-278.76 467.46,-233.54"/>
+<polygon fill="none" stroke="midnightblue" points="510.6,-388.25 516.85,-396.81 517.3,-386.23 510.6,-388.25"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
@@ -380,8 +384,8 @@ var sectionId = 'dynsection-0';
 <!-- Node6&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node6&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M565.75,-408.39C574,-334.47 584.41,-241.35 590.16,-189.82"/>
-<polygon fill="none" stroke="midnightblue" points="562.23,-408.36 564.6,-418.68 569.18,-409.13 562.23,-408.36"/>
+<path fill="none" stroke="midnightblue" d="M568.18,-386.62C575.96,-316.98 584.96,-236.42 590.16,-189.83"/>
+<polygon fill="none" stroke="midnightblue" points="564.67,-386.49 567.04,-396.81 571.63,-387.26 564.67,-386.49"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
