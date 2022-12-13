@@ -19,7 +19,7 @@ var searchData=
   ['addgameobjects_44',['AddGameObjects',['../classplatformer__engine_1_1SceneBuilder.html#a666538613d8c45b5b9bab34391042387',1,'platformer_engine::SceneBuilder']]],
   ['addobject_45',['AddObject',['../classspic_1_1Scene.html#a7bc4a758c3a7e1dc9c7067ecf330956b',1,'spic::Scene']]],
   ['addrigidbody_46',['AddRigidBody',['../classObjectBuilder.html#a5e30af17d69fd1ec189cd5d272d5a809',1,'ObjectBuilder::AddRigidBody()'],['../classGameObjectBuilder.html#a31e610eeb942304e15d2170b13ce0c55',1,'GameObjectBuilder::AddRigidBody()']]],
-  ['addscene_47',['AddScene',['../classplatformer__engine_1_1Engine.html#ad21831ef35842d3298c7c6144e74f986',1,'platformer_engine::Engine']]],
+  ['addscene_47',['AddScene',['../classplatformer__engine_1_1Engine.html#a42a919fda784521350f179882cb503ca',1,'platformer_engine::Engine']]],
   ['addsprite_48',['AddSprite',['../classGameObjectBuilder.html#a89314e32b608aa3abee4aa0e7715aae1',1,'GameObjectBuilder::AddSprite()'],['../classObjectBuilder.html#ad8a18b208442e599bb7599aab1a10bd0',1,'ObjectBuilder::AddSprite()']]],
   ['addtomap_49',['AddToMap',['../PhysicsSystem_8cpp.html#a14447c3aebbf044f3a868b9181f1ba3b',1,'PhysicsSystem.cpp']]],
   ['addtransform_50',['AddTransform',['../classGameObjectBuilder.html#a68d2a1a1edb055fcd51aa1bf6e7d44a7',1,'GameObjectBuilder::AddTransform()'],['../classObjectBuilder.html#aa5bac235872548692c7625b3bbd7b123',1,'ObjectBuilder::AddTransform()']]],
