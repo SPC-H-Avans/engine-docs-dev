@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['yellow_1465',['Yellow',['../classspic_1_1Color.html#a8ab8ac5634176bfbbab3cffe4996e678',1,'spic::Color']]]
+  ['yellow_1481',['Yellow',['../classspic_1_1Color.html#a8ab8ac5634176bfbbab3cffe4996e678',1,'spic::Color']]]
 ];
