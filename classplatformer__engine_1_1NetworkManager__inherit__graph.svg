@@ -83,61 +83,64 @@ var sectionId = 'dynsection-0';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="classplatformer__engine_1_1ClientNetworkManager.html" target="_top" xlink:title="The ClientNetworkManager class, handles the client side of the network.">
-<polygon fill="none" stroke="black" points="0,-116 0,-635 162,-635 162,-116 0,-116"/>
-<text text-anchor="start" x="8" y="-623" font-family="Helvetica,sans-Serif" font-size="10.00">platformer_engine::</text>
-<text text-anchor="middle" x="81" y="-612" font-family="Helvetica,sans-Serif" font-size="10.00">ClientNetworkManager</text>
-<polyline fill="none" stroke="black" points="0,-605 162,-605 "/>
-<text text-anchor="start" x="8" y="-593" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::vector&lt; std::shared</text>
-<text text-anchor="start" x="8" y="-582" font-family="Helvetica,sans-Serif" font-size="10.00">_ptr&lt; spic::GameObject</text>
-<text text-anchor="start" x="8" y="-571" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; &gt; GameObjects</text>
-<polyline fill="none" stroke="black" points="0,-564 162,-564 "/>
-<text text-anchor="start" x="8" y="-552" font-family="Helvetica,sans-Serif" font-size="10.00">+ ClientNetworkManager()</text>
-<text text-anchor="start" x="8" y="-541" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetLocalPlayerId</text>
-<text text-anchor="start" x="8" y="-530" font-family="Helvetica,sans-Serif" font-size="10.00">() const &#45;&gt; int</text>
-<text text-anchor="start" x="8" y="-519" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto IsPartyleader</text>
-<text text-anchor="start" x="8" y="-508" font-family="Helvetica,sans-Serif" font-size="10.00">() const &#45;&gt; bool</text>
-<text text-anchor="start" x="8" y="-497" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetConnectionStatus</text>
-<text text-anchor="start" x="8" y="-486" font-family="Helvetica,sans-Serif" font-size="10.00">() &#45;&gt; ConnectionStatus</text>
-<text text-anchor="start" x="8" y="-475" font-family="Helvetica,sans-Serif" font-size="10.00">+ void ConnectToServer</text>
-<text text-anchor="start" x="8" y="-464" font-family="Helvetica,sans-Serif" font-size="10.00">(const std::string &amp;ip,</text>
-<text text-anchor="start" x="8" y="-453" font-family="Helvetica,sans-Serif" font-size="10.00"> int port)</text>
-<text text-anchor="start" x="8" y="-442" font-family="Helvetica,sans-Serif" font-size="10.00">+ void DisconnectFromServer()</text>
-<text text-anchor="start" x="8" y="-431" font-family="Helvetica,sans-Serif" font-size="10.00">+ void TravelToLevel</text>
-<text text-anchor="start" x="8" y="-420" font-family="Helvetica,sans-Serif" font-size="10.00">(const std::string &amp;levelName)</text>
-<text text-anchor="start" x="8" y="-409" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SendNetworkPackage</text>
-<text text-anchor="start" x="8" y="-398" font-family="Helvetica,sans-Serif" font-size="10.00">(const void *data, size</text>
-<text text-anchor="start" x="8" y="-387" font-family="Helvetica,sans-Serif" font-size="10.00">_t dataLength, bool reliable=false)</text>
-<text text-anchor="start" x="8" y="-376" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnConnect(int</text>
-<text text-anchor="start" x="8" y="-365" font-family="Helvetica,sans-Serif" font-size="10.00"> clientId) override</text>
-<text text-anchor="start" x="8" y="-354" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnReceive(int</text>
-<text text-anchor="start" x="8" y="-343" font-family="Helvetica,sans-Serif" font-size="10.00"> clientId, const uint8</text>
-<text text-anchor="start" x="8" y="-332" font-family="Helvetica,sans-Serif" font-size="10.00">_t *data, size_t dataLength)</text>
-<text text-anchor="start" x="8" y="-321" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
-<text text-anchor="start" x="8" y="-310" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnDisconnect(int</text>
-<text text-anchor="start" x="8" y="-299" font-family="Helvetica,sans-Serif" font-size="10.00"> clientId) override</text>
-<text text-anchor="start" x="8" y="-288" font-family="Helvetica,sans-Serif" font-size="10.00">+ void RegisterEventHandler</text>
-<text text-anchor="start" x="8" y="-277" font-family="Helvetica,sans-Serif" font-size="10.00">(int eventID, std::function</text>
-<text text-anchor="start" x="8" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; void(int clientId, const</text>
-<text text-anchor="start" x="8" y="-255" font-family="Helvetica,sans-Serif" font-size="10.00"> uint8_t *data, size_t dataLength)</text>
-<text text-anchor="start" x="8" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">&gt; functionToCall) override</text>
-<text text-anchor="start" x="8" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">+ void UpdateNetworkedGame</text>
-<text text-anchor="start" x="8" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00">ObjectTransform(const</text>
-<text text-anchor="start" x="8" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00"> spic::Transform &amp;transform,</text>
-<text text-anchor="start" x="8" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00"> const std::string &amp;gameObjectId)</text>
-<text text-anchor="start" x="8" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">+ void InitializeMyClient</text>
-<text text-anchor="start" x="8" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">(spic::GameObject &amp;playerChar)</text>
-<text text-anchor="start" x="8" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">+ void UpdateActiveAnimation</text>
-<text text-anchor="start" x="8" y="-156" font-family="Helvetica,sans-Serif" font-size="10.00">(const std::string &amp;gameObjectId,</text>
-<text text-anchor="start" x="8" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00"> const std::string &amp;animationId)</text>
-<text text-anchor="start" x="8" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">+ void CreateScene(const</text>
-<text text-anchor="start" x="8" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00"> void *data, size_t length)</text>
+<polygon fill="none" stroke="black" points="0,-99.5 0,-651.5 162,-651.5 162,-99.5 0,-99.5"/>
+<text text-anchor="start" x="8" y="-639.5" font-family="Helvetica,sans-Serif" font-size="10.00">platformer_engine::</text>
+<text text-anchor="middle" x="81" y="-628.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClientNetworkManager</text>
+<polyline fill="none" stroke="black" points="0,-621.5 162,-621.5 "/>
+<text text-anchor="start" x="8" y="-609.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::vector&lt; std::shared</text>
+<text text-anchor="start" x="8" y="-598.5" font-family="Helvetica,sans-Serif" font-size="10.00">_ptr&lt; spic::GameObject</text>
+<text text-anchor="start" x="8" y="-587.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; &gt; GameObjects</text>
+<polyline fill="none" stroke="black" points="0,-580.5 162,-580.5 "/>
+<text text-anchor="start" x="8" y="-568.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ClientNetworkManager()</text>
+<text text-anchor="start" x="8" y="-557.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetLocalPlayerId</text>
+<text text-anchor="start" x="8" y="-546.5" font-family="Helvetica,sans-Serif" font-size="10.00">() const &#45;&gt; int</text>
+<text text-anchor="start" x="8" y="-535.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto IsPartyleader</text>
+<text text-anchor="start" x="8" y="-524.5" font-family="Helvetica,sans-Serif" font-size="10.00">() const &#45;&gt; bool</text>
+<text text-anchor="start" x="8" y="-513.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetConnectionStatus</text>
+<text text-anchor="start" x="8" y="-502.5" font-family="Helvetica,sans-Serif" font-size="10.00">() &#45;&gt; ConnectionStatus</text>
+<text text-anchor="start" x="8" y="-491.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SetConnectionStatus</text>
+<text text-anchor="start" x="8" y="-480.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const ConnectionStatus</text>
+<text text-anchor="start" x="8" y="-469.5" font-family="Helvetica,sans-Serif" font-size="10.00"> connectionStatus)</text>
+<text text-anchor="start" x="8" y="-458.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void ConnectToServer</text>
+<text text-anchor="start" x="8" y="-447.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const std::string &amp;ip,</text>
+<text text-anchor="start" x="8" y="-436.5" font-family="Helvetica,sans-Serif" font-size="10.00"> int port)</text>
+<text text-anchor="start" x="8" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void DisconnectFromServer()</text>
+<text text-anchor="start" x="8" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void TravelToLevel</text>
+<text text-anchor="start" x="8" y="-403.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const std::string &amp;levelName)</text>
+<text text-anchor="start" x="8" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SendNetworkPackage</text>
+<text text-anchor="start" x="8" y="-381.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const void *data, size</text>
+<text text-anchor="start" x="8" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00">_t dataLength, bool reliable=false)</text>
+<text text-anchor="start" x="8" y="-359.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnConnect(int</text>
+<text text-anchor="start" x="8" y="-348.5" font-family="Helvetica,sans-Serif" font-size="10.00"> clientId) override</text>
+<text text-anchor="start" x="8" y="-337.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnReceive(int</text>
+<text text-anchor="start" x="8" y="-326.5" font-family="Helvetica,sans-Serif" font-size="10.00"> clientId, const uint8</text>
+<text text-anchor="start" x="8" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00">_t *data, size_t dataLength)</text>
+<text text-anchor="start" x="8" y="-304.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
+<text text-anchor="start" x="8" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnDisconnect(int</text>
+<text text-anchor="start" x="8" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00"> clientId) override</text>
+<text text-anchor="start" x="8" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void RegisterEventHandler</text>
+<text text-anchor="start" x="8" y="-260.5" font-family="Helvetica,sans-Serif" font-size="10.00">(int eventID, std::function</text>
+<text text-anchor="start" x="8" y="-249.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; void(int clientId, const</text>
+<text text-anchor="start" x="8" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00"> uint8_t *data, size_t dataLength)</text>
+<text text-anchor="start" x="8" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">&gt; functionToCall) override</text>
+<text text-anchor="start" x="8" y="-216.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void UpdateNetworkedGame</text>
+<text text-anchor="start" x="8" y="-205.5" font-family="Helvetica,sans-Serif" font-size="10.00">ObjectTransform(const</text>
+<text text-anchor="start" x="8" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00"> spic::Transform &amp;transform,</text>
+<text text-anchor="start" x="8" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00"> const std::string &amp;gameObjectId)</text>
+<text text-anchor="start" x="8" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void InitializeMyClient</text>
+<text text-anchor="start" x="8" y="-161.5" font-family="Helvetica,sans-Serif" font-size="10.00">(spic::GameObject &amp;playerChar)</text>
+<text text-anchor="start" x="8" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void UpdateActiveAnimation</text>
+<text text-anchor="start" x="8" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const std::string &amp;gameObjectId,</text>
+<text text-anchor="start" x="8" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00"> const std::string &amp;animationId)</text>
+<text text-anchor="start" x="8" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void CreateScene(const</text>
+<text text-anchor="start" x="8" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00"> void *data, size_t length)</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M152.52,-777.43C145.08,-735.73 136.14,-685.6 127.14,-635.13"/>
+<path fill="none" stroke="midnightblue" d="M152.45,-777.02C145.84,-739.98 138.05,-696.32 130.09,-651.7"/>
 <polygon fill="none" stroke="midnightblue" points="149.08,-778.06 154.28,-787.29 155.97,-776.83 149.08,-778.06"/>
 </g>
 <!-- Node3 -->
