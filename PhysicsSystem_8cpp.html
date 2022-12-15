@@ -66,6 +66,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -89,22 +90,27 @@ Include dependency graph for PhysicsSystem.cpp:</div>
 </div>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpair__hash.html">pair_hash</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aabf846d1fafc4774485f7954790986c1"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; std::pair&lt; int, int &gt;, std::vector&lt; shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt; &gt;, boost::hash&lt; std::pair&lt; int, int &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#aabf846d1fafc4774485f7954790986c1">SpatialMap</a></td></tr>
-<tr class="separator:aabf846d1fafc4774485f7954790986c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a679e9a0debbfb98d98c35e26e87766f3"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; std::pair&lt; int, int &gt;, std::vector&lt; shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt; &gt;, <a class="el" href="structpair__hash.html">pair_hash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#a679e9a0debbfb98d98c35e26e87766f3">SpatialMap</a></td></tr>
+<tr class="separator:a679e9a0debbfb98d98c35e26e87766f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a14447c3aebbf044f3a868b9181f1ba3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#a14447c3aebbf044f3a868b9181f1ba3b">AddToMap</a> (<a class="el" href="structspic_1_1Point.html">Point</a> point, shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt; &amp;obj, <a class="el" href="PhysicsSystem_8cpp.html#aabf846d1fafc4774485f7954790986c1">SpatialMap</a> &amp;map)</td></tr>
+<tr class="memitem:a14447c3aebbf044f3a868b9181f1ba3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#a14447c3aebbf044f3a868b9181f1ba3b">AddToMap</a> (<a class="el" href="structspic_1_1Point.html">Point</a> point, shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt; &amp;obj, <a class="el" href="PhysicsSystem_8cpp.html#a679e9a0debbfb98d98c35e26e87766f3">SpatialMap</a> &amp;map)</td></tr>
 <tr class="separator:a14447c3aebbf044f3a868b9181f1ba3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a51a86e895a7a16eb6a6edeb296aa30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#a9a51a86e895a7a16eb6a6edeb296aa30">RegisterInSpatial</a> (shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt; &amp;obj, <a class="el" href="classspic_1_1BoxCollider.html">BoxCollider</a> &amp;objCollider, <a class="el" href="PhysicsSystem_8cpp.html#aabf846d1fafc4774485f7954790986c1">SpatialMap</a> &amp;map)</td></tr>
+<tr class="memitem:a9a51a86e895a7a16eb6a6edeb296aa30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#a9a51a86e895a7a16eb6a6edeb296aa30">RegisterInSpatial</a> (shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt; &amp;obj, <a class="el" href="classspic_1_1BoxCollider.html">BoxCollider</a> &amp;objCollider, <a class="el" href="PhysicsSystem_8cpp.html#a679e9a0debbfb98d98c35e26e87766f3">SpatialMap</a> &amp;map)</td></tr>
 <tr class="separator:a9a51a86e895a7a16eb6a6edeb296aa30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae14eba20c3f2d6043fb36ed8cf43424f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#ae14eba20c3f2d6043fb36ed8cf43424f">SetupSpatialMap</a> (int ownerId, <a class="el" href="PhysicsSystem_8cpp.html#aabf846d1fafc4774485f7954790986c1">SpatialMap</a> &amp;spatialMap, vector&lt; shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt;&gt; &amp;objectsToCheck)</td></tr>
+<tr class="memitem:ae14eba20c3f2d6043fb36ed8cf43424f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#ae14eba20c3f2d6043fb36ed8cf43424f">SetupSpatialMap</a> (int ownerId, <a class="el" href="PhysicsSystem_8cpp.html#a679e9a0debbfb98d98c35e26e87766f3">SpatialMap</a> &amp;spatialMap, vector&lt; shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt;&gt; &amp;objectsToCheck)</td></tr>
 <tr class="separator:ae14eba20c3f2d6043fb36ed8cf43424f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a894009d736b7b9f7dae0b7b500e7b8bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#a894009d736b7b9f7dae0b7b500e7b8bf">GetFromMap</a> (vector&lt; shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt;&gt; &amp;out, <a class="el" href="structspic_1_1Point.html">Point</a> point, <a class="el" href="PhysicsSystem_8cpp.html#aabf846d1fafc4774485f7954790986c1">SpatialMap</a> &amp;map)</td></tr>
+<tr class="memitem:a894009d736b7b9f7dae0b7b500e7b8bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#a894009d736b7b9f7dae0b7b500e7b8bf">GetFromMap</a> (vector&lt; shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt;&gt; &amp;out, <a class="el" href="structspic_1_1Point.html">Point</a> point, <a class="el" href="PhysicsSystem_8cpp.html#a679e9a0debbfb98d98c35e26e87766f3">SpatialMap</a> &amp;map)</td></tr>
 <tr class="separator:a894009d736b7b9f7dae0b7b500e7b8bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedbf52edc772a134cdc9808a0af0c5d5"><td class="memItemLeft" align="right" valign="top">vector&lt; shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#aedbf52edc772a134cdc9808a0af0c5d5">GetNearbyObjects</a> (<a class="el" href="classspic_1_1GameObject.html">GameObject</a> &amp;obj, <a class="el" href="classspic_1_1BoxCollider.html">BoxCollider</a> &amp;objCollider, <a class="el" href="PhysicsSystem_8cpp.html#aabf846d1fafc4774485f7954790986c1">SpatialMap</a> &amp;map)</td></tr>
+<tr class="memitem:aedbf52edc772a134cdc9808a0af0c5d5"><td class="memItemLeft" align="right" valign="top">vector&lt; shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#aedbf52edc772a134cdc9808a0af0c5d5">GetNearbyObjects</a> (<a class="el" href="classspic_1_1GameObject.html">GameObject</a> &amp;obj, <a class="el" href="classspic_1_1BoxCollider.html">BoxCollider</a> &amp;objCollider, <a class="el" href="PhysicsSystem_8cpp.html#a679e9a0debbfb98d98c35e26e87766f3">SpatialMap</a> &amp;map)</td></tr>
 <tr class="separator:aedbf52edc772a134cdc9808a0af0c5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eac807965aa70e76eb2f226d7dd95bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSystem_8cpp.html#a0eac807965aa70e76eb2f226d7dd95bd">PopCollisionFromList</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classCollision.html">Collision</a> &gt;&gt; &amp;list, int collisionId)</td></tr>
 <tr class="separator:a0eac807965aa70e76eb2f226d7dd95bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,14 +121,14 @@ Variables</h2></td></tr>
 <tr class="separator:a03a0cda910683a15cecdfc5774819bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="aabf846d1fafc4774485f7954790986c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabf846d1fafc4774485f7954790986c1">&#9670;&nbsp;</a></span>SpatialMap</h2>
+<a id="a679e9a0debbfb98d98c35e26e87766f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a679e9a0debbfb98d98c35e26e87766f3">&#9670;&nbsp;</a></span>SpatialMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::unordered_map&lt;std::pair&lt;int, int&gt;, std::vector&lt;shared_ptr&lt;<a class="el" href="classspic_1_1GameObject.html">GameObject</a>&gt; &gt;, boost::hash&lt;std::pair&lt;int, int&gt; &gt; &gt; <a class="el" href="PhysicsSystem_8cpp.html#aabf846d1fafc4774485f7954790986c1">SpatialMap</a></td>
+          <td class="memname">typedef std::unordered_map&lt;std::pair&lt;int, int&gt;, std::vector&lt;shared_ptr&lt;<a class="el" href="classspic_1_1GameObject.html">GameObject</a>&gt; &gt;, <a class="el" href="structpair__hash.html">pair_hash</a>&gt; <a class="el" href="PhysicsSystem_8cpp.html#a679e9a0debbfb98d98c35e26e87766f3">SpatialMap</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -151,7 +157,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="PhysicsSystem_8cpp.html#aabf846d1fafc4774485f7954790986c1">SpatialMap</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="PhysicsSystem_8cpp.html#a679e9a0debbfb98d98c35e26e87766f3">SpatialMap</a> &amp;&#160;</td>
           <td class="paramname"><em>map</em>&#160;</td>
         </tr>
         <tr>
@@ -185,7 +191,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="PhysicsSystem_8cpp.html#aabf846d1fafc4774485f7954790986c1">SpatialMap</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="PhysicsSystem_8cpp.html#a679e9a0debbfb98d98c35e26e87766f3">SpatialMap</a> &amp;&#160;</td>
           <td class="paramname"><em>map</em>&#160;</td>
         </tr>
         <tr>
@@ -219,7 +225,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="PhysicsSystem_8cpp.html#aabf846d1fafc4774485f7954790986c1">SpatialMap</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="PhysicsSystem_8cpp.html#a679e9a0debbfb98d98c35e26e87766f3">SpatialMap</a> &amp;&#160;</td>
           <td class="paramname"><em>map</em>&#160;</td>
         </tr>
         <tr>
@@ -281,7 +287,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="PhysicsSystem_8cpp.html#aabf846d1fafc4774485f7954790986c1">SpatialMap</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="PhysicsSystem_8cpp.html#a679e9a0debbfb98d98c35e26e87766f3">SpatialMap</a> &amp;&#160;</td>
           <td class="paramname"><em>map</em>&#160;</td>
         </tr>
         <tr>
@@ -309,7 +315,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="PhysicsSystem_8cpp.html#aabf846d1fafc4774485f7954790986c1">SpatialMap</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="PhysicsSystem_8cpp.html#a679e9a0debbfb98d98c35e26e87766f3">SpatialMap</a> &amp;&#160;</td>
           <td class="paramname"><em>spatialMap</em>, </td>
         </tr>
         <tr>
