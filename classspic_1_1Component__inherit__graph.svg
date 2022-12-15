@@ -379,29 +379,32 @@ var sectionId = 'dynsection-0';
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="classspic_1_1BoxCollider.html" target="_top" xlink:title="A collider which represents a rectangular collision area.">
-<polygon fill="none" stroke="black" points="467,-66.5 467,-233.5 616,-233.5 616,-66.5 467,-66.5"/>
-<text text-anchor="middle" x="541.5" y="-221.5" font-family="Helvetica,sans-Serif" font-size="10.00">spic::BoxCollider</text>
-<polyline fill="none" stroke="black" points="467,-214.5 616,-214.5 "/>
-<text text-anchor="middle" x="541.5" y="-202.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="467,-195.5 616,-195.5 "/>
-<text text-anchor="start" x="475" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void serialize(Archive</text>
-<text text-anchor="start" x="475" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;ar, unsigned int version)</text>
-<text text-anchor="start" x="475" y="-161.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ BoxCollider()=default</text>
-<text text-anchor="start" x="475" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~BoxCollider()=default</text>
-<text text-anchor="start" x="475" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto Width() const</text>
-<text text-anchor="start" x="475" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;&gt; double</text>
-<text text-anchor="start" x="475" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Width(double newWidth)</text>
-<text text-anchor="start" x="475" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto Height() const</text>
-<text text-anchor="start" x="475" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;&gt; double</text>
-<text text-anchor="start" x="475" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Height(double</text>
-<text text-anchor="start" x="475" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00"> newHeight)</text>
+<polygon fill="none" stroke="black" points="467,-50 467,-250 616,-250 616,-50 467,-50"/>
+<text text-anchor="middle" x="541.5" y="-238" font-family="Helvetica,sans-Serif" font-size="10.00">spic::BoxCollider</text>
+<polyline fill="none" stroke="black" points="467,-231 616,-231 "/>
+<text text-anchor="middle" x="541.5" y="-219" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="467,-212 616,-212 "/>
+<text text-anchor="start" x="475" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00">+ void serialize(Archive</text>
+<text text-anchor="start" x="475" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;ar, unsigned int version)</text>
+<text text-anchor="start" x="475" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">+ BoxCollider()=default</text>
+<text text-anchor="start" x="475" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~BoxCollider()=default</text>
+<text text-anchor="start" x="475" y="-156" font-family="Helvetica,sans-Serif" font-size="10.00">+ void UpdateScale(double</text>
+<text text-anchor="start" x="475" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00"> oldScale, double newScale)</text>
+<text text-anchor="start" x="475" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
+<text text-anchor="start" x="475" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto Width() const</text>
+<text text-anchor="start" x="475" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;&gt; double</text>
+<text text-anchor="start" x="475" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Width(double newWidth)</text>
+<text text-anchor="start" x="475" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto Height() const</text>
+<text text-anchor="start" x="475" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;&gt; double</text>
+<text text-anchor="start" x="475" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Height(double</text>
+<text text-anchor="start" x="475" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00"> newHeight)</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M555.63,-386.68C552.57,-335.61 549.15,-278.66 546.45,-233.54"/>
+<path fill="none" stroke="midnightblue" d="M555.63,-386.68C552.93,-341.67 549.96,-292.08 547.44,-250.05"/>
 <polygon fill="none" stroke="midnightblue" points="552.14,-387.04 556.24,-396.81 559.13,-386.62 552.14,-387.04"/>
 </g>
 <!-- Node9 -->
