@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kickclient_964',['KickClient',['../structNetPkgs_1_1KickClient.html',1,'NetPkgs']]]
+  ['kickclient_965',['KickClient',['../structNetPkgs_1_1KickClient.html',1,'NetPkgs']]]
 ];
