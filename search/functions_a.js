@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kickclient_1375',['KickClient',['../structNetPkgs_1_1KickClient.html#afb9022920eb1881274c02293b42959aa',1,'NetPkgs::KickClient']]]
+  ['kickclient_1376',['KickClient',['../structNetPkgs_1_1KickClient.html#afb9022920eb1881274c02293b42959aa',1,'NetPkgs::KickClient']]]
 ];
