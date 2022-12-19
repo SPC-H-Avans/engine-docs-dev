@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zoom_1523',['Zoom',['../classspic_1_1Camera.html#aaae72b31560a14ac6734021ebdc2b202',1,'spic::Camera']]]
+  ['zoom_1525',['Zoom',['../classspic_1_1Camera.html#aaae72b31560a14ac6734021ebdc2b202',1,'spic::Camera']]]
 ];

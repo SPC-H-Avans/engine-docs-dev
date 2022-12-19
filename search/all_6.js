@@ -42,7 +42,7 @@ var searchData=
   ['fpscounter_282',['FPSCounter',['../classplatformer__engine_1_1FPSCounter.html#afeb3e695746d5cc1b17fb07a284e7a3d',1,'platformer_engine::FPSCounter::FPSCounter()'],['../classplatformer__engine_1_1FPSCounter.html',1,'platformer_engine::FPSCounter']]],
   ['fpscounter_2ecpp_283',['FPSCounter.cpp',['../FPSCounter_8cpp.html',1,'']]],
   ['fpscounter_2ehpp_284',['FPSCounter.hpp',['../FPSCounter_8hpp.html',1,'']]],
-  ['fpscounterbehaviour_285',['FPSCounterBehaviour',['../classplatformer__engine_1_1FPSCounterBehaviour.html#a7f1ccecb2f8188127a7baee3d6810009',1,'platformer_engine::FPSCounterBehaviour::FPSCounterBehaviour()'],['../classplatformer__engine_1_1FPSCounterBehaviour.html',1,'platformer_engine::FPSCounterBehaviour']]],
+  ['fpscounterbehaviour_285',['FPSCounterBehaviour',['../classplatformer__engine_1_1FPSCounterBehaviour.html#a7f1ccecb2f8188127a7baee3d6810009',1,'platformer_engine::FPSCounterBehaviour::FPSCounterBehaviour(std::string textId, std::string fontPath, int fontSize, spic::Color fontColor, KeyCode)'],['../classplatformer__engine_1_1FPSCounterBehaviour.html#a4f45d65a7ae469fb30acd3ac6678d6fc',1,'platformer_engine::FPSCounterBehaviour::FPSCounterBehaviour()'],['../classplatformer__engine_1_1FPSCounterBehaviour.html',1,'platformer_engine::FPSCounterBehaviour']]],
   ['fpscounterbehaviour_2ecpp_286',['FPSCounterBehaviour.cpp',['../FPSCounterBehaviour_8cpp.html',1,'']]],
   ['fpscounterbehaviour_2ehpp_287',['FPSCounterBehaviour.hpp',['../FPSCounterBehaviour_8hpp.html',1,'']]]
 ];

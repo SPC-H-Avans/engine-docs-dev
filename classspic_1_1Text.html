@@ -92,6 +92,11 @@ Collaboration diagram for spic::Text:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a24a4c755fcb1b153123c4f81ceaeec66"><td class="memTemplParams" colspan="2">template&lt;typename archive &gt; </td></tr>
+<tr class="memitem:a24a4c755fcb1b153123c4f81ceaeec66"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classspic_1_1Text.html#a24a4c755fcb1b153123c4f81ceaeec66">serialize</a> (archive &amp;ar, const unsigned)</td></tr>
+<tr class="separator:a24a4c755fcb1b153123c4f81ceaeec66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a67e3964605e98380f198b375cfcc99"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Text.html#a3a67e3964605e98380f198b375cfcc99">Text</a> ()</td></tr>
+<tr class="separator:a3a67e3964605e98380f198b375cfcc99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d05f7b8a3caedf5b445d8aaceae5230"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Text.html#a8d05f7b8a3caedf5b445d8aaceae5230">Text</a> (const std::string &amp;name, double width, double height, const std::string &amp;text, const std::string &amp;fontPath, int fontSize=24, <a class="el" href="classspic_1_1Color.html">Color</a> color=<a class="el" href="classspic_1_1Color.html#ab2f1f803d93b6eddd4703ef672fe3386">Color::Black</a>(), <a class="el" href="namespacespic.html#aaa0301faebebc81988adda719b02a0fe">Alignment</a> alignment=<a class="el" href="namespacespic.html#aaa0301faebebc81988adda719b02a0feaadb115059e28d960fa8badfac5516667">Alignment::center</a>)</td></tr>
 <tr class="memdesc:a8d05f7b8a3caedf5b445d8aaceae5230"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classspic_1_1Text.html" title="Class representing a piece of text which can be rendered. @spicapi.">Text</a> constructor @spicapi.  <a href="classspic_1_1Text.html#a8d05f7b8a3caedf5b445d8aaceae5230">More...</a><br /></td></tr>
 <tr class="separator:a8d05f7b8a3caedf5b445d8aaceae5230"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -99,6 +104,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a397e6629b28b9bf138fe92ed4591e3d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render the <a class="el" href="classspic_1_1Text.html" title="Class representing a piece of text which can be rendered. @spicapi.">Text</a> @spicapi.  <a href="classspic_1_1Text.html#a397e6629b28b9bf138fe92ed4591e3d9">More...</a><br /></td></tr>
 <tr class="separator:a397e6629b28b9bf138fe92ed4591e3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classspic_1_1UIObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classspic_1_1UIObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classspic_1_1UIObject.html">spic::UIObject</a></td></tr>
+<tr class="memitem:aaad23e30cf7c8c72f4c571c96ded1282 inherit pub_methods_classspic_1_1UIObject"><td class="memTemplParams" colspan="2">template&lt;typename archive &gt; </td></tr>
+<tr class="memitem:aaad23e30cf7c8c72f4c571c96ded1282 inherit pub_methods_classspic_1_1UIObject"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classspic_1_1UIObject.html#aaad23e30cf7c8c72f4c571c96ded1282">serialize</a> (archive &amp;ar, const unsigned)</td></tr>
+<tr class="separator:aaad23e30cf7c8c72f4c571c96ded1282 inherit pub_methods_classspic_1_1UIObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50343170fb71299562a5b13ee90b56bf inherit pub_methods_classspic_1_1UIObject"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1UIObject.html#a50343170fb71299562a5b13ee90b56bf">UIObject</a> (const std::string &amp;name, double width, double height)</td></tr>
 <tr class="memdesc:a50343170fb71299562a5b13ee90b56bf inherit pub_methods_classspic_1_1UIObject"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classspic_1_1UIObject.html" title="Base class for a user interface object like Button or Text. @spicapi.">UIObject</a> constructor @spicapi.  <a href="classspic_1_1UIObject.html#a50343170fb71299562a5b13ee90b56bf">More...</a><br /></td></tr>
 <tr class="separator:a50343170fb71299562a5b13ee90b56bf inherit pub_methods_classspic_1_1UIObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,8 +249,25 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class representing a piece of text which can be rendered. @spicapi. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a3a67e3964605e98380f198b375cfcc99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a67e3964605e98380f198b375cfcc99">&#9670;&nbsp;</a></span>Text() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">spic::Text::Text </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8d05f7b8a3caedf5b445d8aaceae5230"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d05f7b8a3caedf5b445d8aaceae5230">&#9670;&nbsp;</a></span>Text()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d05f7b8a3caedf5b445d8aaceae5230">&#9670;&nbsp;</a></span>Text() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,6 +359,44 @@ Additional Inherited Members</h2></td></tr>
 <p>Render the <a class="el" href="classspic_1_1Text.html" title="Class representing a piece of text which can be rendered. @spicapi.">Text</a> @spicapi. </p>
 
 <p>Implements <a class="el" href="classspic_1_1UIObject.html#a43c0be169a87bdffe64e6fd48e5831d2">spic::UIObject</a>.</p>
+
+</div>
+</div>
+<a id="a24a4c755fcb1b153123c4f81ceaeec66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24a4c755fcb1b153123c4f81ceaeec66">&#9670;&nbsp;</a></span>serialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename archive &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void spic::Text::serialize </td>
+          <td>(</td>
+          <td class="paramtype">archive &amp;&#160;</td>
+          <td class="paramname"><em>ar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

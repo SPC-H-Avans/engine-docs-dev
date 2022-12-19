@@ -66,25 +66,28 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="classplatformer__engine_1_1FPSCounterBehaviour.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="150,-39 150,-162 282,-162 282,-39 150,-39"/>
-<text text-anchor="start" x="158" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00">platformer_engine::</text>
-<text text-anchor="middle" x="216" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">FPSCounterBehaviour</text>
-<polyline fill="none" stroke="black" points="150,-132 282,-132 "/>
-<text text-anchor="middle" x="216" y="-120" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="150,-113 282,-113 "/>
-<text text-anchor="start" x="158" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">+ FPSCounterBehaviour</text>
-<text text-anchor="start" x="158" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">(std::string textId,</text>
-<text text-anchor="start" x="158" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00"> std::string fontPath,</text>
-<text text-anchor="start" x="158" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00"> int fontSize, spic::Color</text>
-<text text-anchor="start" x="158" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00"> fontColor, KeyCode)</text>
-<text text-anchor="start" x="158" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
+<polygon fill="none" stroke="black" points="150,-22.5 150,-178.5 282,-178.5 282,-22.5 150,-22.5"/>
+<text text-anchor="start" x="158" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00">platformer_engine::</text>
+<text text-anchor="middle" x="216" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">FPSCounterBehaviour</text>
+<polyline fill="none" stroke="black" points="150,-148.5 282,-148.5 "/>
+<text text-anchor="middle" x="216" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="150,-129.5 282,-129.5 "/>
+<text text-anchor="start" x="158" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void serialize(archive</text>
+<text text-anchor="start" x="158" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;ar, const unsigned)</text>
+<text text-anchor="start" x="158" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ FPSCounterBehaviour()</text>
+<text text-anchor="start" x="158" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ FPSCounterBehaviour</text>
+<text text-anchor="start" x="158" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00">(std::string textId,</text>
+<text text-anchor="start" x="158" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00"> std::string fontPath,</text>
+<text text-anchor="start" x="158" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00"> int fontSize, spic::Color</text>
+<text text-anchor="start" x="158" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00"> fontColor, KeyCode)</text>
+<text text-anchor="start" x="158" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M171.59,-227.62C179.34,-205.62 187.49,-182.47 194.67,-162.08"/>
+<path fill="none" stroke="midnightblue" d="M171.52,-227.83C177.23,-211.59 183.18,-194.72 188.78,-178.79"/>
 <polygon fill="none" stroke="midnightblue" points="168.2,-226.71 168.18,-237.3 174.81,-229.03 168.2,-226.71"/>
 </g>
 <!-- Node2 -->
