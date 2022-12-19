@@ -152,8 +152,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac4b61855784fd07aeb03e50d462027e3"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#ac4b61855784fd07aeb03e50d462027e3">GetWindow</a> () -&gt; <a class="el" href="classplatformer__engine_1_1Window.html">Window</a> &amp;</td></tr>
 <tr class="memdesc:ac4b61855784fd07aeb03e50d462027e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a reference to the window.  <a href="classplatformer__engine_1_1Engine.html#ac4b61855784fd07aeb03e50d462027e3">More...</a><br /></td></tr>
 <tr class="separator:ac4b61855784fd07aeb03e50d462027e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad94dff20dca4fdc41b2aef50df5e549d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#ad94dff20dca4fdc41b2aef50df5e549d">SetSpeedMultiplier</a> (double newSpeedMultiplier)</td></tr>
+<tr class="memdesc:ad94dff20dca4fdc41b2aef50df5e549d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the game speed multiplier. The higher the number, the faster the game plays.  <a href="classplatformer__engine_1_1Engine.html#ad94dff20dca4fdc41b2aef50df5e549d">More...</a><br /></td></tr>
+<tr class="separator:ad94dff20dca4fdc41b2aef50df5e549d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36b9b2ba17e1b496784460fc66f9db3d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a36b9b2ba17e1b496784460fc66f9db3d">GetSpeedMultiplier</a> () const</td></tr>
+<tr class="memdesc:a36b9b2ba17e1b496784460fc66f9db3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current game speed multiplier.  <a href="classplatformer__engine_1_1Engine.html#a36b9b2ba17e1b496784460fc66f9db3d">More...</a><br /></td></tr>
+<tr class="separator:a36b9b2ba17e1b496784460fc66f9db3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15c616d1bcd532eb7bf91018904d5fac"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a15c616d1bcd532eb7bf91018904d5fac">GetDefaultSceneName</a> () -&gt; std::string</td></tr>
-<tr class="memdesc:a15c616d1bcd532eb7bf91018904d5fac"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the name of the scene set as default.  <a href="classplatformer__engine_1_1Engine.html#a15c616d1bcd532eb7bf91018904d5fac">More...</a><br /></td></tr>
 <tr class="separator:a15c616d1bcd532eb7bf91018904d5fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2a4f522b100c35f8f9253e682eed572"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#ae2a4f522b100c35f8f9253e682eed572">GetDataManager</a> () -&gt; <a class="el" href="classplatformer__engine_1_1DataStorageManager.html">DataStorageManager</a> &amp;</td></tr>
 <tr class="memdesc:ae2a4f522b100c35f8f9253e682eed572"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the manager for datastoring  <a href="classplatformer__engine_1_1Engine.html#ae2a4f522b100c35f8f9253e682eed572">More...</a><br /></td></tr>
@@ -370,9 +375,6 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns the name of the scene set as default. </p>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
 </div>
 </div>
 <a id="aa2c3075b9fff9b081bce02f7f671f9b9"></a>
@@ -512,6 +514,34 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the server network manager when active. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classplatformer__engine_1_1ServerNetworkManager.html" title="The ServerNetworkManager class, handles all the networking for the server.">ServerNetworkManager</a> </dd></dl>
+
+</div>
+</div>
+<a id="a36b9b2ba17e1b496784460fc66f9db3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36b9b2ba17e1b496784460fc66f9db3d">&#9670;&nbsp;</a></span>GetSpeedMultiplier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double platformer_engine::Engine::GetSpeedMultiplier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current game speed multiplier. </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -861,6 +891,40 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">enabled</td><td>True if debug logs are enabled, false if not </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad94dff20dca4fdc41b2aef50df5e549d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad94dff20dca4fdc41b2aef50df5e549d">&#9670;&nbsp;</a></span>SetSpeedMultiplier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::Engine::SetSpeedMultiplier </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>newSpeedMultiplier</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update the game speed multiplier. The higher the number, the faster the game plays. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newSpeedMultiplier</td><td></td></tr>
   </table>
   </dd>
 </dl>

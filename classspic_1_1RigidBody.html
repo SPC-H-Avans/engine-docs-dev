@@ -100,9 +100,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a28203d38d278da0695ace20c66ee5f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a468892004f47d3fc49ef083869892943"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a468892004f47d3fc49ef083869892943">RigidBody</a> (float friction)</td></tr>
 <tr class="separator:a468892004f47d3fc49ef083869892943"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab97cfa653ee725ea97574dca9469acc1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#ab97cfa653ee725ea97574dca9469acc1">AddForce</a> (const <a class="el" href="structspic_1_1Point.html">Point</a> &amp;forceDirection)</td></tr>
-<tr class="memdesc:ab97cfa653ee725ea97574dca9469acc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply force to this rigid body.  <a href="classspic_1_1RigidBody.html#ab97cfa653ee725ea97574dca9469acc1">More...</a><br /></td></tr>
-<tr class="separator:ab97cfa653ee725ea97574dca9469acc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c38e0c196f1befb22ca1cb35023c10c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a6c38e0c196f1befb22ca1cb35023c10c">AddForce</a> (const <a class="el" href="structspic_1_1Point.html">Point</a> &amp;forceDirection, double speedMultiplier=1.0)</td></tr>
+<tr class="memdesc:a6c38e0c196f1befb22ca1cb35023c10c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply force to this rigid body.  <a href="classspic_1_1RigidBody.html#a6c38e0c196f1befb22ca1cb35023c10c">More...</a><br /></td></tr>
+<tr class="separator:a6c38e0c196f1befb22ca1cb35023c10c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a535d6b26499414a1df68600c3c8aa7a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#a535d6b26499414a1df68600c3c8aa7a9">BodyType</a> (<a class="el" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a> bodyType)</td></tr>
 <tr class="separator:a535d6b26499414a1df68600c3c8aa7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afacbf1c675cf3b665bd7e5085f886504"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="namespacespic.html#af055e2c7608520e61ba977078dad9387">BodyType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1RigidBody.html#afacbf1c675cf3b665bd7e5085f886504">BodyType</a> () const</td></tr>
@@ -208,8 +208,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab97cfa653ee725ea97574dca9469acc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab97cfa653ee725ea97574dca9469acc1">&#9670;&nbsp;</a></span>AddForce()</h2>
+<a id="a6c38e0c196f1befb22ca1cb35023c10c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c38e0c196f1befb22ca1cb35023c10c">&#9670;&nbsp;</a></span>AddForce()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,8 +221,18 @@ Protected Attributes</h2></td></tr>
           <td class="memname">void spic::RigidBody::AddForce </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structspic_1_1Point.html">Point</a> &amp;&#160;</td>
-          <td class="paramname"><em>forceDirection</em></td><td>)</td>
+          <td class="paramname"><em>forceDirection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>speedMultiplier</em> = <code>1.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
