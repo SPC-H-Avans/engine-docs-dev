@@ -113,9 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a779b3afcb42fe28d890e8847c993bb40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a779b3afcb42fe28d890e8847c993bb40">Quit</a> ()</td></tr>
 <tr class="memdesc:a779b3afcb42fe28d890e8847c993bb40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quit the engine @platformerengine.  <a href="classplatformer__engine_1_1Engine.html#a779b3afcb42fe28d890e8847c993bb40">More...</a><br /></td></tr>
 <tr class="separator:a779b3afcb42fe28d890e8847c993bb40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34677b13dbfe612a383a9be0368b9455"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a34677b13dbfe612a383a9be0368b9455">SetActiveScene</a> (const std::string &amp;sceneName)</td></tr>
-<tr class="memdesc:a34677b13dbfe612a383a9be0368b9455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current active Scene.  <a href="classplatformer__engine_1_1Engine.html#a34677b13dbfe612a383a9be0368b9455">More...</a><br /></td></tr>
-<tr class="separator:a34677b13dbfe612a383a9be0368b9455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8ca0c8ce45d76eda84fdb4d58fd1f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a9d8ca0c8ce45d76eda84fdb4d58fd1f5">QueueActiveScene</a> (const std::string &amp;sceneName)</td></tr>
+<tr class="memdesc:a9d8ca0c8ce45d76eda84fdb4d58fd1f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queues a scene to be set as active whenever the engine finds possible.  <a href="classplatformer__engine_1_1Engine.html#a9d8ca0c8ce45d76eda84fdb4d58fd1f5">More...</a><br /></td></tr>
+<tr class="separator:a9d8ca0c8ce45d76eda84fdb4d58fd1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02db56110cd6aa0f4310a8dfeb068d55"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplatformer__engine_1_1Engine.html#a02db56110cd6aa0f4310a8dfeb068d55">GetActiveScene</a> () -&gt; <a class="el" href="classspic_1_1Scene.html">spic::Scene</a> &amp;</td></tr>
 <tr class="memdesc:a02db56110cd6aa0f4310a8dfeb068d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current active Scene.  <a href="classplatformer__engine_1_1Engine.html#a02db56110cd6aa0f4310a8dfeb068d55">More...</a><br /></td></tr>
 <tr class="separator:a02db56110cd6aa0f4310a8dfeb068d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -742,6 +742,32 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9d8ca0c8ce45d76eda84fdb4d58fd1f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d8ca0c8ce45d76eda84fdb4d58fd1f5">&#9670;&nbsp;</a></span>QueueActiveScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void platformer_engine::Engine::QueueActiveScene </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>sceneName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Queues a scene to be set as active whenever the engine finds possible. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scene</td><td>Scene to be set active @platformerengine </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a779b3afcb42fe28d890e8847c993bb40"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a779b3afcb42fe28d890e8847c993bb40">&#9670;&nbsp;</a></span>Quit()</h2>
 
@@ -777,32 +803,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Render the game on the screen @platformerengine. </p>
-
-</div>
-</div>
-<a id="a34677b13dbfe612a383a9be0368b9455"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34677b13dbfe612a383a9be0368b9455">&#9670;&nbsp;</a></span>SetActiveScene()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void platformer_engine::Engine::SetActiveScene </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>sceneName</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the current active Scene. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">scene</td><td>Scene to make active @platformerengine </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>

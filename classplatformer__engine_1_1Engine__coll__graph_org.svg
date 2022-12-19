@@ -37,7 +37,7 @@
 <text text-anchor="start" x="8" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Update()</text>
 <text text-anchor="start" x="8" y="-381.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Events()</text>
 <text text-anchor="start" x="8" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Quit()</text>
-<text text-anchor="start" x="8" y="-359.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SetActiveScene</text>
+<text text-anchor="start" x="8" y="-359.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void QueueActiveScene</text>
 <text text-anchor="start" x="8" y="-348.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const std::string &amp;sceneName)</text>
 <text text-anchor="start" x="8" y="-337.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetActiveScene</text>
 <text text-anchor="start" x="8" y="-326.5" font-family="Helvetica,sans-Serif" font-size="10.00">() &#45;&gt; spic::Scene &amp;</text>
