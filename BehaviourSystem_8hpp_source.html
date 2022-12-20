@@ -72,17 +72,22 @@ $(function() {
 <a href="BehaviourSystem_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PLATFORMER_ENGINE_BEHAVIOURSYSTEM_HPP</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define PLATFORMER_ENGINE_BEHAVIOURSYSTEM_HPP</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="classBehaviourSystem.html">    4</a></span>&#160;<span class="keyword">class </span><a class="code" href="classBehaviourSystem.html">BehaviourSystem</a> {</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ISystem_8hpp.html">System/ISystem.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classBehaviourSystem.html#a9e9a1ff204af10b046fe0d0c736ab8e6">Start</a>();</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classBehaviourSystem.html#ad08f105136555aeb5cd3f28957fd0760">Update</a>(<span class="keywordtype">double</span> speedMultiplier);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;};</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//PLATFORMER_ENGINE_BEHAVIOURSYSTEM_HPP</span></div>
-<div class="ttc" id="aclassBehaviourSystem_html"><div class="ttname"><a href="classBehaviourSystem.html">BehaviourSystem</a></div><div class="ttdef"><b>Definition:</b> BehaviourSystem.hpp:4</div></div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classBehaviourSystem.html">    6</a></span>&#160;<span class="keyword">class </span><a class="code" href="classBehaviourSystem.html">BehaviourSystem</a> : <span class="keyword">public</span> <a class="code" href="classISystem.html">ISystem</a> {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classBehaviourSystem.html#a9e9a1ff204af10b046fe0d0c736ab8e6">Start</a>();</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBehaviourSystem.html#ad08f105136555aeb5cd3f28957fd0760">Update</a>(<span class="keywordtype">double</span> speedMultiplier);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;};</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//PLATFORMER_ENGINE_BEHAVIOURSYSTEM_HPP</span></div>
+<div class="ttc" id="aISystem_8hpp_html"><div class="ttname"><a href="ISystem_8hpp.html">ISystem.hpp</a></div></div>
+<div class="ttc" id="aclassBehaviourSystem_html"><div class="ttname"><a href="classBehaviourSystem.html">BehaviourSystem</a></div><div class="ttdef"><b>Definition:</b> BehaviourSystem.hpp:6</div></div>
 <div class="ttc" id="aclassBehaviourSystem_html_a9e9a1ff204af10b046fe0d0c736ab8e6"><div class="ttname"><a href="classBehaviourSystem.html#a9e9a1ff204af10b046fe0d0c736ab8e6">BehaviourSystem::Start</a></div><div class="ttdeci">static void Start()</div><div class="ttdoc">Call OnStart() on all active BehaviourScripts.</div><div class="ttdef"><b>Definition:</b> BehaviourSystem.cpp:5</div></div>
-<div class="ttc" id="aclassBehaviourSystem_html_ad08f105136555aeb5cd3f28957fd0760"><div class="ttname"><a href="classBehaviourSystem.html#ad08f105136555aeb5cd3f28957fd0760">BehaviourSystem::Update</a></div><div class="ttdeci">static void Update(double speedMultiplier)</div><div class="ttdoc">Call OnUpdate() on all BehaviourScripts.</div><div class="ttdef"><b>Definition:</b> BehaviourSystem.cpp:16</div></div>
+<div class="ttc" id="aclassBehaviourSystem_html_ad08f105136555aeb5cd3f28957fd0760"><div class="ttname"><a href="classBehaviourSystem.html#ad08f105136555aeb5cd3f28957fd0760">BehaviourSystem::Update</a></div><div class="ttdeci">void Update(double speedMultiplier)</div><div class="ttdoc">Call OnUpdate() on all BehaviourScripts.</div><div class="ttdef"><b>Definition:</b> BehaviourSystem.cpp:16</div></div>
+<div class="ttc" id="aclassISystem_html"><div class="ttname"><a href="classISystem.html">ISystem</a></div><div class="ttdef"><b>Definition:</b> ISystem.hpp:4</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -89,15 +89,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a61b797b0280248fbc7db9b51468687dd"><td class="memTemplParams" colspan="2">template&lt;typename archive &gt; </td></tr>
 <tr class="memitem:a61b797b0280248fbc7db9b51468687dd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#a61b797b0280248fbc7db9b51468687dd">serialize</a> (archive &amp;ar, const unsigned)</td></tr>
 <tr class="separator:a61b797b0280248fbc7db9b51468687dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8692d9ddb6ed5ead25fd5ca1ec171b9b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#a8692d9ddb6ed5ead25fd5ca1ec171b9b">Scene</a> (const std::string &amp;sceneName)</td></tr>
-<tr class="separator:a8692d9ddb6ed5ead25fd5ca1ec171b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a1cc853cbebdf41a41d4d02eee5ac89"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#a0a1cc853cbebdf41a41d4d02eee5ac89">Scene</a> (std::string sceneName)</td></tr>
+<tr class="separator:a0a1cc853cbebdf41a41d4d02eee5ac89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab528dcaecdb7892012ac5f6ec9e4c3e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#ab528dcaecdb7892012ac5f6ec9e4c3e7">Scene</a> ()=default</td></tr>
 <tr class="separator:ab528dcaecdb7892012ac5f6ec9e4c3e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af93b0e10186dff5f5701d5c6262e378e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#af93b0e10186dff5f5701d5c6262e378e">RenderScene</a> ()</td></tr>
 <tr class="memdesc:af93b0e10186dff5f5701d5c6262e378e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called by a <a class="el" href="classspic_1_1Camera.html" title="Class representing a point of view towards the game scene. @spicapi.">Camera</a> to render the scene on the engine. @spicapi.  <a href="classspic_1_1Scene.html#af93b0e10186dff5f5701d5c6262e378e">More...</a><br /></td></tr>
 <tr class="separator:af93b0e10186dff5f5701d5c6262e378e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bf19e3555e7eed300740c31aa3c7ab0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#a6bf19e3555e7eed300740c31aa3c7ab0">AddObject</a> (const <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &amp;gameObject)</td></tr>
-<tr class="memdesc:a6bf19e3555e7eed300740c31aa3c7ab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new Game Object to this scene.  <a href="classspic_1_1Scene.html#a6bf19e3555e7eed300740c31aa3c7ab0">More...</a><br /></td></tr>
+<tr class="memdesc:a6bf19e3555e7eed300740c31aa3c7ab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a copy of the referenced gameObject and add it to the scene.  <a href="classspic_1_1Scene.html#a6bf19e3555e7eed300740c31aa3c7ab0">More...</a><br /></td></tr>
 <tr class="separator:a6bf19e3555e7eed300740c31aa3c7ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c09f2f08d5193c394e1f56c4a129a7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#a4c09f2f08d5193c394e1f56c4a129a7b">AddUIObject</a> (const std::shared_ptr&lt; <a class="el" href="classspic_1_1UIObject.html">spic::UIObject</a> &gt; &amp;uiObject)</td></tr>
 <tr class="memdesc:a4c09f2f08d5193c394e1f56c4a129a7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new UI Object to this scene.  <a href="classspic_1_1Scene.html#a4c09f2f08d5193c394e1f56c4a129a7b">More...</a><br /></td></tr>
@@ -141,17 +141,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ada72193070e7289dc9476671c565de9e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#ada72193070e7289dc9476671c565de9e">GetSceneName</a> () const -&gt; std::string</td></tr>
 <tr class="memdesc:ada72193070e7289dc9476671c565de9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current scene name.  <a href="classspic_1_1Scene.html#ada72193070e7289dc9476671c565de9e">More...</a><br /></td></tr>
 <tr class="separator:ada72193070e7289dc9476671c565de9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae269530176be7882d3d55eae491633e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#aae269530176be7882d3d55eae491633e">SetNextScene</a> (const std::string sceneName)</td></tr>
-<tr class="memdesc:aae269530176be7882d3d55eae491633e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a scene name for handling scene flow.  <a href="classspic_1_1Scene.html#aae269530176be7882d3d55eae491633e">More...</a><br /></td></tr>
-<tr class="separator:aae269530176be7882d3d55eae491633e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace1d68acb423537acbfba2e6553e8802"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#ace1d68acb423537acbfba2e6553e8802">SetNextScene</a> (const std::string &amp;sceneName)</td></tr>
+<tr class="memdesc:ace1d68acb423537acbfba2e6553e8802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a scene name for handling scene flow.  <a href="classspic_1_1Scene.html#ace1d68acb423537acbfba2e6553e8802">More...</a><br /></td></tr>
+<tr class="separator:ace1d68acb423537acbfba2e6553e8802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93421204f87a37696dfc5f1f40225109"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Scene.html#a93421204f87a37696dfc5f1f40225109">GetNextScene</a> () const -&gt; std::optional&lt; std::string &gt;</td></tr>
 <tr class="separator:a93421204f87a37696dfc5f1f40225109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class representing a scene which can be rendered by the <a class="el" href="classspic_1_1Camera.html" title="Class representing a point of view towards the game scene. @spicapi.">Camera</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8692d9ddb6ed5ead25fd5ca1ec171b9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8692d9ddb6ed5ead25fd5ca1ec171b9b">&#9670;&nbsp;</a></span>Scene() <span class="overload">[1/2]</span></h2>
+<a id="a0a1cc853cbebdf41a41d4d02eee5ac89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a1cc853cbebdf41a41d4d02eee5ac89">&#9670;&nbsp;</a></span>Scene() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -159,7 +159,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">spic::Scene::Scene </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>sceneName</em></td><td>)</td>
           <td></td>
         </tr>
@@ -236,7 +236,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Add a new Game Object to this scene. </p>
+<p>Make a copy of the referenced gameObject and add it to the scene. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gameObject</td><td>Game Object shared pointer @spicapi </td></tr>
@@ -669,8 +669,8 @@ template&lt;typename archive &gt; </div>
 
 </div>
 </div>
-<a id="aae269530176be7882d3d55eae491633e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae269530176be7882d3d55eae491633e">&#9670;&nbsp;</a></span>SetNextScene()</h2>
+<a id="ace1d68acb423537acbfba2e6553e8802"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace1d68acb423537acbfba2e6553e8802">&#9670;&nbsp;</a></span>SetNextScene()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -678,7 +678,7 @@ template&lt;typename archive &gt; </div>
         <tr>
           <td class="memname">void spic::Scene::SetNextScene </td>
           <td>(</td>
-          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>sceneName</em></td><td>)</td>
           <td></td>
         </tr>

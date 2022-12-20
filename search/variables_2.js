@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['default_5fchannel_5fcount_1584',['DEFAULT_CHANNEL_COUNT',['../NetworkingFacade_8hpp.html#a22a15abe51514e7811d60f9e7d15e84e',1,'NetworkingFacade.hpp']]],
-  ['default_5fplayer_5flimit_1585',['DEFAULT_PLAYER_LIMIT',['../NetworkingFacade_8hpp.html#a750be8b008bc8e1ab462ef76ab30a98f',1,'NetworkingFacade.hpp']]],
-  ['default_5fport_1586',['DEFAULT_PORT',['../NetworkingFacade_8hpp.html#a9bf5ad3508c024ba4c9724e1975080cb',1,'NetworkingFacade.hpp']]],
-  ['default_5fserver_5fpeer_5fid_1587',['DEFAULT_SERVER_PEER_ID',['../NetworkingFacade_8hpp.html#a5ba9837407003e8e9f930baf411ae68a',1,'NetworkingFacade.hpp']]]
+  ['channels_1591',['CHANNELS',['../namespaceplatformer__engine.html#a8480112661ef0c706bcbbe21ee480fbc',1,'platformer_engine']]],
+  ['client_5foutgoing_5fconnection_1592',['CLIENT_OUTGOING_CONNECTION',['../NetworkingFacade_8hpp.html#a4e33a0b2144a24528871c982ff38093d',1,'NetworkingFacade.hpp']]],
+  ['client_5fpolling_5frate_5fper_5fsecond_1593',['CLIENT_POLLING_RATE_PER_SECOND',['../NetworkingFacade_8hpp.html#a6a514b68779fe0fcf10f65d9fb2bb463',1,'NetworkingFacade.hpp']]],
+  ['clientid_1594',['clientId',['../structNetPkgs_1_1KickClient.html#a74f3a8f0a764a7e5cb1a349964d4de40',1,'NetPkgs::KickClient']]],
+  ['clients_1595',['Clients',['../classplatformer__engine_1_1ServerNetworkManager.html#a15a35d196d0525fa6f3b671b42367e82',1,'platformer_engine::ServerNetworkManager']]],
+  ['colcount_1596',['ColCount',['../structplatformer__engine_1_1TMXParser_1_1TileSet.html#a86ab11b99ef24018a32b3627ffd2941e',1,'platformer_engine::TMXParser::TileSet']]],
+  ['connection_5ftimeout_1597',['CONNECTION_TIMEOUT',['../NetworkingFacade_8hpp.html#add2c67c039915c7b3fc6345abcc3e2d7',1,'NetworkingFacade.hpp']]]
 ];
