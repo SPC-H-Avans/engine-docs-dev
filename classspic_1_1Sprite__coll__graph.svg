@@ -124,7 +124,7 @@ var sectionId = 'dynsection-1';
 <text text-anchor="start" x="32.5" y="-508.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto Active() const</text>
 <text text-anchor="start" x="32.5" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;&gt; bool</text>
 <text text-anchor="start" x="32.5" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Active(bool flag)</text>
-<text text-anchor="start" x="32.5" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SetGameObject</text>
+<text text-anchor="start" x="32.5" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void SetGameObject</text>
 <text text-anchor="start" x="32.5" y="-464.5" font-family="Helvetica,sans-Serif" font-size="10.00">(std::weak_ptr&lt; GameObject</text>
 <text text-anchor="start" x="32.5" y="-453.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; gObj)</text>
 <text text-anchor="start" x="32.5" y="-442.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::weak_ptr&lt; GameObject</text>

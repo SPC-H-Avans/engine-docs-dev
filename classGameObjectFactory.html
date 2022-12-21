@@ -98,6 +98,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aad7ec2619a034fb64762d577e36300a8"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameObjectFactory.html#aad7ec2619a034fb64762d577e36300a8">CreatePlayer</a> (int playerId, <a class="el" href="structspic_1_1Transform.html">Transform</a> transform, int colliderWidth, int colliderHeight, std::vector&lt; <a class="el" href="classplatformer__engine_1_1AnimatedSprite.html">platformer_engine::AnimatedSprite</a> &gt; &amp;animations, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classspic_1_1BehaviourScript.html">BehaviourScript</a> &gt;&gt; &amp;behaviourScripts) -&gt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &amp;</td></tr>
 <tr class="memdesc:aad7ec2619a034fb64762d577e36300a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Player (collidable) and add it to the scene.  <a href="classGameObjectFactory.html#aad7ec2619a034fb64762d577e36300a8">More...</a><br /></td></tr>
 <tr class="separator:aad7ec2619a034fb64762d577e36300a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20405ec77a1a23d9b475ae2be6b8aa84"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameObjectFactory.html#a20405ec77a1a23d9b475ae2be6b8aa84">CreateEnemy</a> (<a class="el" href="structspic_1_1Transform.html">Transform</a> transform, int colliderWidth, int colliderHeight, std::vector&lt; <a class="el" href="classplatformer__engine_1_1AnimatedSprite.html">platformer_engine::AnimatedSprite</a> &gt; &amp;animations, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classspic_1_1BehaviourScript.html">BehaviourScript</a> &gt;&gt; &amp;behaviourScripts) -&gt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &amp;</td></tr>
+<tr class="separator:a20405ec77a1a23d9b475ae2be6b8aa84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4365dc47661dbc9e678ce814d3471827"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameObjectFactory.html#a4365dc47661dbc9e678ce814d3471827">CreateText</a> (const <a class="el" href="structspic_1_1Transform.html">Transform</a> &amp;transform, const std::string &amp;objectId, const std::string &amp;text, const std::string &amp;fontPath, int textWidth, int textHeight, int fontSize, const <a class="el" href="classspic_1_1Color.html">Color</a> &amp;textColor) -&gt; <a class="el" href="classspic_1_1Text.html">Text</a></td></tr>
 <tr class="memdesc:a4365dc47661dbc9e678ce814d3471827"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a background object (not collidable) and add it to the scene.  <a href="classGameObjectFactory.html#a4365dc47661dbc9e678ce814d3471827">More...</a><br /></td></tr>
 <tr class="separator:a4365dc47661dbc9e678ce814d3471827"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -268,6 +270,60 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The created Button </dd></dl>
+
+</div>
+</div>
+<a id="a20405ec77a1a23d9b475ae2be6b8aa84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20405ec77a1a23d9b475ae2be6b8aa84">&#9670;&nbsp;</a></span>CreateEnemy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto GameObjectFactory::CreateEnemy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structspic_1_1Transform.html">Transform</a>&#160;</td>
+          <td class="paramname"><em>transform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>colliderWidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>colliderHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classplatformer__engine_1_1AnimatedSprite.html">platformer_engine::AnimatedSprite</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>animations</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classspic_1_1BehaviourScript.html">BehaviourScript</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>behaviourScripts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a>&amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

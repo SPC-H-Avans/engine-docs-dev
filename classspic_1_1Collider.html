@@ -101,10 +101,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7f934d6f1e444b8e8a4555a887694ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ae1e38d9e03559f64eabd0d3d2e06de"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#a4ae1e38d9e03559f64eabd0d3d2e06de">GetCollisionById</a> (int uid) -&gt; <a class="el" href="classCollision.html">Collision</a> &amp;</td></tr>
 <tr class="separator:a4ae1e38d9e03559f64eabd0d3d2e06de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21902c48742f86faca09eb52006fda65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#a21902c48742f86faca09eb52006fda65">AddCollision</a> (<a class="el" href="classCollision.html">Collision</a> col)</td></tr>
-<tr class="separator:a21902c48742f86faca09eb52006fda65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0694c661ffc27ae5bd59ef461e564da2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#a0694c661ffc27ae5bd59ef461e564da2">AddCollision</a> (const <a class="el" href="classCollision.html">Collision</a> &amp;col)</td></tr>
+<tr class="separator:a0694c661ffc27ae5bd59ef461e564da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10100a09e12c9de777b907855e29d66d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#a10100a09e12c9de777b907855e29d66d">RemoveCollision</a> (int uid)</td></tr>
 <tr class="separator:a10100a09e12c9de777b907855e29d66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30d5fb8b5946547a3cefac7aad77bc46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#a30d5fb8b5946547a3cefac7aad77bc46">SetPosition</a> (<a class="el" href="structspic_1_1Point.html">Point</a> position)</td></tr>
+<tr class="separator:a30d5fb8b5946547a3cefac7aad77bc46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcb7e33992444922fdc5ea426c0578b8"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#afcb7e33992444922fdc5ea426c0578b8">GetPosition</a> () const -&gt; <a class="el" href="structspic_1_1Point.html">Point</a></td></tr>
+<tr class="separator:afcb7e33992444922fdc5ea426c0578b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c3e73e6677405cdd205ff47238826f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#aa7c3e73e6677405cdd205ff47238826f">GetColliderType</a> () const -&gt; <a class="el" href="namespacespic.html#a89808b7496a25ae49fbd67d359efff29">ColliderType</a></td></tr>
+<tr class="separator:aa7c3e73e6677405cdd205ff47238826f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f2d86eb2ec51972316c897f3f98c259"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#a7f2d86eb2ec51972316c897f3f98c259">SetColliderType</a> (<a class="el" href="namespacespic.html#a89808b7496a25ae49fbd67d359efff29">ColliderType</a> colliderType)</td></tr>
+<tr class="separator:a7f2d86eb2ec51972316c897f3f98c259"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3c8b9933c761ccf7a3639e83926c414"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#ad3c8b9933c761ccf7a3639e83926c414">GetObstructsMovement</a> () const -&gt; bool</td></tr>
 <tr class="separator:ad3c8b9933c761ccf7a3639e83926c414"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b82caab9b9fe936ec66ebfeca4a3bf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Collider.html#a4b82caab9b9fe936ec66ebfeca4a3bf4">SetObstructsMovement</a> (bool obstructsMovement)</td></tr>
@@ -132,9 +140,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3804f5e3cac204184980b7e34e991033 inherit pub_methods_classspic_1_1Component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Component.html#a3804f5e3cac204184980b7e34e991033">Active</a> (bool flag)</td></tr>
 <tr class="memdesc:a3804f5e3cac204184980b7e34e991033 inherit pub_methods_classspic_1_1Component"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag New active status. @spicapi  <a href="classspic_1_1Component.html#a3804f5e3cac204184980b7e34e991033">More...</a><br /></td></tr>
 <tr class="separator:a3804f5e3cac204184980b7e34e991033 inherit pub_methods_classspic_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5372c3b0c1c51de29438bbf78a9c21ef inherit pub_methods_classspic_1_1Component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Component.html#a5372c3b0c1c51de29438bbf78a9c21ef">SetGameObject</a> (std::weak_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt; gObj)</td></tr>
-<tr class="memdesc:a5372c3b0c1c51de29438bbf78a9c21ef inherit pub_methods_classspic_1_1Component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new parent game object.  <a href="classspic_1_1Component.html#a5372c3b0c1c51de29438bbf78a9c21ef">More...</a><br /></td></tr>
-<tr class="separator:a5372c3b0c1c51de29438bbf78a9c21ef inherit pub_methods_classspic_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90f3f03e6037a348e267c0f0e7745536 inherit pub_methods_classspic_1_1Component"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Component.html#a90f3f03e6037a348e267c0f0e7745536">SetGameObject</a> (std::weak_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt; gObj)</td></tr>
+<tr class="memdesc:a90f3f03e6037a348e267c0f0e7745536 inherit pub_methods_classspic_1_1Component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new parent game object.  <a href="classspic_1_1Component.html#a90f3f03e6037a348e267c0f0e7745536">More...</a><br /></td></tr>
+<tr class="separator:a90f3f03e6037a348e267c0f0e7745536 inherit pub_methods_classspic_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedc1fcbc43ef7725ae1947ea038a77f4 inherit pub_methods_classspic_1_1Component"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Component.html#aedc1fcbc43ef7725ae1947ea038a77f4">GetGameObject</a> ()</td></tr>
 <tr class="memdesc:aedc1fcbc43ef7725ae1947ea038a77f4 inherit pub_methods_classspic_1_1Component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the parent game object.  <a href="classspic_1_1Component.html#aedc1fcbc43ef7725ae1947ea038a77f4">More...</a><br /></td></tr>
 <tr class="separator:aedc1fcbc43ef7725ae1947ea038a77f4 inherit pub_methods_classspic_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,8 +150,8 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The base class for all colliders. @spicapi. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a21902c48742f86faca09eb52006fda65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21902c48742f86faca09eb52006fda65">&#9670;&nbsp;</a></span>AddCollision()</h2>
+<a id="a0694c661ffc27ae5bd59ef461e564da2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0694c661ffc27ae5bd59ef461e564da2">&#9670;&nbsp;</a></span>AddCollision()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,9 +159,26 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void spic::Collider::AddCollision </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCollision.html">Collision</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classCollision.html">Collision</a> &amp;&#160;</td>
           <td class="paramname"><em>col</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7c3e73e6677405cdd205ff47238826f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7c3e73e6677405cdd205ff47238826f">&#9670;&nbsp;</a></span>GetColliderType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Collider::GetColliderType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="namespacespic.html#a89808b7496a25ae49fbd67d359efff29">ColliderType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -238,6 +263,23 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="afcb7e33992444922fdc5ea426c0578b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcb7e33992444922fdc5ea426c0578b8">&#9670;&nbsp;</a></span>GetPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Collider::GetPosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="structspic_1_1Point.html">Point</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a10100a09e12c9de777b907855e29d66d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a10100a09e12c9de777b907855e29d66d">&#9670;&nbsp;</a></span>RemoveCollision()</h2>
 
@@ -294,6 +336,24 @@ template&lt;class Archive &gt; </div>
 
 </div>
 </div>
+<a id="a7f2d86eb2ec51972316c897f3f98c259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f2d86eb2ec51972316c897f3f98c259">&#9670;&nbsp;</a></span>SetColliderType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Collider::SetColliderType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacespic.html#a89808b7496a25ae49fbd67d359efff29">ColliderType</a>&#160;</td>
+          <td class="paramname"><em>colliderType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4b82caab9b9fe936ec66ebfeca4a3bf4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b82caab9b9fe936ec66ebfeca4a3bf4">&#9670;&nbsp;</a></span>SetObstructsMovement()</h2>
 
@@ -316,6 +376,24 @@ template&lt;class Archive &gt; </div>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30d5fb8b5946547a3cefac7aad77bc46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30d5fb8b5946547a3cefac7aad77bc46">&#9670;&nbsp;</a></span>SetPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Collider::SetPosition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structspic_1_1Point.html">Point</a>&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
