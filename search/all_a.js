@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['j_477',['J',['../InputEnum_8hpp.html#a7885f47644a0388f981f416fa20389b2aff44570aca8241914870afbc310cdb85',1,'InputEnum.hpp']]],
-  ['joinserver_478',['JoinServer',['../classplatformer__engine_1_1Engine.html#accf210227dd6e88a2a18644f1accc0a4',1,'platformer_engine::Engine']]]
+  ['j_478',['J',['../InputEnum_8hpp.html#a7885f47644a0388f981f416fa20389b2aff44570aca8241914870afbc310cdb85',1,'InputEnum.hpp']]],
+  ['joinserver_479',['JoinServer',['../classplatformer__engine_1_1Engine.html#accf210227dd6e88a2a18644f1accc0a4',1,'platformer_engine::Engine']]]
 ];
