@@ -93,33 +93,35 @@ var sectionId = 'dynsection-0';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="classplatformer__engine_1_1ForceDrivenEntity.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-611.5 0,-822.5 159,-822.5 159,-611.5 0,-611.5"/>
-<text text-anchor="start" x="8" y="-810.5" font-family="Helvetica,sans-Serif" font-size="10.00">platformer_engine::</text>
-<text text-anchor="middle" x="79.5" y="-799.5" font-family="Helvetica,sans-Serif" font-size="10.00">ForceDrivenEntity</text>
-<polyline fill="none" stroke="black" points="0,-792.5 159,-792.5 "/>
-<text text-anchor="middle" x="79.5" y="-780.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="0,-773.5 159,-773.5 "/>
-<text text-anchor="start" x="8" y="-761.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void serialize(Archive</text>
-<text text-anchor="start" x="8" y="-750.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;ar, unsigned int version)</text>
-<text text-anchor="start" x="8" y="-739.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ForceDrivenEntity()</text>
-<text text-anchor="start" x="8" y="-728.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void FollowOn()</text>
-<text text-anchor="start" x="8" y="-717.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void WanderOn()</text>
-<text text-anchor="start" x="8" y="-706.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetFollowRange</text>
-<text text-anchor="start" x="8" y="-695.5" font-family="Helvetica,sans-Serif" font-size="10.00">() &#45;&gt; double</text>
-<text text-anchor="start" x="8" y="-684.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetFollowing()</text>
-<text text-anchor="start" x="8" y="-673.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;&gt; std::weak_ptr&lt; GameObject &gt;</text>
-<text text-anchor="start" x="8" y="-662.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SetFollowing(const</text>
-<text text-anchor="start" x="8" y="-651.5" font-family="Helvetica,sans-Serif" font-size="10.00"> std::shared_ptr&lt; GameObject</text>
-<text text-anchor="start" x="8" y="-640.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; &amp;gameObject, double range)</text>
-<text text-anchor="start" x="8" y="-629.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto CalcSteeringForce</text>
-<text text-anchor="start" x="8" y="-618.5" font-family="Helvetica,sans-Serif" font-size="10.00">() &#45;&gt; spic::Point</text>
+<polygon fill="none" stroke="black" points="0,-600.5 0,-833.5 159,-833.5 159,-600.5 0,-600.5"/>
+<text text-anchor="start" x="8" y="-821.5" font-family="Helvetica,sans-Serif" font-size="10.00">platformer_engine::</text>
+<text text-anchor="middle" x="79.5" y="-810.5" font-family="Helvetica,sans-Serif" font-size="10.00">ForceDrivenEntity</text>
+<polyline fill="none" stroke="black" points="0,-803.5 159,-803.5 "/>
+<text text-anchor="middle" x="79.5" y="-791.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="0,-784.5 159,-784.5 "/>
+<text text-anchor="start" x="8" y="-772.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void serialize(Archive</text>
+<text text-anchor="start" x="8" y="-761.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;ar, unsigned int version)</text>
+<text text-anchor="start" x="8" y="-750.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ForceDrivenEntity()</text>
+<text text-anchor="start" x="8" y="-739.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void FollowOn()</text>
+<text text-anchor="start" x="8" y="-728.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void WanderOn()</text>
+<text text-anchor="start" x="8" y="-717.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetFollowRange</text>
+<text text-anchor="start" x="8" y="-706.5" font-family="Helvetica,sans-Serif" font-size="10.00">() &#45;&gt; double</text>
+<text text-anchor="start" x="8" y="-695.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetFollowing()</text>
+<text text-anchor="start" x="8" y="-684.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &#45;&gt; std::weak_ptr&lt; GameObject &gt;</text>
+<text text-anchor="start" x="8" y="-673.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SetFollowing(const</text>
+<text text-anchor="start" x="8" y="-662.5" font-family="Helvetica,sans-Serif" font-size="10.00"> std::shared_ptr&lt; GameObject</text>
+<text text-anchor="start" x="8" y="-651.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; &amp;gameObject, double range)</text>
+<text text-anchor="start" x="8" y="-640.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto CalcSteeringForce</text>
+<text text-anchor="start" x="8" y="-629.5" font-family="Helvetica,sans-Serif" font-size="10.00">() &#45;&gt; spic::Point</text>
+<text text-anchor="start" x="8" y="-618.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ auto GetCurrentState</text>
+<text text-anchor="start" x="8" y="-607.5" font-family="Helvetica,sans-Serif" font-size="10.00">() const &#45;&gt; const EntityState &amp;</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M485.2,-1132.56C394.32,-1108.87 252.8,-1059.2 167.5,-966 131.33,-926.49 109.84,-871.14 97.16,-822.76"/>
+<path fill="none" stroke="midnightblue" d="M485.2,-1132.56C394.32,-1108.87 252.8,-1059.2 167.5,-966 134.03,-929.43 113.13,-879.32 100.15,-833.7"/>
 <polygon fill="none" stroke="midnightblue" points="484.38,-1135.96 494.93,-1135.05 486.11,-1129.18 484.38,-1135.96"/>
 </g>
 <!-- Node3 -->

@@ -73,7 +73,7 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for EntityStateMachine:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classEntityStateMachine__coll__graph.svg" width="191" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classEntityStateMachine__coll__graph.svg" width="191" height="250"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -90,6 +90,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8c8424f87fb26e12fbee455d299b3120"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEntityStateMachine.html#a8c8424f87fb26e12fbee455d299b3120">SetState</a> (<a class="el" href="classEntityState.html">EntityState</a> &amp;state)</td></tr>
 <tr class="memdesc:a8c8424f87fb26e12fbee455d299b3120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the <a class="el" href="classEntityState.html" title="Abstract base class for states.">EntityState</a> in the stateMachine.  <a href="classEntityStateMachine.html#a8c8424f87fb26e12fbee455d299b3120">More...</a><br /></td></tr>
 <tr class="separator:a8c8424f87fb26e12fbee455d299b3120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf50cf232af4fc7c35196d962e5a7129"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEntityStateMachine.html#aaf50cf232af4fc7c35196d962e5a7129">GetCurrentState</a> () -&gt; <a class="el" href="classEntityState.html">EntityState</a> &amp;</td></tr>
+<tr class="memdesc:aaf50cf232af4fc7c35196d962e5a7129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current state.  <a href="classEntityStateMachine.html#aaf50cf232af4fc7c35196d962e5a7129">More...</a><br /></td></tr>
+<tr class="separator:aaf50cf232af4fc7c35196d962e5a7129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6eac062689f2ef69707a132e40ce846f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEntityStateMachine.html#a6eac062689f2ef69707a132e40ce846f">CalculateForce</a> (std::shared_ptr&lt; <a class="el" href="classspic_1_1RigidBody.html">RigidBody</a> &gt; rigidBody) -&gt; <a class="el" href="structspic_1_1Point.html">Point</a></td></tr>
 <tr class="memdesc:a6eac062689f2ef69707a132e40ce846f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the <a class="el" href="classEntityState.html#a84197dd9fac6a0527f62920d0cf331f7" title="Calculate the force coming from the current state.">EntityState.CalculateForce</a> function of the currently active state.  <a href="classEntityStateMachine.html#a6eac062689f2ef69707a132e40ce846f">More...</a><br /></td></tr>
 <tr class="separator:a6eac062689f2ef69707a132e40ce846f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,6 +160,26 @@ Public Member Functions</h2></td></tr>
 
 <p>Calls the <a class="el" href="classEntityState.html#a84197dd9fac6a0527f62920d0cf331f7" title="Calculate the force coming from the current state.">EntityState.CalculateForce</a> function of the currently active state. </p>
 <dl class="section return"><dt>Returns</dt><dd>2D Vector point for the force calculated by the active state </dd></dl>
+
+</div>
+</div>
+<a id="aaf50cf232af4fc7c35196d962e5a7129"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf50cf232af4fc7c35196d962e5a7129">&#9670;&nbsp;</a></span>GetCurrentState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto EntityStateMachine::GetCurrentState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; <a class="el" href="classEntityState.html">EntityState</a>&amp;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the current state. </p>
+<dl class="section return"><dt>Returns</dt><dd>The current state as an <a class="el" href="classEntityState.html" title="Abstract base class for states.">EntityState</a> reference </dd></dl>
 
 </div>
 </div>
