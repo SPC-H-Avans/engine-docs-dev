@@ -44,12 +44,14 @@ var searchData=
   ['minus_5fand_5funderscore_634',['MINUS_AND_UNDERSCORE',['../InputEnum_8hpp.html#a7885f47644a0388f981f416fa20389b2aaad788b3e9ac645e61d1ddfd7d19dc3d',1,'InputEnum.hpp']]],
   ['mixernotinitializedexception_635',['MixerNotInitializedException',['../classspic_1_1MixerNotInitializedException.html#ac46483da153cf4383498975a4c340a55',1,'spic::MixerNotInitializedException::MixerNotInitializedException()'],['../classspic_1_1MixerNotInitializedException.html',1,'spic::MixerNotInitializedException']]],
   ['mixernotinitializedexception_2ehpp_636',['MixerNotInitializedException.hpp',['../MixerNotInitializedException_8hpp.html',1,'']]],
-  ['mousebutton_637',['MouseButton',['../InputEnum_8hpp.html#ac1ec3647c005eacad401b06e7e18f711',1,'InputEnum.hpp']]],
-  ['mouseposition_638',['MousePosition',['../namespacespic_1_1Input.html#ab220f01bcd9e19f58ac93289d2ce65d0',1,'spic::Input']]],
-  ['movesystem_639',['MoveSystem',['../classMoveSystem.html',1,'MoveSystem'],['../classMoveSystem.html#a8c506753470b8e25c6d94ddcde21737d',1,'MoveSystem::MoveSystem()']]],
-  ['movesystem_2ecpp_640',['MoveSystem.cpp',['../MoveSystem_8cpp.html',1,'']]],
-  ['movesystem_2ehpp_641',['MoveSystem.hpp',['../MoveSystem_8hpp.html',1,'']]],
-  ['multiplayerclient_642',['MultiplayerClient',['../namespaceplatformer__engine.html#a70f702a9d8490198e4a1b293544b5af0a1d15177bce668ff61768c4d94ae30015',1,'platformer_engine']]],
-  ['multiplayerserver_643',['MultiplayerServer',['../namespaceplatformer__engine.html#a70f702a9d8490198e4a1b293544b5af0a51dae644d0fac0d397594949f67f197a',1,'platformer_engine']]],
-  ['mute_644',['MUTE',['../InputEnum_8hpp.html#a7885f47644a0388f981f416fa20389b2a5415e9052565ecaf84f33d7f20996fd9',1,'InputEnum.hpp']]]
+  ['monitor_5fheight_637',['MONITOR_HEIGHT',['../ClickSystem_8cpp.html#adc72fa17f55bd440526fd13a095bd855',1,'ClickSystem.cpp']]],
+  ['monitor_5fwidth_638',['MONITOR_WIDTH',['../ClickSystem_8cpp.html#addc5cc33cdf58da528129439a06ae55b',1,'ClickSystem.cpp']]],
+  ['mousebutton_639',['MouseButton',['../InputEnum_8hpp.html#ac1ec3647c005eacad401b06e7e18f711',1,'InputEnum.hpp']]],
+  ['mouseposition_640',['MousePosition',['../namespacespic_1_1Input.html#ab220f01bcd9e19f58ac93289d2ce65d0',1,'spic::Input']]],
+  ['movesystem_641',['MoveSystem',['../classMoveSystem.html',1,'MoveSystem'],['../classMoveSystem.html#a8c506753470b8e25c6d94ddcde21737d',1,'MoveSystem::MoveSystem()']]],
+  ['movesystem_2ecpp_642',['MoveSystem.cpp',['../MoveSystem_8cpp.html',1,'']]],
+  ['movesystem_2ehpp_643',['MoveSystem.hpp',['../MoveSystem_8hpp.html',1,'']]],
+  ['multiplayerclient_644',['MultiplayerClient',['../namespaceplatformer__engine.html#a70f702a9d8490198e4a1b293544b5af0a1d15177bce668ff61768c4d94ae30015',1,'platformer_engine']]],
+  ['multiplayerserver_645',['MultiplayerServer',['../namespaceplatformer__engine.html#a70f702a9d8490198e4a1b293544b5af0a51dae644d0fac0d397594949f67f197a',1,'platformer_engine']]],
+  ['mute_646',['MUTE',['../InputEnum_8hpp.html#a7885f47644a0388f981f416fa20389b2a5415e9052565ecaf84f33d7f20996fd9',1,'InputEnum.hpp']]]
 ];

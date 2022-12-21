@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 508;
+var viewWidth = 548;
 var viewHeight = 215;
 var sectionId = 'dynsection-0';
 </script>
@@ -58,13 +58,13 @@ var sectionId = 'dynsection-0';
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="181,-138.5 181,-206.5 311,-206.5 311,-138.5 181,-138.5"/>
-<text text-anchor="middle" x="246" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00">ISystem</text>
-<polyline fill="none" stroke="black" points="181,-187.5 311,-187.5 "/>
-<text text-anchor="middle" x="246" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="181,-168.5 311,-168.5 "/>
-<text text-anchor="start" x="189" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void Update</text>
-<text text-anchor="start" x="189" y="-145.5" font-family="Helvetica,sans-Serif" font-size="10.00">(double speedMultiplier)=0</text>
+<polygon fill="#bfbfbf" stroke="black" points="211,-138.5 211,-206.5 341,-206.5 341,-138.5 211,-138.5"/>
+<text text-anchor="middle" x="276" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00">ISystem</text>
+<polyline fill="none" stroke="black" points="211,-187.5 341,-187.5 "/>
+<text text-anchor="middle" x="276" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="211,-168.5 341,-168.5 "/>
+<text text-anchor="start" x="219" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void Update</text>
+<text text-anchor="start" x="219" y="-145.5" font-family="Helvetica,sans-Serif" font-size="10.00">(double speedMultiplier)=0</text>
 </a>
 </g>
 </g>
@@ -86,72 +86,73 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M171.84,-134.44C153.54,-124.51 134.25,-113.37 117,-102 111.64,-98.47 106.17,-94.59 100.8,-90.6"/>
-<polygon fill="none" stroke="midnightblue" points="170.26,-137.57 180.73,-139.21 173.57,-131.4 170.26,-137.57"/>
+<path fill="none" stroke="midnightblue" d="M201.18,-143.49C173.91,-132.08 143.33,-117.83 117,-102 111.26,-98.55 105.45,-94.63 99.81,-90.54"/>
+<polygon fill="none" stroke="midnightblue" points="200.1,-146.83 210.67,-147.41 202.76,-140.36 200.1,-146.83"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="classClickSystem.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="126,-17 126,-85 234,-85 234,-17 126,-17"/>
-<text text-anchor="middle" x="180" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">ClickSystem</text>
-<polyline fill="none" stroke="black" points="126,-66 234,-66 "/>
-<text text-anchor="middle" x="180" y="-54" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="126,-47 234,-47 "/>
-<text text-anchor="start" x="134" y="-35" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Update(double</text>
-<text text-anchor="start" x="134" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00"> speedMultiplier)</text>
+<polygon fill="none" stroke="black" points="126,-11.5 126,-90.5 274,-90.5 274,-11.5 126,-11.5"/>
+<text text-anchor="middle" x="200" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">ClickSystem</text>
+<polyline fill="none" stroke="black" points="126,-71.5 274,-71.5 "/>
+<text text-anchor="middle" x="200" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="126,-52.5 274,-52.5 "/>
+<text text-anchor="start" x="134" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ClickSystem(bool fullscreen)</text>
+<text text-anchor="start" x="134" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Update(double</text>
+<text text-anchor="start" x="134" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00"> speedMultiplier)</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M222.75,-129.4C214.72,-114.87 205.86,-98.81 198.29,-85.11"/>
-<polygon fill="none" stroke="midnightblue" points="219.72,-131.15 227.62,-138.21 225.84,-127.77 219.72,-131.15"/>
+<path fill="none" stroke="midnightblue" d="M249.38,-129.65C241.31,-116.95 232.48,-103.07 224.55,-90.6"/>
+<polygon fill="none" stroke="midnightblue" points="246.51,-131.65 254.83,-138.21 252.42,-127.9 246.51,-131.65"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="classPhysicsSystem.html" target="_top" xlink:title="System that controls forces and collision on GameObjects. Currently collision only supports BoxCollid...">
-<polygon fill="none" stroke="black" points="252.5,-0.5 252.5,-101.5 373.5,-101.5 373.5,-0.5 252.5,-0.5"/>
-<text text-anchor="middle" x="313" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">PhysicsSystem</text>
-<polyline fill="none" stroke="black" points="252.5,-82.5 373.5,-82.5 "/>
-<text text-anchor="middle" x="313" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="252.5,-63.5 373.5,-63.5 "/>
-<text text-anchor="start" x="260.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ PhysicsSystem(int</text>
-<text text-anchor="start" x="260.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00"> localClientId=0)</text>
-<text text-anchor="start" x="260.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Update(double</text>
-<text text-anchor="start" x="260.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00"> speedMultiplier)</text>
-<text text-anchor="start" x="260.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void CheckCollisions()</text>
+<polygon fill="none" stroke="black" points="292.5,-0.5 292.5,-101.5 413.5,-101.5 413.5,-0.5 292.5,-0.5"/>
+<text text-anchor="middle" x="353" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">PhysicsSystem</text>
+<polyline fill="none" stroke="black" points="292.5,-82.5 413.5,-82.5 "/>
+<text text-anchor="middle" x="353" y="-70.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="292.5,-63.5 413.5,-63.5 "/>
+<text text-anchor="start" x="300.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ PhysicsSystem(int</text>
+<text text-anchor="start" x="300.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00"> localClientId=0)</text>
+<text text-anchor="start" x="300.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Update(double</text>
+<text text-anchor="start" x="300.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00"> speedMultiplier)</text>
+<text text-anchor="start" x="300.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void CheckCollisions()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M269.57,-129.45C274.61,-120.47 279.98,-110.89 285.17,-101.65"/>
-<polygon fill="none" stroke="midnightblue" points="266.5,-127.78 264.66,-138.21 272.61,-131.2 266.5,-127.78"/>
+<path fill="none" stroke="midnightblue" d="M302.91,-129.73C308.76,-120.67 314.99,-110.99 321.01,-101.65"/>
+<polygon fill="none" stroke="midnightblue" points="299.92,-127.91 297.45,-138.21 305.81,-131.7 299.92,-127.91"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="classRenderSystem.html" target="_top" xlink:title="System that updates the animation of the AnimatedSprite component.">
-<polygon fill="none" stroke="black" points="392,-11.5 392,-90.5 500,-90.5 500,-11.5 392,-11.5"/>
-<text text-anchor="middle" x="446" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">RenderSystem</text>
-<polyline fill="none" stroke="black" points="392,-71.5 500,-71.5 "/>
-<text text-anchor="middle" x="446" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="392,-52.5 500,-52.5 "/>
-<text text-anchor="start" x="400" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Update(double</text>
-<text text-anchor="start" x="400" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00"> speedMultiplier)</text>
-<text text-anchor="start" x="400" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ static void Render()</text>
+<polygon fill="none" stroke="black" points="432,-11.5 432,-90.5 540,-90.5 540,-11.5 432,-11.5"/>
+<text text-anchor="middle" x="486" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">RenderSystem</text>
+<polyline fill="none" stroke="black" points="432,-71.5 540,-71.5 "/>
+<text text-anchor="middle" x="486" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="432,-52.5 540,-52.5 "/>
+<text text-anchor="start" x="440" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Update(double</text>
+<text text-anchor="start" x="440" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00"> speedMultiplier)</text>
+<text text-anchor="start" x="440" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ static void Render()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M320.36,-137.2C341.11,-126.71 363.35,-114.6 383,-102 388.41,-98.53 393.91,-94.7 399.29,-90.74"/>
-<polygon fill="none" stroke="midnightblue" points="318.64,-134.14 311.26,-141.74 321.77,-140.4 318.64,-134.14"/>
+<path fill="none" stroke="midnightblue" d="M350.68,-140.22C374.41,-129.23 400.35,-116.08 423,-102 428.57,-98.53 434.22,-94.66 439.74,-90.63"/>
+<polygon fill="none" stroke="midnightblue" points="349,-137.14 341.36,-144.48 351.91,-143.51 349,-137.14"/>
 </g>
 </g>
 </svg>
